@@ -5938,8 +5938,8 @@ hash = "ed086cdfde6ba4bb175468a76f3df3b9517aea3fe95b09bed0f1fa70f7caeb6a"
 metafile = true
 
 [[files]]
-file = "mods/legacytextures-0.2.5.pw.toml"
-hash = "e8c45d6faf32532ac84ba1a421f8f436b45da701a1c1ed2d52678f9d04ef4493"
+file = "mods/legacytextures-0.2.6.pw.toml"
+hash = "5a33559d65f2976dcb8ad72103a5523e556e8840849109dc274e532e3f9fe6d1"
 metafile = true
 
 [[files]]
