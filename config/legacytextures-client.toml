@@ -1,0 +1,8 @@
+
+#Face animation on DragonMineZ faces, for what you see. Other players are not affected.
+[faceanim]
+	#Eyes blink every few seconds.
+	enableBlink = true
+	#The mouth opens into a shout while a player charges ki or charges an action.
+	enableScream = true
+

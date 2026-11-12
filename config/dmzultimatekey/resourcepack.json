@@ -1,0 +1,9 @@
+{
+  "enabled": false,
+  "url": "",
+  "port": 0,
+  "host": "",
+  "required": false,
+  "prompt": "Names for DMZ Legacy's races, forms and skills",
+  "_help": "Set enabled to true and either url (where you uploaded config/dmzultimatekey/generated/dmzultimatekey-lang.zip) or port + host (a spare port on this server; the mod serves the file itself)."
+}

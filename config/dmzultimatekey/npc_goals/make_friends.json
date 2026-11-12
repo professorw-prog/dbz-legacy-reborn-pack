@@ -1,0 +1,44 @@
+{
+  "id": "make_friends",
+  "name": "Make friends",
+  "description": "Seeks out players and says hello.",
+  "actions": [
+    {
+      "action": "approach",
+      "utility": {
+        "base": 35,
+        "when": [
+          {
+            "var": "players_far",
+            "op": ">",
+            "value": 0
+          },
+          {
+            "var": "players_near",
+            "op": "==",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "say",
+      "params": {
+        "lines": [
+          "Hi {player}! Nice to see you.",
+          "Hey {player}, how's training going?"
+        ]
+      },
+      "utility": {
+        "base": 52,
+        "when": [
+          {
+            "var": "players_near",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

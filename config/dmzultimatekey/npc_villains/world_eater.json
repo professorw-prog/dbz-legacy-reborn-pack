@@ -1,0 +1,152 @@
+{
+  "id": "world_eater",
+  "name": "World Eater",
+  "inspired_by": "Moro",
+  "description": "An ancient sorcerer who drains the energy of everything around it, steals the abilities of those it drains, and moves from planet to planet consuming them. Grows younger and stronger as it feeds.",
+  "focus": [
+    "magic"
+  ],
+  "power": 1.4,
+  "army": "%npc%'s Galactic Bandits",
+  "copy_skills": true,
+  "redeemable": false,
+  "looks": {
+    "race": "namekian",
+    "bodyColor": "#9AA39A",
+    "auraColor": "#3A3A3A"
+  },
+  "lair": {
+    "style": "hidden",
+    "templates": [
+      "lair_lab"
+    ],
+    "materials": "free",
+    "radius": 120
+  },
+  "abilities": [
+    "drain",
+    "absorb",
+    "curse",
+    "teleport",
+    "barrier",
+    "regenerate"
+  ],
+  "scheme": [
+    {
+      "goal": "lair",
+      "say_start": "After so long sealed away... I'm starving."
+    },
+    {
+      "goal": "drain",
+      "amount": 20000,
+      "say_start": "Your energy, your life... I'll take it all.",
+      "say_done": "Delicious. I feel young again.",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.25
+        }
+      ],
+      "model": {
+        "bodyColor": "#A8B8A0",
+        "auraColor": "#202020"
+      }
+    },
+    {
+      "goal": "absorb",
+      "count": 2,
+      "min_power": 0.5,
+      "say_done": "Your powers are mine now."
+    },
+    {
+      "goal": "travel",
+      "to": "namek",
+      "say_start": "This planet is dry. Next."
+    },
+    {
+      "goal": "drain",
+      "amount": 30000
+    },
+    {
+      "goal": "doom",
+      "minutes": 10,
+      "travel": true,
+      "broadcast": "%npc% is consuming the planet itself. %minutes% minutes until it's gone!"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "restored",
+      "name": "Youth Restored",
+      "trigger": {
+        "type": "count",
+        "counter": "drained",
+        "at": 40000
+      },
+      "say": "My full power is back!",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.4
+        },
+        {
+          "type": "release",
+          "value": 4
+        },
+        {
+          "type": "title",
+          "value": "Ancient"
+        }
+      ]
+    },
+    {
+      "id": "merge",
+      "name": "Planet Merge",
+      "trigger": {
+        "type": "count",
+        "counter": "planets",
+        "at": 1
+      },
+      "broadcast": "%npc% has merged with the planet's core. Its power is beyond measure.",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.5
+        }
+      ],
+      "model": {
+        "bodyColor": "#5A5A6A",
+        "headBones": "horns3"
+      }
+    }
+  ],
+  "lines": {
+    "taunt": [
+      "I'll drink your energy dry.",
+      "Your magic is mine.",
+      "You're food, nothing more."
+    ],
+    "victory": [
+      "Delicious."
+    ],
+    "defeated": [
+      "Impossible... I am eternal..."
+    ]
+  },
+  "demands": [
+    {
+      "type": "offer_ki",
+      "reward_tp": 350,
+      "weak_minutes": 3,
+      "line": "Such delicious energy, %player%... Give it to me willingly, and I'll let you walk away. Resist, and I'll take it anyway.",
+      "thanks": "Ahh... I feel younger already. Run along, little battery."
+    },
+    {
+      "type": "deliver",
+      "item": "minecraft:golden_apple",
+      "count": 3,
+      "reward_tp": 500,
+      "line": "Life essence. %count% %item%. My hunger grows, and I'd rather feed on fruit than on you. For now."
+    }
+  ]
+}

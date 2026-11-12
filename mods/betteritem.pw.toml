@@ -1,0 +1,13 @@
+name = "BetterItem"
+filename = "BetterItem-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "64e91343cb258f30267d3519d7cfba5bffbcc1d9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7681746
+project-id = 1472472

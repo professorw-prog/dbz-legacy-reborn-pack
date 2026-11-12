@@ -1,0 +1,45 @@
+{
+  "id": "villain",
+  "name": "Villain",
+  "description": "Follows its villain scheme (see the Villain tab / npc_villains): builds a lair, then works through its acts. Keeps its strength up between acts.",
+  "actions": [
+    {
+      "action": "stay",
+      "utility": 10
+    },
+    {
+      "action": "hunt",
+      "params": {
+        "radius": 24
+      },
+      "utility": {
+        "base": 30,
+        "when": [
+          {
+            "var": "villain_scheming",
+            "op": "==",
+            "value": 0
+          },
+          {
+            "var": "hp_pct",
+            "op": ">",
+            "value": 60
+          }
+        ]
+      }
+    },
+    {
+      "action": "equip_best",
+      "utility": {
+        "base": 100,
+        "when": [
+          {
+            "var": "better_in_inventory",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

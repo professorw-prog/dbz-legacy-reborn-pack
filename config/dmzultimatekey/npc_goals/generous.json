@@ -1,0 +1,25 @@
+{
+  "id": "generous",
+  "name": "Generous",
+  "description": "Gives spare things to players it likes (reputation 2+).",
+  "actions": [
+    {
+      "action": "gift",
+      "params": {
+        "pick": "spare",
+        "min_rep": 2,
+        "line": "I've got more than I need - take this."
+      },
+      "utility": {
+        "base": 51,
+        "when": [
+          {
+            "var": "players_near",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

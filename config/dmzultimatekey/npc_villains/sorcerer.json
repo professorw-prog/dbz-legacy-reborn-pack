@@ -1,0 +1,128 @@
+{
+  "id": "sorcerer",
+  "name": "Evil Sorcerer",
+  "inspired_by": "Babidi",
+  "description": "Physically weak, but a master of dark magic. Bends the wicked to its will with a mark on the forehead, gathers energy through its servants, and awakens a sealed monster.",
+  "focus": [
+    "magic"
+  ],
+  "power": 0.9,
+  "army": "%npc%'s Majin",
+  "redeemable": false,
+  "looks": {
+    "race": "human",
+    "bodyColor": "#E8D8A8",
+    "auraColor": "#AA44FF"
+  },
+  "lair": {
+    "style": "hidden",
+    "templates": [
+      "lair_lab",
+      "lair_sanctum"
+    ],
+    "materials": "free",
+    "radius": 120
+  },
+  "abilities": [
+    "mind_control",
+    "curse",
+    "teleport",
+    "barrier"
+  ],
+  "scheme": [
+    {
+      "goal": "lair",
+      "say_start": "Paparapapa... first, a proper hideout."
+    },
+    {
+      "goal": "minions",
+      "count": 3,
+      "say_start": "I need strong servants with darkness in their hearts.",
+      "say_done": "My servants are ready. Now, gather energy for me!"
+    },
+    {
+      "goal": "awaken",
+      "energy": 3000,
+      "preset": "devourer",
+      "name": "Majin_Buu",
+      "say_start": "Fight! Gather the energy to revive the great Majin!",
+      "broadcast": "The seal is broken... %npc% has awakened Majin_Buu!",
+      "say_done": "Hahaha! Now no one can stop me!"
+    },
+    {
+      "goal": "conquer",
+      "count": 2
+    }
+  ],
+  "milestones": [
+    {
+      "id": "master",
+      "name": "Master of Puppets",
+      "trigger": {
+        "type": "count",
+        "counter": "ability:mind_control",
+        "at": 5
+      },
+      "say": "Paparapapa! Every weak heart belongs to me.",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.2
+        },
+        {
+          "type": "title",
+          "value": "Grand Wizard"
+        }
+      ]
+    },
+    {
+      "id": "betrayed",
+      "name": "Betrayed",
+      "trigger": {
+        "type": "enraged",
+        "cause": "minion_died"
+      },
+      "repeat": true,
+      "cooldown": 300,
+      "say": "Useless! All of you, useless!",
+      "boons": [
+        {
+          "type": "effect",
+          "effect": "minecraft:resistance",
+          "amplifier": 1,
+          "seconds": 30
+        }
+      ]
+    }
+  ],
+  "lines": {
+    "taunt": [
+      "Paparapapa!",
+      "You will be my servant!",
+      "Kneel before Babidi's magic!"
+    ],
+    "victory": [
+      "Hahaha!"
+    ],
+    "defeated": [
+      "No... my magic..."
+    ]
+  },
+  "demands": [
+    {
+      "type": "deliver",
+      "item": "minecraft:wither_skeleton_skull",
+      "count": 1,
+      "reward_tp": 600,
+      "line": "Paparapapa! I need a vessel of darkness - a %item%. Bring it, and perhaps I won't put my mark on YOUR forehead."
+    },
+    {
+      "type": "kill",
+      "mob": "minecraft:zombie",
+      "count": 15,
+      "reward_tp": 400,
+      "goal": "awaken",
+      "line": "Every battle feeds the seal! Slaughter %count% %mob% for me and the great Majin draws nearer to waking!"
+    }
+  ]
+}

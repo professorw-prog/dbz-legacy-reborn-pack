@@ -1,0 +1,13 @@
+name = "DragonMine Z: OVERHAUL"
+filename = "dmzrevamp-2.2.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6dadbf91238cf128fc2a5bd51fe46535a3da8b8f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9378826
+project-id = 1597354

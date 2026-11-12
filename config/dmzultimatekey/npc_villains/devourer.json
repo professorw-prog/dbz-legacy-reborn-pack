@@ -1,0 +1,180 @@
+{
+  "id": "devourer",
+  "name": "Candy Devourer",
+  "inspired_by": "Majin Buu",
+  "description": "An unstoppable, childish monster of terrible power. Turns people into candy and eats them, absorbs the strongest fighters, and laughs while the world burns.",
+  "focus": [
+    "magic",
+    "martial"
+  ],
+  "power": 2.4,
+  "army": "%npc%'s Playmates",
+  "redeemable": true,
+  "redeem_after": 3,
+  "looks": {
+    "race": "majin",
+    "bodyColor": "#FFA6D9",
+    "auraColor": "#FF66CC"
+  },
+  "lair": {
+    "style": "extravagant",
+    "templates": [
+      "lair_sanctum"
+    ],
+    "materials": "free",
+    "radius": 100
+  },
+  "abilities": [
+    "candy_beam",
+    "absorb",
+    "regenerate",
+    "rage",
+    "shockwave",
+    "teleport",
+    "barrier"
+  ],
+  "scheme": [
+    {
+      "goal": "lair",
+      "say_start": "Buu want house!"
+    },
+    {
+      "goal": "candy",
+      "count": 5,
+      "say_start": "Buu hungry. You look tasty.",
+      "say_done": "Mmm! More candy!",
+      "boons": [
+        {
+          "type": "form",
+          "form": "majin:pureforms.evil"
+        },
+        {
+          "type": "stats",
+          "value": 1.2
+        }
+      ]
+    },
+    {
+      "goal": "absorb",
+      "count": 2,
+      "min_power": 0.5,
+      "say_done": "Buu took your power! Buu is SUPER now!",
+      "boons": [
+        {
+          "type": "form",
+          "form": "majin:pureforms.super"
+        },
+        {
+          "type": "title",
+          "value": "Super"
+        },
+        {
+          "type": "stats",
+          "value": 1.3
+        }
+      ]
+    },
+    {
+      "goal": "candy",
+      "count": 10
+    },
+    {
+      "goal": "doom",
+      "minutes": 8,
+      "broadcast": "%npc% is bored. It's going to blow up the whole planet in %minutes% minutes!"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "kid",
+      "name": "Pure Evil",
+      "trigger": {
+        "type": "count",
+        "counter": "defeated",
+        "at": 2
+      },
+      "say": "...",
+      "broadcast": "Something far worse has been released from %npc%...",
+      "boons": [
+        {
+          "type": "form",
+          "form": "majin:pureforms.kid"
+        },
+        {
+          "type": "title",
+          "value": "Kid"
+        },
+        {
+          "type": "stats",
+          "value": 1.4
+        }
+      ],
+      "model": {
+        "bodyColor": "#FF8FC8",
+        "headBones": "majin1"
+      }
+    },
+    {
+      "id": "sulk",
+      "name": "Tantrum",
+      "trigger": {
+        "type": "enraged",
+        "hp_below": 40
+      },
+      "repeat": true,
+      "cooldown": 240,
+      "say": "BUU MAD!!",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.35,
+          "seconds": 40
+        },
+        {
+          "type": "effect",
+          "effect": "minecraft:resistance",
+          "amplifier": 1,
+          "seconds": 20
+        }
+      ]
+    }
+  ],
+  "lines": {
+    "taunt": [
+      "Hehehe!",
+      "Buu will turn you into candy!",
+      "You are no fun!"
+    ],
+    "victory": [
+      "Yummy!"
+    ],
+    "defeated": [
+      "Buu... sleepy..."
+    ]
+  },
+  "demands": [
+    {
+      "type": "deliver",
+      "item": "minecraft:cake",
+      "count": 2,
+      "reward_tp": 400,
+      "line": "Buu hungry! You bring Buu %count% %item%. Or Buu turn YOU into candy! Hehehe!"
+    },
+    {
+      "type": "deliver",
+      "item": "minecraft:cookie",
+      "count": 32,
+      "reward_tp": 350,
+      "line": "Cookies! Buu want %count% cookies! Bring them fast or you taste like chocolate!"
+    },
+    {
+      "type": "offer_power",
+      "gain": 0.04,
+      "reward_tp": 600,
+      "weak_minutes": 8,
+      "goal": "absorb",
+      "line": "You strong. Buu want to absorb you! ...Just a little bit. Okay?",
+      "thanks": "Mmm! Buu stronger now! You go play somewhere else."
+    }
+  ]
+}

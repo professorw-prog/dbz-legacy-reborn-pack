@@ -1,0 +1,125 @@
+{
+  "id": "kai",
+  "name": "Guardian Deity",
+  "inspired_by": "Supreme Kai",
+  "description": "A divine watcher. Senses evil across every world and travels to wherever a villain rises, calling heroes to stand with it. Always merciful; its blessing redeems.",
+  "focus": [
+    "magic"
+  ],
+  "power": 1.3,
+  "mercy": 1.0,
+  "sense_radius": 100000,
+  "cross_worlds": true,
+  "defend_radius": 48,
+  "students": false,
+  "rallies": true,
+  "looks": {
+    "bodyColor": "#B48CE6",
+    "auraColor": "#F4E1FF"
+  },
+  "base": {
+    "templates": [
+      "watchtower"
+    ],
+    "materials": "free",
+    "radius": 96
+  },
+  "journey": [
+    {
+      "goal": "base",
+      "say_start": "A sanctuary from which to watch over the worlds."
+    },
+    {
+      "goal": "defeat",
+      "count": 1,
+      "say_start": "A great evil has awakened. Heroes - to me!",
+      "say_done": "Balance is restored... for now."
+    },
+    {
+      "goal": "redeem",
+      "count": 1,
+      "say_start": "Even the darkest heart can be turned.",
+      "boons": [
+        {
+          "type": "title",
+          "value": "Supreme"
+        }
+      ]
+    }
+  ],
+  "loop_from": 1,
+  "milestones": [
+    {
+      "id": "blessing",
+      "name": "Divine Blessing",
+      "trigger": {
+        "type": "count",
+        "counter": "villains_redeemed",
+        "at": 1
+      },
+      "broadcast": "%npc% has redeemed a fallen soul. The worlds feel lighter.",
+      "boons": [
+        {
+          "type": "release",
+          "value": 4
+        },
+        {
+          "type": "stats",
+          "value": 1.2
+        }
+      ]
+    },
+    {
+      "id": "divine_shield",
+      "name": "Divine Shield",
+      "trigger": {
+        "type": "enraged",
+        "hp_below": 30
+      },
+      "repeat": true,
+      "cooldown": 900,
+      "say": "You will not desecrate this world!",
+      "boons": [
+        {
+          "type": "heal"
+        },
+        {
+          "type": "effect",
+          "effect": "minecraft:resistance",
+          "amplifier": 1,
+          "seconds": 30
+        }
+      ]
+    }
+  ],
+  "lines": {
+    "battle_cry": [
+      "By the authority of the Kais - stop!",
+      "Your evil ends here.",
+      "I will not allow this world to fall."
+    ],
+    "victory": [
+      "Reflect on what you have done.",
+      "Go, and walk a better path."
+    ],
+    "defeated": [
+      "The balance... must hold..."
+    ]
+  },
+  "requests": [
+    {
+      "type": "deliver",
+      "item": "minecraft:golden_apple",
+      "count": 2,
+      "reward_tp": 500,
+      "line": "The balance of this world is fragile, %player%. Bring me %count% %item% - their life essence will help me mend it."
+    },
+    {
+      "type": "kill",
+      "mob": "minecraft:wither_skeleton",
+      "count": 4,
+      "reward_tp": 600,
+      "line": "Dark magic leaves traces. Destroy %count% %mob% and you will weaken whatever seeks to wake."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "aesthetics": {
+    "cozy":    ["minecraft:lantern", "minecraft:candle", "minecraft:potted_poppy", "minecraft:white_carpet", "minecraft:bookshelf", "minecraft:potted_oxeye_daisy"],
+    "nature":  ["minecraft:potted_fern", "minecraft:moss_carpet", "minecraft:potted_azalea_bush", "minecraft:flowering_azalea", "minecraft:potted_bamboo", "minecraft:lantern"],
+    "warrior": ["minecraft:chain", "minecraft:grindstone", "minecraft:barrel", "minecraft:red_carpet", "minecraft:lantern", "minecraft:anvil"],
+    "scholar": ["minecraft:bookshelf", "minecraft:lectern", "minecraft:candle", "minecraft:potted_dandelion", "minecraft:chiseled_bookshelf", "minecraft:brown_carpet"],
+    "mystic":  ["minecraft:soul_lantern", "minecraft:amethyst_cluster", "minecraft:purple_candle", "minecraft:purple_carpet", "minecraft:potted_crimson_fungus", "minecraft:end_rod"],
+    "royal":   ["minecraft:gold_block", "minecraft:red_carpet", "minecraft:lantern", "minecraft:potted_red_tulip", "minecraft:yellow_candle", "minecraft:quartz_pillar"]
+  },
+  "foods": ["minecraft:bread", "minecraft:cooked_beef", "minecraft:cooked_porkchop", "minecraft:cooked_chicken", "minecraft:baked_potato",
+            "minecraft:pumpkin_pie", "minecraft:cookie", "minecraft:apple", "minecraft:golden_carrot", "minecraft:mushroom_stew",
+            "minecraft:cooked_salmon", "minecraft:cooked_cod", "minecraft:sweet_berries", "minecraft:melon_slice", "minecraft:honey_bottle"],
+  "creatures": ["minecraft:cat", "minecraft:wolf", "minecraft:horse", "minecraft:chicken", "minecraft:cow", "minecraft:pig", "minecraft:sheep",
+                "minecraft:fox", "minecraft:bee", "minecraft:parrot", "minecraft:spider", "minecraft:zombie", "minecraft:creeper",
+                "minecraft:skeleton", "minecraft:slime", "minecraft:bat"],
+  "cruel_threshold": 3,
+  "friend_threshold": 5,
+  "_forgiveness": "cruelty = hits x per_hit + kills x per_kill - goodwill; gifts and apologies add goodwill",
+  "forgiveness": {"per_hit": 1, "per_kill": 5, "favorite_gift": 5, "liked_gift": 3, "gift": 1, "disliked_gift": -1, "apology": 1,
+                  "gift_cooldown_seconds": 300, "apology_cooldown_seconds": 600},
+  "default_schedule": [{"from": "21:00", "to": "06:00", "job": "stay", "at": "home", "label": "sleeping"}]
+}

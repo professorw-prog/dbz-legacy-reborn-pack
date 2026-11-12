@@ -1,0 +1,13 @@
+name = "Universal Chat Translator"
+filename = "UniversalChatTranslator 1.6.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "cfcb354c61f0fc44737403eae1b07866ae0bbf0f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8368655
+project-id = 1537131

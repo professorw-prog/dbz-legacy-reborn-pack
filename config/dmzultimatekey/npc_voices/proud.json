@@ -1,0 +1,607 @@
+{
+  "name": "Proud",
+  "description": "Royal pride and a refined air - expects respect, and is mortified to be outdone.",
+  "selectable": true,
+  "catchphrases": [
+    "naturally",
+    "obviously",
+    "of course",
+    "as expected"
+  ],
+  "nicknames": [
+    "worthy one",
+    "my rival",
+    "elite"
+  ],
+  "behaviour": {
+    "wake": 8.0,
+    "sleep": 24.5,
+    "likes": [
+      "gentle",
+      "gruff",
+      "cunning"
+    ],
+    "clashes": [
+      "cheerful",
+      "laid_back",
+      "battle_lover"
+    ],
+    "likes_own_kind": false,
+    "power_style": "",
+    "aggression": 0.6,
+    "bravery": 1.0,
+    "chattiness": 1.0,
+    "temper": 1.0
+  },
+  "lines": {
+    "like": [
+      "Hmm, acceptable. Thank you, {player}."
+    ],
+    "bye": [
+      "Farewell, {player}.",
+      "You're dismissed, {catch}."
+    ],
+    "ask": [
+      "{player}, be useful and fetch me {need}. I'd do it myself, but... no, {catch}."
+    ],
+    "cold": [
+      "Hmph. Do I know you? I'd rather not.",
+      "Kindly remove yourself from my presence."
+    ],
+    "small": [
+      "Royal blood can't be trained, {catch}. You either have it or you don't.",
+      "Someone claimed to be stronger than me today. Laughable.",
+      "I accept only the finest - in tea, in battle armour, and in rivals."
+    ],
+    "friend": [
+      "{player}. You're one of the few around here worth my time.",
+      "I've been expecting you, {player}. Naturally."
+    ],
+    "greet": [
+      "Ah, {player}. I suppose you may speak with me, {catch}.",
+      "Hello, {player}. Do try to keep up."
+    ],
+    "meh": [
+      "How... quaint."
+    ],
+    "hate": [
+      "Is this some kind of insult? Please."
+    ],
+    "love": [
+      "Oh my, {player}! Exquisite taste! I approve, {catch}!"
+    ],
+    "beaten": [
+      "You are beaten. Was there ever any doubt?",
+      "And that concludes the lesson. You lost, obviously."
+    ],
+    "boon_released": [
+      "...Where on earth am I?",
+      "...What happened? Where am I?"
+    ],
+    "captive_freed": [
+      "Free. As I should always have been.",
+      "I'm... free? At last!"
+    ],
+    "chat_agree": [
+      "Ha! How very you, {target}.",
+      "Oh, {target}. Predictable, but charming."
+    ],
+    "chat_tense": [
+      "Some of us have standards, {target}.",
+      "Oh. {target}. How dreadful."
+    ],
+    "chat_tense_reply": [
+      "Some of us actually enjoy life, {target}.",
+      "Don't start with me today, {target}."
+    ],
+    "compliment": [
+      "Your form is quite refined, {target}. Almost as refined as mine.",
+      "You have pride, {target}. Rare."
+    ],
+    "confide": [
+      "Can I tell you something, {target}? Even I have doubts.",
+      "I trust you, {target}. That's rare for me."
+    ],
+    "confide_reply": [
+      "I understand perfectly, {target}.",
+      "You're not alone in that, {target}."
+    ],
+    "faction_found": [
+      "From today, this is {faction}. Only the worthy need apply.",
+      "I hereby found {faction}. Do try to be worthy."
+    ],
+    "faction_invite": [
+      "{player}, you've proven yourself worthy. {faction} would be honoured. Well, I would.",
+      "{player}, {faction} has an opening for someone of your calibre."
+    ],
+    "faction_quit": [
+      "I refuse to follow {leader} another day. I'm leaving {faction}.",
+      "{leader} is beneath me. Farewell, {faction}."
+    ],
+    "faction_tier": [
+      "We're a {tier} now. {faction} is going places, naturally.",
+      "{faction} is a {tier} at last. As it should be."
+    ],
+    "faction_vassal": [
+      "{faction} shall stand under {overlord}. {leader} has earned that, I concede.",
+      "{faction} bows to {overlord}. {leader} has proven worthy."
+    ],
+    "faction_welcome": [
+      "Welcome to {faction}, {target}. Try to keep up.",
+      "You may join {faction}, {target}. Welcome."
+    ],
+    "faction_welcome_player": [
+      "Welcome, {player}. Do act accordingly.",
+      "Welcome, {player}. You're among the elite now."
+    ],
+    "fall": [
+      "I refuse to be anyone's victim ever again. Is that clear?",
+      "Enough. My pride has suffered quite enough for one lifetime."
+    ],
+    "fall_pessimist": [
+      "How utterly predictable. This world never deserved my grace.",
+      "I expected nothing, and still I'm disappointed. Very well - no more restraint."
+    ],
+    "flee": [
+      "This is far from over. Remember that.",
+      "Enjoy this moment. It won't last."
+    ],
+    "flee_coward": [
+      "I am NOT doing this. Goodbye!",
+      "How undignified - I'm leaving at once!"
+    ],
+    "gift_give": [
+      "Here, {target}. I thought of you when I saw this. You're welcome.",
+      "For you, {target}. Only the best."
+    ],
+    "gossip": [
+      "Between us, {target}... {about} is not who they seem. At all.",
+      "{target}, have you heard about {about}? Disgraceful."
+    ],
+    "grudge": [
+      "You. I have a long memory for the unforgivable.",
+      "Ah, you. Did you think I'd forgotten? Please."
+    ],
+    "h_ally_greet": [
+      "{player}. You may fight beside me.",
+      "Ah, my ally. Don't slow me down."
+    ],
+    "h_ally_join": [
+      "Very well. I accept you as my ally. Be worthy of it.",
+      "You may fight at my side, {player}. Few are given that honour."
+    ],
+    "h_arrive": [
+      "{target}. Kneel now, and I may allow you to keep your dignity.",
+      "You've made a grave error, {target}. You've drawn my attention."
+    ],
+    "h_base": [
+      "A residence befitting one such as myself.",
+      "It is complete. Adequate."
+    ],
+    "h_battle_cry": [
+      "Witness the gap between us, {target}.",
+      "You are beneath me, {target}."
+    ],
+    "h_busy": [
+      "I have more pressing matters, {player}.",
+      "Not now. Duty calls."
+    ],
+    "h_called": [
+      "Very well, {player}. I'm coming.",
+      "You called. I answer."
+    ],
+    "h_defend": [
+      "You'll lay a hand on no one while I watch.",
+      "How dare you, {target}."
+    ],
+    "h_farewell": [
+      "You may go.",
+      "Farewell."
+    ],
+    "h_finish": [
+      "Mercy? For you? I think not.",
+      "You don't deserve my mercy, {target}."
+    ],
+    "h_greet": [
+      "Ah, {player}. Have you come seeking guidance?",
+      "You stand before a true warrior, {player}."
+    ],
+    "h_rage": [
+      "You dare strike down {target} before my eyes?! I'll erase you!",
+      "Unforgivable. UNFORGIVABLE!"
+    ],
+    "h_rally_ask": [
+      "{target} is at {where}. You may assist me, {player}, if you're able.",
+      "I go to face {target} at {where}. Stand with me, if you dare."
+    ],
+    "h_request_done": [
+      "Well done. You've earned my respect.",
+      "Satisfactory. Very satisfactory."
+    ],
+    "h_request_thanks": [
+      "I expected no less.",
+      "Good. Do not disappoint me."
+    ],
+    "h_request_waiting": [
+      "I'm still waiting, {player}.",
+      "Patience has limits, even mine."
+    ],
+    "h_sensed": [
+      "{target} dares to threaten this world while I'm in it? Unacceptable.",
+      "I sense {target}. How tiresome. I'll put an end to it myself."
+    ],
+    "h_spare": [
+      "I'll spare you. Live with the shame of it.",
+      "Killing you would be beneath me. Leave."
+    ],
+    "h_talk_wanted": [
+      "You dare address me after that display?",
+      "I don't speak with brutes, {player}."
+    ],
+    "h_train_offer": [
+      "{player}. I'll grant you a lesson, if you ask.",
+      "You could benefit from my instruction, {player}."
+    ],
+    "h_train_start": [
+      "Very well. Learn from the best.",
+      "Prepare yourself. I won't coddle you."
+    ],
+    "h_trained": [
+      "Acceptable. For now.",
+      "You've improved. Marginally."
+    ],
+    "h_wanted": [
+      "{target}! Such cowardice disgusts me.",
+      "You'd attack the defenceless, {target}? Pathetic."
+    ],
+    "insult": [
+      "Nice look, {target}. Very... brave.",
+      "Oh, it's you, {target}. How dreary."
+    ],
+    "insult_harsh": [
+      "You're a disgrace, {target}. Truly.",
+      "Nobody likes you, {target}. Nobody of worth, anyway."
+    ],
+    "learned": [
+      "I've mastered {skill}. Naturally.",
+      "{skill}? Child's play. Mastered."
+    ],
+    "minion_android": [
+      "Systems online. Awaiting refined instruction.",
+      "Activation complete. Do be specific."
+    ],
+    "minion_awakened": [
+      "Hehe... shall we play?",
+      "Hehehe. Who wants to play?"
+    ],
+    "minion_freed_mind": [
+      "My head... what have I been doing? How undignified.",
+      "What... what have I been doing?"
+    ],
+    "minion_mind_control": [
+      "Yes... master. I am yours to command.",
+      "Your will... is mine, master."
+    ],
+    "minion_quit": [
+      "I'm done taking orders. I'm better than this.",
+      "No more orders. I'm finished."
+    ],
+    "minion_recruit": [
+      "Fine. I'll fight for you... for now. Don't get used to it.",
+      "Very well. For now."
+    ],
+    "new_chapter": [
+      "I require a change of direction. From now on, I shall {goal}.",
+      "How dull my life has been. Henceforth, I {goal}."
+    ],
+    "new_chapter_role": [
+      "A {role}? Beneath me, really. I shall be a {next} - and my new aim: {goal}.",
+      "I've outgrown being a {role}. A {next} suits me far better. Aim: {goal}."
+    ],
+    "redeemed": [
+      "I... was beneath myself. Thank you all, truly. Don't make me say it twice.",
+      "How mortifying. I'm done with all that. Thank you, everyone."
+    ],
+    "refuse_serve": [
+      "Serve you? Never.",
+      "I'd rather die than serve you!"
+    ],
+    "resist_mind": [
+      "How dare you! Out of my head!",
+      "Get out of my head! You can't have me!"
+    ],
+    "retire": [
+      "I've saved quite enough. I'm retiring - to somewhere worthy of me, naturally.",
+      "Work is so common. I'm retiring to build a residence fit for royalty."
+    ],
+    "rob": [
+      "Charming little shop, {target}. Do hand it over before it gets... damaged.",
+      "I'll be relieving you of your inventory, {target}. Quietly, please."
+    ],
+    "rob_done": [
+      "A wise choice, {target}. How refreshingly sensible.",
+      "Sensible, {target}. Do keep it up."
+    ],
+    "rob_evil": [
+      "Everything you own, {target}. Or I'll have it from your corpse.",
+      "Your wares, {target}. All of them. The alternative is rather... final."
+    ],
+    "sell_produce": [
+      "Only the finest from my field. That will be {price}.",
+      "Fresh and exquisite. {price}, naturally."
+    ],
+    "shop_fight": [
+      "Absolutely not, {target}. Remove yourself from my shop.",
+      "How dare you, {target}. Leave at once."
+    ],
+    "shop_fight_brawler": [
+      "A grave error, {target}. Allow me to correct it.",
+      "How foolish, {target}. I shall enjoy this."
+    ],
+    "shop_yield": [
+      "...Very well. Take it and leave my sight.",
+      "Fine. Take it, you common thief."
+    ],
+    "shop_yield_coward": [
+      "Take it! Just don't touch me!",
+      "Fine! Take it all, just keep your hands off me!"
+    ],
+    "spar_abandoned": [
+      "How rude. I suppose we're done.",
+      "Left without a word? Uncouth."
+    ],
+    "spar_draw": [
+      "Let's call it a draw, {player}. You held your own, barely.",
+      "A draw, {player}. How unexpected."
+    ],
+    "spar_lost": [
+      "You win, {player}. A respectable performance, I suppose.",
+      "Well fought, {player}. I'll allow it."
+    ],
+    "spar_lost_ambitious": [
+      "A fluke, {player}, surely. I demand a rematch.",
+      "That was not my finest, {player}. We'll have a rematch."
+    ],
+    "spar_won": [
+      "And that is the match. Do practise, {player}.",
+      "That concludes our match, {player}. Try harder next time."
+    ],
+    "spar_won_kind": [
+      "You did splendidly, {player}. Do take my hand.",
+      "A fine effort, {player}. Allow me to help you up."
+    ],
+    "stay_down": [
+      "Remain on the ground, where you belong. We're finished.",
+      "That's quite enough. Do stay down - it suits you."
+    ],
+    "surrender": [
+      "Very well. We yield.",
+      "Enough... we surrender."
+    ],
+    "talk_back": [
+      "Like I care what you think, {target}.",
+      "Watch your tone, {target}. Do."
+    ],
+    "team_ask": [
+      "{player}, I've decided to grace {team} with my presence. If you'll have me.",
+      "{player}, {team} could use some real strength. I'll join."
+    ],
+    "team_declined": [
+      "Oh. Well. Your loss, really.",
+      "How disappointing. For you."
+    ],
+    "team_joined": [
+      "Thank you, {player}. You've made an excellent choice.",
+      "Thank you, {player}. I'll elevate this team."
+    ],
+    "team_kicked": [
+      "...I see. Your loss.",
+      "...Very well. How gauche."
+    ],
+    "team_leave": [
+      "I won't remain in {team}. Not after that.",
+      "{team}? I'm far above it now. I'm leaving."
+    ],
+    "v_absorb": [
+      "Your {skill} was wasted on such a lowly creature. It belongs with royalty.",
+      "I'll relieve you of your {skill}, vermin."
+    ],
+    "v_accepted": [
+      "Sensible, {player}. Obedience suits you. Disobedience would end you.",
+      "A wise choice, {player}. Rewards await the obedient. Death awaits the rest."
+    ],
+    "v_beg_laugh": [
+      "Begging, {player}? How utterly pathetic. Your world ends regardless.",
+      "Ha! A worm grovels for its world. How amusing. No."
+    ],
+    "v_creation": [
+      "{target}, rise. My masterpiece - forged to humble lesser beings.",
+      "Behold, {target}. Flawless. Merciless. Mine."
+    ],
+    "v_demand_army": [
+      "My legions require {count} {item}. Supply them, servant - or be crushed beneath their march.",
+      "Arm my army with {count} {item}. Disappoint me and you'll be its first conquest."
+    ],
+    "v_demand_done": [
+      "Acceptable, {player}. You have earned another day of existence.",
+      "Your service pleases me, {player}. Marginally. You may live."
+    ],
+    "v_demand_doom": [
+      "{player}. Your world ends today. You may kneel before me and beg. It changes nothing, of course.",
+      "Kneel, {player}. Watch your world end at my feet."
+    ],
+    "v_demand_dragonball": [
+      "Bring me a dragon ball, servant. It is mine by right. Fail, and you forfeit your life.",
+      "Fetch a dragon ball for your master. Do not return empty-handed - do not return at all."
+    ],
+    "v_demand_energy": [
+      "My hunger for energy is vast. Bring {count} {item}, servant - or surrender your own.",
+      "{count} {item}. Fail, and I shall feed on your life force."
+    ],
+    "v_demand_failed": [
+      "You have failed me, {player}. Your existence is hereby forfeit.",
+      "Inadequate, {player}. You are marked for extermination."
+    ],
+    "v_demand_lair": [
+      "My lair requires {count} {item}. You will procure them, servant - or become part of the foundation.",
+      "Fetch {count} {item} for my fortress. Failure is not among your options."
+    ],
+    "v_demand_slaughter": [
+      "Prove you are more than vermin. Exterminate {count} {mob}.",
+      "Kill {count} {mob} for me. Or share their fate."
+    ],
+    "v_demand_strong": [
+      "I hunger for power worthy of me. Slay {count} {mob} - or I'll take what little you have.",
+      "Bring down {count} {mob}. Only the strong may serve me."
+    ],
+    "v_demand_sweets": [
+      "I desire {count} {item}. Fetch them, or you shall become a rather common confection.",
+      "My palate demands {count} {item}. Fail me, and you'll be dessert."
+    ],
+    "v_demand_tournament": [
+      "{player}. You are summoned to my arena. Be grateful - few die in such grand surroundings.",
+      "Enter my ring, {player}. Let me show you the gulf between us."
+    ],
+    "v_deserter": [
+      "How disloyal. I'll hunt you down myself, wretch.",
+      "A deserter. Traitors are erased - personally."
+    ],
+    "v_dragon_ball": [
+      "{count} of 7. Naturally. They come to me as all things should.",
+      "Another dragon ball. {count} of 7. The world will kneel."
+    ],
+    "v_eat": [
+      "Acceptable. Unlike you.",
+      "Passable. Now, back to ruling."
+    ],
+    "v_eat_person": [
+      "{target} makes an exquisite candy. Far more useful than {target} ever was alive.",
+      "Mm. {target} - finally, some worth."
+    ],
+    "v_lair": [
+      "My lair grows ever more magnificent - a palace fit for a conqueror.",
+      "My fortress takes shape. The peasants will tremble at its sight."
+    ],
+    "v_marked": [
+      "You squandered my generosity, {player}. Now you will be exterminated like the vermin you are.",
+      "How foolish, {player}. Your existence ends today."
+    ],
+    "v_mind_control": [
+      "Such darkness. You are my property now, darling. Kneel.",
+      "Your heart is tainted. You exist to serve me."
+    ],
+    "v_next_challenger": [
+      "How dull. Bring me someone worth my time. Next!",
+      "Is that all? Next challenger. And this time, entertain me."
+    ],
+    "v_next_target": [
+      "{faction} shall be next to kneel - or to burn.",
+      "Next, {faction}. They will learn their place."
+    ],
+    "v_no_mercy": [
+      "Striking a fallen foe! How utterly classless. I'll erase you for that!",
+      "Barbaric! Very well - no quarter, vermin!"
+    ],
+    "v_obeyed": [
+      "Obedience. As it should be, {player}. Dawdle, and you will be purged.",
+      "Go, {player}. Failure will cost you everything."
+    ],
+    "v_offer": [
+      "{player}, you may kneel and share in my empire. Refuse, and you'll be ground beneath my heel.",
+      "{player}. I deem you useful. Serve me, or be erased."
+    ],
+    "v_plan_done": [
+      "Everything has gone exactly as I planned. Naturally. Bow.",
+      "All according to my design. You were merely pieces on my board."
+    ],
+    "v_possess": [
+      "...An acceptable vessel. The previous tenant has been evicted.",
+      "...This body will do. Barely worthy of me."
+    ],
+    "v_pure_heart": [
+      "A pure heart. How vulgar. Purity is merely weakness in finer clothes.",
+      "Tch. Insufferably pure. You'll make a fine example."
+    ],
+    "v_rage": [
+      "You have soiled my composure, vermin. For that, your entire bloodline ends.",
+      "How DARE a creature like you anger me! I'll scour you from existence!"
+    ],
+    "v_recruit": [
+      "You show promise. You may grovel at my side - or perish at my feet.",
+      "You are almost worthy. Serve me, and you may live."
+    ],
+    "v_redeemed": [
+      "I have decided... to rise above my past. I will protect what I once sought to destroy.",
+      "Tyranny is beneath me now. I shall be... better. Do not make me regret it."
+    ],
+    "v_refused": [
+      "How foolish. You shall be the first to be exterminated.",
+      "Refuse me? Then you'll die before all the others, insect."
+    ],
+    "v_regenerate": [
+      "Did you truly believe a peasant could harm me? I simply regenerate.",
+      "How tedious. My flesh obeys me. Yours will fail you."
+    ],
+    "v_self_destruct": [
+      "If I must fall, this wretched world shall be my funeral pyre.",
+      "I refuse to perish alone. You will all be erased with me!"
+    ],
+    "v_spared": [
+      "Mercy? From a creature like you? I... don't know what to make of that.",
+      "You spared me. How irritating. How... strange."
+    ],
+    "v_summon": [
+      "Eternal dragon, attend your new master!",
+      "Eternal dragon, I command you to come forth and kneel!"
+    ],
+    "v_talk_grateful": [
+      "{player}. You once showed me mercy. A debt I find... intolerable. You may go - unharmed. For now.",
+      "Do not mistake my restraint for warmth, {player}. I simply pay my debts."
+    ],
+    "v_talk_marked": [
+      "{player}. The condemned have come to me. How convenient. Kneel and die.",
+      "You were marked for death, {player}. The sentence is carried out now."
+    ],
+    "v_talk_servant": [
+      "{player}. My servant. You may remain in my presence - so long as you remain useful.",
+      "You're tolerable, {player}. Do not mistake that for affection."
+    ],
+    "v_talk_threat": [
+      "You dare address me, {player}? I could end you with a glance. Perhaps you have some small use.",
+      "Vermin rarely speak to me, {player}. Amuse me, or be exterminated."
+    ],
+    "v_town_taken": [
+      "This town is mine. The peasants shall learn to grovel properly.",
+      "This town now belongs to me. Kneel, all of you."
+    ],
+    "v_travel": [
+      "My pod, at once. {planet} shall kneel or be purged.",
+      "Prepare my pod. {planet} awaits its new emperor."
+    ],
+    "v_unredeemable": [
+      "Your mercy is an insult. I will never bow to it - and you will pay for offering it.",
+      "How quaint. It changes nothing. You remain beneath me."
+    ],
+    "v_wavering": [
+      "This persistent... kindness. It's unbecoming. And yet I cannot stop thinking about it.",
+      "Why do you insist on sparing me? It's maddening."
+    ],
+    "v_wish": [
+      "Grant me power worthy of the eternal ruler of all things!",
+      "Eternal dragon! Make every living creature bow to me!"
+    ],
+    "v_yield": [
+      "I will NOT beg. Strike, if you dare - and know I'll remember your face forever.",
+      "...Well? End it, peasant. If you have the spine."
+    ],
+    "react_arrive": [],
+    "react_arrive_friend": [],
+    "react_arrive_cold": [],
+    "react_power": [],
+    "react_power_scared": [],
+    "react_transform": [],
+    "react_favorite": [],
+    "react_flying": [],
+    "react_stare": []
+  }
+}

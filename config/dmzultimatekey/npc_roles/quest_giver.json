@@ -1,0 +1,24 @@
+{
+  "id": "quest_giver",
+  "name": "Quest Giver",
+  "description": "Stays home and hands out the requests its goals produce.",
+  "actions": [
+    {
+      "action": "stay",
+      "utility": 30
+    },
+    {
+      "action": "deposit",
+      "utility": {
+        "base": 60,
+        "when": [
+          {
+            "var": "spare_interest",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

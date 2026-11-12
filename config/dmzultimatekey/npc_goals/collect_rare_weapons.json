@@ -1,0 +1,72 @@
+{
+  "id": "collect_rare_weapons",
+  "name": "Collect rare weapons",
+  "description": "Wants ever better weapons for the collection: pays extra for them, keeps the best five, asks players to bring better ones.",
+  "interest": {
+    "weapon": true,
+    "min_quality": 3
+  },
+  "quality": {
+    "damage": 1,
+    "enchant": 1.5,
+    "rarity": 2,
+    "durability": 1
+  },
+  "shop": {
+    "buy_bonus": 0.6,
+    "keep_best": 5,
+    "delighted": "Oh! A fine addition to my collection!"
+  },
+  "actions": [
+    {
+      "action": "post_quest",
+      "params": {
+        "min_quality": "above_best",
+        "reward_base": 5,
+        "reward_per_quality": 2,
+        "name": "A Blade for the Collection",
+        "text": "I'm after a weapon finer than anything I own.",
+        "line": "You look like someone who finds good weapons. Bring me a better one than I have?"
+      },
+      "utility": {
+        "base": 55,
+        "when": [
+          {
+            "var": "offer_ready",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "collect_loot",
+      "params": {
+        "radius": 16
+      },
+      "utility": {
+        "base": 45,
+        "when": [
+          {
+            "var": "loot_near",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "deposit",
+      "utility": {
+        "base": 60,
+        "when": [
+          {
+            "var": "spare_interest",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

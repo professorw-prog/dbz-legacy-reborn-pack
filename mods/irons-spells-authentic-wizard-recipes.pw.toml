@@ -1,0 +1,13 @@
+name = "Iron's Spells: Authentic Wizard Recipes"
+filename = "authentic_wizardry-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "22b3a618561d92cefaa0c939128c018e61fdb0c9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5911523
+project-id = 1141369

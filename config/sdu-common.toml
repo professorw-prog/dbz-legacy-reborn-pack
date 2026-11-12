@@ -1,0 +1,53 @@
+#If true, only operators (or the NPC's owner) may open the NPC editor and change stats/abilities.
+requireOpToEdit = true
+#Upper bound the Options screen offers for an NPC's max health. Raised to effectively remove
+#the ceiling: the vanilla 1024 attribute cap is already lifted by RangedAttributeMixin, and
+#no editor actually clamps per-NPC health to this, so huge values take effect.
+#Range: > 1
+maxNpcHealth = 2000
+#If true, scale NPC combat stats/damage through DragonMine Z's ki-stat system when DMZ is present.
+enableDmzIntegration = true
+#If true, render a form's extra 'aura layers' (the Aura tab) on top of DMZ's aura.
+#Set false as a safety switch if stacked auras ever misbehave when transforming.
+enableAuraStacking = true
+#Default required DMZ level a freshly-placed Level Barrier block gates to. An op can then
+#right-click the block to set its gate to their own current level.
+#Range: > 0
+barrierDefaultLevel = 100
+#Radius (in blocks, around the chamber block) of a Gravity Chamber's effect area when it has no
+#explicit WorldEdit region captured. Players training inside get the multiplier + shared pool.
+#Range: 1 ~ 256
+chamberRadius = 12
+#Multiplier applied to a player's organic TP gain while training inside a Gravity Chamber area.
+#Range: 1.0 ~ 1000.0
+chamberMultiplier = 1.5
+#Fraction (0..1) of the post-multiplier TP gain awarded to EVERY OTHER player inside the SAME
+#Gravity Chamber area (shared training pool). 0 disables sharing.
+#Range: 0.0 ~ 1.0
+chamberShareFraction = 0.25
+#Extra gravity (DMZ gravity-room effect) applied to players inside a freshly-placed Gravity
+#Chamber's area. 1.0 = no gravity effect. Registers the chamber area as a DMZ gravity zone;
+#requires DMZ server config gravity.machineGravityEnabled = true for the effect to apply.
+#Range: 1.0 ~ 10.0
+chamberGravity = 1.0
+#Per-player cooldown (in seconds) between shadow training dummy summons. 0 disables the
+#cooldown rule entirely. Range 0-86400. Default 90.
+#Range: 0 ~ 86400
+shadowDummyCooldownSeconds = 90
+#Maximum number of live shadow training dummies a single party may have out at once. A
+#new summon is allowed while the party's live-dummy count is below this. Range 1-64. Default 1.
+#Range: 1 ~ 64
+shadowDummyMaxAlivePerParty = 1
+#Party sizes at or below this keep the full DMZ shared-TP amount. Beyond it, each extra
+#member reduces the shared amount by the step (down to the floor). Range 1-64. Default 3.
+#Range: 1 ~ 64
+partyTpFalloffThreshold = 3
+#Percent of the shared-TP removed per party member beyond the threshold (step = percent/100).
+#Range 0-100. Default 20 (0.20 per extra member).
+#Range: 0 ~ 100
+partyTpFalloffStepPercent = 20
+#Minimum shared-TP fraction, as a percent, no matter how large the party is (floor = percent/100).
+#Range 0-100. Default 20 (never below 0.20 of the share).
+#Range: 0 ~ 100
+partyTpFalloffFloorPercent = 20
+

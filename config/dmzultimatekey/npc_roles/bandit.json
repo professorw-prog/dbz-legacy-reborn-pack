@@ -1,0 +1,56 @@
+{
+  "id": "bandit",
+  "name": "Bandit",
+  "description": "Lives off others: sizes up shopkeepers (ki sense helps) and shakes down the ones it thinks it can beat, then sells what it takes.",
+  "actions": [
+    {
+      "action": "wander",
+      "params": {
+        "radius": 48
+      },
+      "utility": 15
+    },
+    {
+      "action": "hunt",
+      "params": {
+        "radius": 24
+      },
+      "utility": {
+        "base": 20,
+        "when": [
+          {
+            "var": "hp_pct",
+            "op": ">",
+            "value": 60
+          }
+        ]
+      }
+    },
+    {
+      "action": "stay",
+      "utility": {
+        "base": 45,
+        "when": [
+          {
+            "var": "hp_pct",
+            "op": "<=",
+            "value": 40
+          }
+        ]
+      }
+    },
+    {
+      "action": "equip_best",
+      "utility": {
+        "base": 100,
+        "when": [
+          {
+            "var": "better_in_inventory",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

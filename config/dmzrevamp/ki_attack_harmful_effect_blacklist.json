@@ -1,0 +1,22 @@
+[
+  "dmzrevamp:adrenaline_cooldown",
+  "dmzrevamp:racial_cooldown",
+  "dmzrevamp:regeneration_cooldown",
+  "dragonminez:bioandroid_passive",
+  "dragonminez:dash_cd",
+  "dragonminez:doubledash_cd",
+  "dragonminez:fused",
+  "dragonminez:fusion_cd",
+  "dragonminez:ki_blast_cd",
+  "dragonminez:majin",
+  "dragonminez:majin_revive",
+  "dragonminez:poise_cd",
+  "dragonminez:saiyan_passive",
+  "dragonminez:stun",
+  "dragonminez:teleport_cd",
+  "irons_spellbooks:trial_omen",
+  "minecraft:bad_omen",
+  "minecraft:nausea",
+  "tconstruct:fireball_cooldown",
+  "tconstruct:teleport_cooldown"
+]

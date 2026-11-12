@@ -1,0 +1,607 @@
+{
+  "name": "Cunning",
+  "description": "Silky, calculating and pleased with itself - always a step ahead, always polite about it.",
+  "selectable": true,
+  "catchphrases": [
+    "my friend",
+    "indeed",
+    "how interesting",
+    "as planned"
+  ],
+  "nicknames": [
+    "my friend",
+    "partner",
+    "ace"
+  ],
+  "behaviour": {
+    "wake": 7.0,
+    "sleep": 24.0,
+    "likes": [
+      "gentle",
+      "cheerful",
+      "laid_back",
+      "proud"
+    ],
+    "clashes": [
+      "gruff",
+      "brash"
+    ],
+    "likes_own_kind": true,
+    "power_style": "show-off",
+    "aggression": 0.6,
+    "bravery": 1.0,
+    "chattiness": 1.0,
+    "temper": 1.0
+  },
+  "lines": {
+    "like": [
+      "How thoughtful. Thank you, {player}."
+    ],
+    "bye": [
+      "Until we meet again, {player}.",
+      "Do take care, {catch}. I'll be watching."
+    ],
+    "ask": [
+      "{player}, might I trouble you for {need}? I'd be ever so grateful, {catch}."
+    ],
+    "cold": [
+      "I'm afraid I have no time for you. Or ever, really.",
+      "How unfortunate to run into you."
+    ],
+    "small": [
+      "A clever fighter never shows their full power first, {catch}.",
+      "Everyone watches the strongest fighter. I watch whoever is watching them.",
+      "Capsule Corp builds the finest gadgets. I build the finest plans."
+    ],
+    "friend": [
+      "{player}, my dear friend! Things always go better with you around, {catch}.",
+      "Ah, my favourite person has arrived. Just as I predicted."
+    ],
+    "greet": [
+      "Ah, {player}. Right on time, {catch}.",
+      "Good day, {player}. I had a feeling you'd stop by."
+    ],
+    "meh": [
+      "How... generous. I suppose."
+    ],
+    "hate": [
+      "I'll pretend I didn't see this."
+    ],
+    "love": [
+      "Splendid! You truly understand me, {player}. {catch}!"
+    ],
+    "beaten": [
+      "Beaten, as was inevitable. Don't take it too hard.",
+      "That will do. You were outclassed, my friend."
+    ],
+    "boon_released": [
+      "...Where... am I?",
+      "...What happened? Where am I?"
+    ],
+    "captive_freed": [
+      "Free once more. Splendid.",
+      "I'm... free? I'm free!"
+    ],
+    "chat_agree": [
+      "Ha! That's so you, {target}.",
+      "Oh, {target}. Never change."
+    ],
+    "chat_tense": [
+      "Oh. {target}. How unfortunate.",
+      "You're in my light, {target}."
+    ],
+    "chat_tense_reply": [
+      "Some of us actually enjoy life, {target}.",
+      "Don't start with me, {target}."
+    ],
+    "compliment": [
+      "I've always admired you, {target}. Almost as much as myself.",
+      "Looking splendid today, {target}."
+    ],
+    "confide": [
+      "Can I tell you something, {target}? Always being a step ahead can be lonely.",
+      "I trust you, {target}. More than most."
+    ],
+    "confide_reply": [
+      "I understand, {target}. Truly.",
+      "You're not alone, {target}."
+    ],
+    "faction_found": [
+      "From today, this is {faction}. Stand with me and share in its glory.",
+      "Behold - {faction}. All are welcome to follow me."
+    ],
+    "faction_invite": [
+      "{player}, you've proven yourself. {faction} would shine brighter with you.",
+      "{player}, I'd like you in {faction}. A rare honour."
+    ],
+    "faction_quit": [
+      "I'm done following {leader}. {faction} will miss me.",
+      "{leader} can lead without me. Farewell, {faction}."
+    ],
+    "faction_tier": [
+      "We're a {tier} now. {faction} is going places - with me at its head.",
+      "{faction}, a {tier}. Exactly as I planned."
+    ],
+    "faction_vassal": [
+      "{faction} will stand under {overlord}. Even I must admit {leader} earned that.",
+      "{faction} pledges to {overlord}. {leader} deserves it."
+    ],
+    "faction_welcome": [
+      "Welcome to {faction}, {target}. You've chosen well.",
+      "Welcome to {faction}, {target}. You'll do nicely."
+    ],
+    "faction_welcome_player": [
+      "Welcome, {player}. You've joined the best.",
+      "Welcome, {player}. We look after our own, naturally."
+    ],
+    "fall": [
+      "No longer shall I be the one who bleeds. How refreshing.",
+      "Enough. From now on, others shall do the suffering, my dear."
+    ],
+    "fall_pessimist": [
+      "Ah, just as I predicted. The world was never kind. So neither shall I be.",
+      "I foresaw this. How tiresome, always being right."
+    ],
+    "flee": [
+      "This isn't over, my dear. Merely postponed.",
+      "We shall meet again, and I'll be ready."
+    ],
+    "flee_coward": [
+      "A strategic withdrawal! Farewell!",
+      "Discretion is the better part of valor. Farewell!"
+    ],
+    "gift_give": [
+      "Here, {target} - it reminded me of you. Well, almost.",
+      "A small token, {target}. From me."
+    ],
+    "gossip": [
+      "Between us, {target}... {about} isn't who they seem.",
+      "A word to the wise, {target}: {about} is not to be trusted."
+    ],
+    "grudge": [
+      "Ah, you. I never forget a slight, my dear.",
+      "How fortunate - I've been saving something for you."
+    ],
+    "h_ally_greet": [
+      "{player}. Together, we're far more dangerous.",
+      "Good, {player}. I have a plan."
+    ],
+    "h_ally_join": [
+      "Excellent. An ally I can count on. Don't disappoint me.",
+      "Good. Two of us are far more dangerous than one."
+    ],
+    "h_arrive": [
+      "{target}. I've studied you. You won't enjoy what comes next.",
+      "Every move you've made led you here, {target}. To me."
+    ],
+    "h_base": [
+      "Done. Somewhere quiet to think.",
+      "Finished. A good place to plan."
+    ],
+    "h_battle_cry": [
+      "Predictable. Let's begin.",
+      "You're already losing, {target}. You just don't know it yet."
+    ],
+    "h_busy": [
+      "Timing, {player}. Not now.",
+      "Later. I'm in the middle of something."
+    ],
+    "h_called": [
+      "Hold your position, {player}. I'm on my way.",
+      "Stay calm, {player}. I'm coming."
+    ],
+    "h_defend": [
+      "Bad move, {target}. You just made an enemy of me.",
+      "Attacking {victim} in front of me? Foolish."
+    ],
+    "h_farewell": [
+      "Until next time, {player}.",
+      "We'll meet again."
+    ],
+    "h_finish": [
+      "Spare you? And let you scheme again? No.",
+      "I know what you'd do with a second chance."
+    ],
+    "h_greet": [
+      "{player}. I've been watching. You've potential.",
+      "Well, {player}. What brings you to me?"
+    ],
+    "h_rage": [
+      "{target}... I'll make you understand exactly what you've done.",
+      "You've made this personal. That was very foolish."
+    ],
+    "h_rally_ask": [
+      "{target}'s at {where}. Two of us, one of them - I like those odds.",
+      "{target}, at {where}. Help me, {player}, and we'll catch it off guard."
+    ],
+    "h_request_done": [
+      "Perfect. Exactly as I hoped.",
+      "Good work, {player}. I won't forget it."
+    ],
+    "h_request_thanks": [
+      "Excellent. I knew you would.",
+      "Good choice, {player}."
+    ],
+    "h_request_waiting": [
+      "I'll be here when you're done.",
+      "Take your time. Do it right."
+    ],
+    "h_sensed": [
+      "{target} has shown its hand at last. Good. Now I know where to strike.",
+      "There you are, {target}. I wondered when you'd slip up."
+    ],
+    "h_spare": [
+      "I'll let you live, {target}. Remember who allowed it.",
+      "Mercy is a debt, {target}. I'll collect someday."
+    ],
+    "h_talk_wanted": [
+      "Interesting that you'd come to me now, {player}. I haven't forgotten.",
+      "Not today, {player}."
+    ],
+    "h_train_offer": [
+      "{player}, a spar? You'll learn more than you think.",
+      "I could teach you a trick or two, {player}."
+    ],
+    "h_train_start": [
+      "Let's see what you've learned, {player}.",
+      "Every fight teaches something. Pay attention."
+    ],
+    "h_trained": [
+      "You're learning. Good. Keep watching how I move.",
+      "Better than last time. I noticed."
+    ],
+    "h_wanted": [
+      "I saw that, {target}. I'll remember.",
+      "Careful, {target}. I'm keeping score."
+    ],
+    "insult": [
+      "Nice look, {target}. Bold choice.",
+      "Oh, it's you, {target}. How unfortunate."
+    ],
+    "insult_harsh": [
+      "You're a disgrace, {target}. How sad.",
+      "Pathetic, as always, {target}. I pity you."
+    ],
+    "learned": [
+      "I've learned {skill}. Effortlessly, of course.",
+      "Add {skill} to my repertoire."
+    ],
+    "minion_android": [
+      "Activation complete. All variables accounted for.",
+      "Systems online. Awaiting orders."
+    ],
+    "minion_awakened": [
+      "Hehe... let the games begin.",
+      "Hehehe. Who wants to play?"
+    ],
+    "minion_freed_mind": [
+      "What have I... oh dear.",
+      "My head... what have I been doing?"
+    ],
+    "minion_mind_control": [
+      "As you wish... master.",
+      "Yes... my master. Your will is mine."
+    ],
+    "minion_quit": [
+      "No more orders, I'm afraid.",
+      "I'm done taking orders. I take my leave."
+    ],
+    "minion_recruit": [
+      "Very well. For the time being.",
+      "I'll lend you my talents... for now."
+    ],
+    "new_chapter": [
+      "A change is in order. My new aim: to {goal}.",
+      "Reinvention suits me. From now on, I {goal}."
+    ],
+    "new_chapter_role": [
+      "I have decided to retire as a {role}. A {next} is far more my style. New aim: {goal}.",
+      "Farewell, {role} life. A {next} fits my plans better. My aim: {goal}."
+    ],
+    "redeemed": [
+      "Even I can admit when I've miscalculated. Thank you, all of you, sincerely.",
+      "I seem to have lost myself. Thank you for finding me, my friends."
+    ],
+    "refuse_serve": [
+      "I serve no one.",
+      "I'd rather die than serve you!"
+    ],
+    "resist_mind": [
+      "My mind is my own!",
+      "Get out of my head! You can't have me!"
+    ],
+    "retire": [
+      "My fortune is made, exactly on schedule. I retire now, to a home as well-planned as I am.",
+      "Enough labour. Time for a home of true elegance, my dear."
+    ],
+    "rob": [
+      "Lovely shop, {target}. A pity if it were ruined. Hand it over.",
+      "Consider this a tax, {target}. A very reasonable one."
+    ],
+    "rob_done": [
+      "A wise choice, {target}. Pleasure doing business.",
+      "Smart, {target}. Until next time."
+    ],
+    "rob_evil": [
+      "Everything you have, {target}. I'd hate to collect it from your corpse.",
+      "Your life or your stock, {target}. I'm generous - you may choose."
+    ],
+    "sell_produce": [
+      "Fresh from my field, of course. {price}, my friend.",
+      "Only the best. That'll be {price}."
+    ],
+    "shop_fight": [
+      "I think not, {target}. Kindly see yourself out.",
+      "No, {target}. The door is behind you."
+    ],
+    "shop_fight_brawler": [
+      "A grand mistake, {target}. I'll make it memorable.",
+      "Oh, {target}. You really should have chosen another shop."
+    ],
+    "shop_yield": [
+      "...Very well. Enjoy it while it lasts.",
+      "Take it, then. I can always earn more."
+    ],
+    "shop_yield_coward": [
+      "Take it, take it! No need for violence!",
+      "Of course! Help yourself! Please!"
+    ],
+    "spar_abandoned": [
+      "Hm. They fled. Understandable.",
+      "Ah, gone. I suppose we're done."
+    ],
+    "spar_draw": [
+      "A draw, {player}. You kept pace with me - impressive.",
+      "Let us call it even, {player}. How civilised."
+    ],
+    "spar_lost": [
+      "Bravo, {player}. I'm almost impressed.",
+      "You win, {player}. A fine duel."
+    ],
+    "spar_lost_ambitious": [
+      "Well played, {player}. Enjoy it - the rematch will be mine.",
+      "You win, {player}. For now. A rematch, soon."
+    ],
+    "spar_won": [
+      "And that's the match. Keep training, {player} - you might catch me someday.",
+      "Match over. I read every move before you made it, {player}."
+    ],
+    "spar_won_kind": [
+      "You did wonderfully, {player}. Allow me.",
+      "Good show, {player}. Here, take my hand."
+    ],
+    "stay_down": [
+      "Stay down, my friend. There's no shame in losing to me.",
+      "Enough. Rest there and think about what you missed."
+    ],
+    "surrender": [
+      "We yield. With dignity.",
+      "Enough... we surrender."
+    ],
+    "talk_back": [
+      "Like I care what you think, {target}.",
+      "How amusing, {target}. Say it again."
+    ],
+    "team_ask": [
+      "{player}, I'd be honoured to join {team}. You'd be lucky to have me.",
+      "{player}, might I join {team}? It would raise its standing."
+    ],
+    "team_declined": [
+      "Ah. A pity. For you, I mean.",
+      "Very well. Perhaps another time."
+    ],
+    "team_joined": [
+      "Thank you, {player}. You've chosen well.",
+      "Thank you, {player}. I won't let you down. Naturally."
+    ],
+    "team_kicked": [
+      "...I understand. A pity.",
+      "Ah. Very well. I'll adjust my plans."
+    ],
+    "team_leave": [
+      "I shan't stay in {team}. Not after what happened.",
+      "Goodbye, {team}. Some things can't be forgiven."
+    ],
+    "v_absorb": [
+      "Your {skill}... it looks far better on me. Merci, my dear.",
+      "I collect the best parts of people. Your {skill} made the cut. You didn't."
+    ],
+    "v_accepted": [
+      "Wise, {player}. You shall be rewarded - for as long as you're useful.",
+      "An excellent decision, {player}. Do remember who holds your leash."
+    ],
+    "v_beg_laugh": [
+      "Ohohoho! {player}, begging? How delicious. Do go on. It changes nothing.",
+      "You beg so beautifully, {player}. The answer is still no."
+    ],
+    "v_creation": [
+      "{target}, rise. My genius given form. Now go show them despair.",
+      "Rise, {target}. Admire your creator - then annihilate them."
+    ],
+    "v_demand_army": [
+      "My army hungers for {count} {item}, my dear. Feed it - or it shall feed on you.",
+      "Do bring {count} {item} for my soldiers. They're so eager to try them on someone."
+    ],
+    "v_demand_done": [
+      "Splendid, {player}. You've bought yourself another day. Spend it wisely.",
+      "How useful you are, {player}. I suppose I'll keep you."
+    ],
+    "v_demand_doom": [
+      "{player}, my dear. The end has come. Why not kneel and beg? I do so enjoy it.",
+      "Everything you know is ending, {player}. Go on - beg. Make it beautiful."
+    ],
+    "v_demand_dragonball": [
+      "Find me a dragon ball, my dear. It's such a small thing - compared to your life.",
+      "Bring me a dragon ball. Fail, and I shall wish you out of existence."
+    ],
+    "v_demand_energy": [
+      "Feed me, my dear. {count} {item}. Otherwise I'll sip the life right out of you.",
+      "Bring {count} {item}. Your own energy looks so very tempting."
+    ],
+    "v_demand_failed": [
+      "Oh, {player}. You've disappointed me. That's the last thing you'll ever do.",
+      "Too slow, my dear. Now you're marked. Run, if you like."
+    ],
+    "v_demand_lair": [
+      "Be a dear and bring {count} {item} for my lair. I'd so hate to use your bones instead.",
+      "My lair needs {count} {item}, my dear. Do hurry. Patience isn't among my virtues."
+    ],
+    "v_demand_slaughter": [
+      "Show me your teeth, my dear. Slaughter {count} {mob}. Disappoint me and you'll be the next corpse.",
+      "{count} {mob}, dead. Consider it an audition - for your continued existence."
+    ],
+    "v_demand_strong": [
+      "I do so crave strength, my dear. Hunt {count} {mob} for me. Otherwise I'll settle for yours.",
+      "{count} {mob}. Strong prey. Do try not to become prey yourself."
+    ],
+    "v_demand_sweets": [
+      "I'm peckish, my dear. {count} {item}, please. Otherwise you'd make such a lovely chocolate.",
+      "Bring me {count} {item}. Or I'll find out what flavour you are."
+    ],
+    "v_demand_tournament": [
+      "{player}, my dear. Join me in my ring. I promise to make your defeat... memorable.",
+      "Step into my ring, {player}. I've so wanted to see you squirm."
+    ],
+    "v_deserter": [
+      "Traitor. I shall attend to you myself, my dear. Run - it's more fun for me.",
+      "A deserter. I'll deal with you personally. Slowly."
+    ],
+    "v_dragon_ball": [
+      "{count} of 7. Splendid. Can you feel your hope draining, my dear?",
+      "Another dragon ball. {count} of 7. All according to plan."
+    ],
+    "v_eat": [
+      "Delicieux. Almost as satisfying as your despair.",
+      "Exquisite. Now, the main course - you."
+    ],
+    "v_eat_person": [
+      "Delicieux, {target}. You were so much sweeter as candy.",
+      "Ah, {target}. A delicacy. Who shall be dessert?"
+    ],
+    "v_lair": [
+      "My lair takes shape, as elegant and merciless as I am.",
+      "My lair, coming along beautifully. Your tomb will be in the basement."
+    ],
+    "v_marked": [
+      "Such a waste, {player}. Now you die - slowly, I think.",
+      "You had your chance, {player}. Adieu. Try to scream elegantly."
+    ],
+    "v_mind_control": [
+      "A little darkness is all I need, my dear. Your strings are in my hands now.",
+      "You're mine now. Your friends will be your first assignment."
+    ],
+    "v_next_challenger": [
+      "Next, please. That one barely counted as a warm-up.",
+      "Is that all? Next challenger - try to scream a bit louder."
+    ],
+    "v_next_target": [
+      "{faction}, I believe. They don't know it yet - that's the best part.",
+      "Next on my list: {faction}. They have so much to lose."
+    ],
+    "v_no_mercy": [
+      "Ah, no mercy. I can respect that, my dear. And return it a thousandfold.",
+      "How ruthless. I approve. Now perish."
+    ],
+    "v_obeyed": [
+      "Splendid, {player}. Do hurry, my dear. I'm not known for patience - or mercy.",
+      "Excellent, {player}. Fail me, and I'll show you true despair."
+    ],
+    "v_offer": [
+      "{player}. Join me, and share my glory. Refuse, and I'll break you so slowly you'll beg to have said yes.",
+      "{player}, I've admired you from afar. Serve me - or be crushed."
+    ],
+    "v_plan_done": [
+      "All according to plan, as always. Your struggle was so very entertaining.",
+      "Everything unfolds as I foresaw. Did you really think you had a chance?"
+    ],
+    "v_possess": [
+      "...A fine body. Its owner screamed so nicely on the way out.",
+      "...Ah. This will suit me. Shall we visit their friends?"
+    ],
+    "v_pure_heart": [
+      "A pure heart, my dear? How dreary. Those are always the first to break.",
+      "Such tedious virtue. I'll enjoy watching it shatter."
+    ],
+    "v_rage": [
+      "Oh, now you've done it, my dear. I was going to kill you quickly. Not anymore.",
+      "You've upset me. I shall make your final moments... educational."
+    ],
+    "v_recruit": [
+      "Talent like yours belongs at my side, my dear. Or in the ground. Your choice.",
+      "Serve me. The alternative is so very... final."
+    ],
+    "v_redeemed": [
+      "Well, my dear, it seems you've reformed me. How embarrassing - and how freeing. I'll make amends.",
+      "Perhaps there's more to me than conquest after all. Let me prove it."
+    ],
+    "v_refused": [
+      "A pity. You'll fall first, my dear - and I'll make it last.",
+      "Then you'll be the first to die. How brave. How stupid."
+    ],
+    "v_regenerate": [
+      "A scratch, my dear. I regenerate. You, sadly, are a single-use creature.",
+      "Did you really think it would end so crudely? How adorable."
+    ],
+    "v_self_destruct": [
+      "A grand finale, my dear. The planet, you, everyone - gone in one beautiful flash.",
+      "If I must leave the stage, I'll burn the whole theatre down."
+    ],
+    "v_spared": [
+      "Spared, my dear? How unexpectedly... noble. I'd never have done the same.",
+      "You let me live. Curious. I'm not sure I like how that feels."
+    ],
+    "v_summon": [
+      "Eternal dragon, appear before me. Your world's final chapter begins.",
+      "Come forth, eternal dragon. Let's rewrite everything."
+    ],
+    "v_talk_grateful": [
+      "{player}, my dear. You spared me. I find it so very difficult to kill you. How annoying.",
+      "Ah, {player}. My saviour. Don't push your luck - my gratitude has limits."
+    ],
+    "v_talk_marked": [
+      "Ah, {player}. Walking right into my hands. How very obliging. Now - die.",
+      "{player}, my dear. I've been savouring this moment. Goodbye."
+    ],
+    "v_talk_servant": [
+      "Ah, {player}, my dear little pawn. Do keep impressing me. The alternative is so final.",
+      "{player}. You've been useful. I do so hate throwing useful things away."
+    ],
+    "v_talk_threat": [
+      "Ah, {player}. Do you know how easily I could end you? Of course you do. Let's see if you're useful first.",
+      "{player}, my dear. Every breath you take is my gift. Earn the next one."
+    ],
+    "v_town_taken": [
+      "This town is mine, naturellement. Its people are my property now.",
+      "This town is mine. How charming it'll look under my rule."
+    ],
+    "v_travel": [
+      "My pod. {planet} awaits me - and its extinction.",
+      "Prepare my pod. {planet} shall have the honour of being conquered."
+    ],
+    "v_unredeemable": [
+      "Mercy, my dear? I'm afraid I'm quite beyond saving. And you've just handed me a second chance to kill you.",
+      "Charming gesture. Utterly futile. I'll remember it as your fatal mistake."
+    ],
+    "v_wavering": [
+      "Again you spare me. You're making this very difficult, my dear. My hands don't want to strike you.",
+      "I'm starting to wonder what you see in me. I'm starting to wonder myself."
+    ],
+    "v_wish": [
+      "Grant me power beyond all others - and immortality, of course.",
+      "Eternal dragon! Make me the eternal emperor of the universe!"
+    ],
+    "v_yield": [
+      "My, my... you've actually beaten me. Go on, claim your prize - if you can live with it.",
+      "How poetic. Finish it, {target}. You'll never get another chance."
+    ],
+    "react_arrive": [],
+    "react_arrive_friend": [],
+    "react_arrive_cold": [],
+    "react_power": [],
+    "react_power_scared": [],
+    "react_transform": [],
+    "react_favorite": [],
+    "react_flying": [],
+    "react_stare": []
+  }
+}

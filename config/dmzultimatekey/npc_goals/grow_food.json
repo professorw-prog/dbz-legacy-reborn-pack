@@ -1,0 +1,54 @@
+{
+  "id": "grow_food",
+  "name": "Grow its own food",
+  "description": "Any role: keeps a farm going on the side and cooks / bakes so it never goes hungry.",
+  "interest": {
+    "food": true
+  },
+  "actions": [
+    {
+      "action": "farm",
+      "utility": {
+        "base": 35,
+        "when": [
+          {
+            "var": "farm_work",
+            "op": ">",
+            "value": 2
+          }
+        ]
+      }
+    },
+    {
+      "action": "cook",
+      "utility": {
+        "base": 55,
+        "when": [
+          {
+            "var": "can_cook",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "make_food",
+      "utility": {
+        "base": 52,
+        "when": [
+          {
+            "var": "can_make_food",
+            "op": ">",
+            "value": 0
+          },
+          {
+            "var": "hunger",
+            "op": ">",
+            "value": 2
+          }
+        ]
+      }
+    }
+  ]
+}

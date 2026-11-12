@@ -1,0 +1,119 @@
+{
+  "configVersion": "2.2.0",
+  "hasGender": false,
+  "useVanillaSkin": false,
+  "customModel": "taimujin",
+  "isLayered": true,
+  "headBones": [
+    "hair"
+  ],
+  "racialSkill": "",
+  "hasSaiyanTail": false,
+  "auraType": "kakarot",
+  "auraType3D": "userPreference",
+  "aura3DStyle": {
+    "size": [
+      1.1,
+      1.17,
+      1.02
+    ],
+    "flamePeaks": 12,
+    "waveFrequency": 2.0,
+    "waveSpeed": 5.0,
+    "waveAmplitude": 0.75,
+    "noiseDetail": 0.1,
+    "upwardBias": 0.54,
+    "coreAlpha": 0.05,
+    "rimAlpha": 1.0,
+    "rimPower": 4.0,
+    "rimThreshold": 0.05,
+    "coreColor": "",
+    "rimColor": "",
+    "noiseColor": "",
+    "bloomIntensity": 1.0,
+    "spikeDensity": 32,
+    "spikeBurstRate": 3.0,
+    "spikeRarity": 3.0,
+    "bandStart": 0.5,
+    "secondBorderColor": ""
+  },
+  "defaultModelScaling": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "defaultBodyType": 0,
+  "slimBodyTypes": [],
+  "defaultHairType": 0,
+  "defaultEyesType": 0,
+  "defaultNoseType": 0,
+  "defaultMouthType": 0,
+  "defaultTattooType": 0,
+  "defaultBodyColor": "#CC97FB",
+  "defaultBodyColor2": "#FFFFFF",
+  "defaultBodyColor3": "#FFFFFF",
+  "defaultHairColor": "#1B1B24",
+  "defaultEye1Color": "#EF2936",
+  "defaultEye2Color": "#EF2936",
+  "defaultAuraColor": "#9B6BFF",
+  "formSkillsCosts": {
+    "legendaryforms": {
+      "buyFromMaster": false,
+      "prices": []
+    },
+    "godforms": {
+      "buyFromMaster": true,
+      "prices": [
+        150000,
+        350000,
+        800000
+      ]
+    },
+    "superforms": {
+      "buyFromMaster": false,
+      "prices": [
+        175000,
+        525000,
+        1350000
+      ]
+    },
+    "createdforms": {
+      "buyFromMaster": true,
+      "prices": [
+        -1
+      ]
+    },
+    "chronoforms": {
+      "buyFromMaster": false,
+      "prices": [
+        700000,
+        1800000
+      ]
+    },
+    "eonforms": {
+      "buyFromMaster": false,
+      "prices": [
+        3000000,
+        5500000,
+        8000000,
+        11000000,
+        14000000
+      ]
+    },
+    "chronotornforms": {
+      "buyFromMaster": false,
+      "prices": [
+        475000,
+        635000,
+        860000
+      ]
+    },
+    "ravagerforms": {
+      "buyFromMaster": true,
+      "prices": [
+        250000,
+        420000
+      ]
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "cottage",
+  "name": "Cottage",
+  "description": "A cosy one-room cottage: a bed, a kitchen corner, a reading nook and a rug.",
+  "foundation": "minecraft:cobblestone",
+  "legend": {
+    "r": "minecraft:red_carpet",
+    "F": "minecraft:furnace[facing=north]",
+    "p": "minecraft:oak_planks",
+    "C": "minecraft:chest[facing=north]",
+    "D": "minecraft:oak_door[facing=south,half=lower,hinge=left]",
+    "B": "minecraft:red_bed[facing=south,part=foot]",
+    "l": "minecraft:lantern",
+    "@": "@home",
+    "h": "minecraft:ladder[facing=north]",
+    "g": "minecraft:glass_pane",
+    "f": "minecraft:oak_fence",
+    "d": "minecraft:oak_door[facing=south,half=upper,hinge=left]",
+    "c": "minecraft:cobblestone",
+    "b": "minecraft:red_bed[facing=south,part=head]",
+    "T": "minecraft:crafting_table",
+    "S": "minecraft:oak_stairs[facing=north]",
+    "R": "minecraft:barrel[facing=up]",
+    "M": "minecraft:smoker[facing=north]",
+    "L": "minecraft:oak_log",
+    "K": "minecraft:bookshelf",
+    "s": "minecraft:oak_slab[type=bottom]"
+  },
+  "layers": [
+    [
+      "ccccccccc",
+      "ccccccccc",
+      "ccccccccc",
+      "ccccccccc",
+      "ccccccccc",
+      "ccccccccc",
+      "ccccccccc",
+      "ccccccccc",
+      "ccccccccc"
+    ],
+    [
+      "LpppDpppL",
+      "p.......p",
+      "p.......p",
+      "p..rrr..p",
+      "p..r@r.Kp",
+      "p..rrr..p",
+      "pb......p",
+      "pB...CTFp",
+      "LpppppppL"
+    ],
+    [
+      "LpppdpppL",
+      "p.......p",
+      "g.......g",
+      "p.......p",
+      "p......Kp",
+      "g.......g",
+      "p.......p",
+      "p.......p",
+      "LpgppgppL"
+    ],
+    [
+      "LpppppppL",
+      "p.......p",
+      "p.......p",
+      "p.......p",
+      "p...l...p",
+      "p.......p",
+      "p.......p",
+      "p.......p",
+      "LpppppppL"
+    ],
+    [
+      "ppppppppp",
+      "ppppppppp",
+      "ppppppppp",
+      "ppppppppp",
+      "ppppppppp",
+      "ppppppppp",
+      "ppppppppp",
+      "ppppppppp",
+      "ppppppppp"
+    ],
+    [
+      "sssssssss",
+      "sssssssss",
+      "sssssssss",
+      "sssssssss",
+      "sssssssss",
+      "sssssssss",
+      "sssssssss",
+      "sssssssss",
+      "sssssssss"
+    ]
+  ]
+}

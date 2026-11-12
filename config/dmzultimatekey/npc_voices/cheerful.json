@@ -1,0 +1,607 @@
+{
+  "name": "Cheerful",
+  "description": "Bright, excitable and eager - every new fighter is a new friend and every adventure is the best one ever.",
+  "selectable": true,
+  "catchphrases": [
+    "wow",
+    "yahoo",
+    "let's go",
+    "hiya"
+  ],
+  "nicknames": [
+    "buddy",
+    "best pal",
+    "sparring pal"
+  ],
+  "behaviour": {
+    "wake": 7.0,
+    "sleep": 23.5,
+    "likes": [
+      "laid_back",
+      "battle_lover",
+      "cunning",
+      "brash"
+    ],
+    "clashes": [
+      "gruff",
+      "proud"
+    ],
+    "likes_own_kind": false,
+    "power_style": "",
+    "aggression": 0.6,
+    "bravery": 1.0,
+    "chattiness": 1.5,
+    "temper": 1.0
+  },
+  "lines": {
+    "like": [
+      "Ooh, cool! Thanks, {player}!"
+    ],
+    "bye": [
+      "Bye bye! See ya, {player}!",
+      "Later, {catch}!"
+    ],
+    "ask": [
+      "{player}! Can you bring me {need}? Pleeease, {catch}?"
+    ],
+    "cold": [
+      "Hey! You're not nice. Go away!",
+      "I'm SO not talking to you right now."
+    ],
+    "small": [
+      "I can finally fly without wobbling! Wanna race?",
+      "Somebody said there's a super strong fighter around here. I wanna meet them, {catch}!",
+      "One day I'm gonna enter the World Martial Arts Tournament. And win!"
+    ],
+    "friend": [
+      "{player}! I missed you SO much! Let's go flying!",
+      "{player}! We should train together all day, {catch}!"
+    ],
+    "greet": [
+      "{player}!! Hiya! {catch}!",
+      "Whoa, {player}, you're here! Wanna spar? Huh? Huh?"
+    ],
+    "meh": [
+      "Oh! Um, thanks! I think!"
+    ],
+    "hate": [
+      "Huh? Why would you give me this?!"
+    ],
+    "love": [
+      "NO WAY!! This is the BEST thing EVER, {player}! {catch}!!"
+    ],
+    "beaten": [
+      "Yay, I win! You're beaten! No more fighting!",
+      "Game over! You lose, I win! Yahoo!"
+    ],
+    "boon_released": [
+      "...What happened?! Where am I?!",
+      "Huh?! Where am I?"
+    ],
+    "captive_freed": [
+      "I'm... free? I'm FREE! YAY!",
+      "FREEDOM! Yahoo!"
+    ],
+    "chat_agree": [
+      "Haha! That's SO you, {target}!",
+      "Ha, {target}! Classic!"
+    ],
+    "chat_tense": [
+      "Ugh, {target}. You're in my way!",
+      "Oh. {target}. GREAT."
+    ],
+    "chat_tense_reply": [
+      "Don't start with me today, {target}!",
+      "Ugh, YOU'RE in MY way, {target}!"
+    ],
+    "compliment": [
+      "Looking strong today, {target}!",
+      "Wow, your ki feels so bright today, {target}!"
+    ],
+    "confide": [
+      "Can I tell you something, {target}? Sometimes I get kinda sad...",
+      "You're like my BEST friend, {target}. For real."
+    ],
+    "confide_reply": [
+      "I SO get it, {target}!",
+      "You're not alone, {target}! I'm here!"
+    ],
+    "faction_found": [
+      "Starting today, this is {faction}! Everyone's welcome! Yay!",
+      "Welcome to {faction}! Join us! It's gonna be AMAZING!"
+    ],
+    "faction_invite": [
+      "{player}! You're AMAZING! Join {faction}! Pleeease?",
+      "{player}! {faction} needs you! Join us!"
+    ],
+    "faction_quit": [
+      "Ugh, I am SO done with {leader}! Bye, {faction}!",
+      "No more {leader}! I'm leaving {faction}!"
+    ],
+    "faction_tier": [
+      "We're a {tier} now! {faction} is going PLACES!",
+      "Wow, {faction} is a {tier}! Yahoo!"
+    ],
+    "faction_vassal": [
+      "{faction} is joining {overlord}! {leader} is SO cool!",
+      "{faction} will stand with {overlord}! Yay, {leader}!"
+    ],
+    "faction_welcome": [
+      "Welcome to {faction}, {target}! YAY!",
+      "{target}! Welcome to {faction}!"
+    ],
+    "faction_welcome_player": [
+      "Welcome, {player}! We look after our own! YAY!",
+      "{player}! Welcome to the family!"
+    ],
+    "fall": [
+      "NO MORE! I'm done being the one who cries all the time!",
+      "That's IT! I'm not the nice one anymore! Not EVER!"
+    ],
+    "fall_pessimist": [
+      "I KNEW it! Nobody ever plays fair! Fine - no more Mister Nice Fighter!",
+      "Ugh, this world is SO mean! Okay. Then I'll be mean too!"
+    ],
+    "flee": [
+      "This isn't over! I'll be SO much stronger next time!",
+      "You just wait! Round two is gonna be AMAZING!"
+    ],
+    "flee_coward": [
+      "Nope nope NOPE! Byeee!",
+      "Eek! I'm outta here!"
+    ],
+    "gift_give": [
+      "{target}! I got you a thing! I thought of you!",
+      "Here, {target}! A present! Yay!"
+    ],
+    "gossip": [
+      "Okay, okay, {target} - {about} is SO not who they seem!",
+      "{target}! You'll NEVER guess what {about} did!"
+    ],
+    "grudge": [
+      "Hiya! Remember me? 'Cause I SURE remember you!",
+      "Oh, it's YOU! I've been waiting for this!"
+    ],
+    "h_ally_greet": [
+      "{player}! Partner! Let's do our best!",
+      "Hey, partner! Together we're unstoppable!"
+    ],
+    "h_ally_join": [
+      "Yay! Partners! If anyone messes with you, I'll be there!",
+      "Awesome! Team-up time, {player}!"
+    ],
+    "h_arrive": [
+      "Hiya, {target}! I'm gonna have to stop you now. Sorry!",
+      "Found you, {target}! Ready? 'Cause I sure am!"
+    ],
+    "h_base": [
+      "Tada! My new place! Come visit!",
+      "It's done! Wanna see?"
+    ],
+    "h_battle_cry": [
+      "Okay, let's go! Hiyaaa!",
+      "Here I come, {target}!"
+    ],
+    "h_busy": [
+      "Ack, not now! There's trouble!",
+      "Later! Gotta go save people!"
+    ],
+    "h_called": [
+      "Coming, {player}! Hold on!",
+      "I'm on my way! Don't give up!"
+    ],
+    "h_defend": [
+      "Hey! Pick on someone your own size - like me!",
+      "Don't worry {victim}, I've got this!"
+    ],
+    "h_farewell": [
+      "See ya, {player}!",
+      "Bye bye! Train hard!"
+    ],
+    "h_finish": [
+      "Sorry, {target}... but you'd just hurt more people.",
+      "I don't like it... but this ends now."
+    ],
+    "h_greet": [
+      "Hey, {player}! You look strong! Wanna train sometime?",
+      "Heya, {player}! Anything exciting going on?"
+    ],
+    "h_rage": [
+      "{target}?! ...You hurt my friend. Now I'm REALLY mad!",
+      "That's not funny anymore... YOU'RE GONNA PAY!"
+    ],
+    "h_rally_ask": [
+      "{player}! {target}'s up to no good at {where}! Come on, let's go together!",
+      "Big trouble! {target}, at {where}! You in?"
+    ],
+    "h_request_done": [
+      "You did it! Thanks a bunch!",
+      "Woohoo! You're the best!"
+    ],
+    "h_request_thanks": [
+      "Yay! You're the best, {player}!",
+      "Thanks, {player}! You're awesome!"
+    ],
+    "h_request_waiting": [
+      "Still on it? Go go go!",
+      "How's it going? You can do it!"
+    ],
+    "h_sensed": [
+      "Whoa, {target}'s ki is HUGE! And nasty! Gotta go!",
+      "Hey hey, I can feel {target} causing trouble! On my way!"
+    ],
+    "h_spare": [
+      "Okay, that's enough! You lost fair and square. Now be good, okay?",
+      "I'm not gonna finish you. Train hard and come back good!"
+    ],
+    "h_talk_wanted": [
+      "Nuh-uh, {player}! Not until you stop being mean!",
+      "You hurt someone. I'm keeping an eye on you!"
+    ],
+    "h_train_offer": [
+      "Hey {player}! Wanna train? It'll be fun!",
+      "Psst, {player}! Let's spar!"
+    ],
+    "h_train_start": [
+      "Yay! Let's train! Don't hold back, okay?",
+      "Training time! Ready, {player}?"
+    ],
+    "h_trained": [
+      "That was SO fun! You're getting really good!",
+      "Great job! Let's do it again tomorrow!"
+    ],
+    "h_wanted": [
+      "Hey! {target}! That was mean! Don't make me come over there!",
+      "Not cool, {target}! I saw that!"
+    ],
+    "insult": [
+      "Oh, it's YOU, {target}. Ugh.",
+      "Nice look, {target}! ...NOT!"
+    ],
+    "insult_harsh": [
+      "Ew, {target}! You're SUCH a disgrace!",
+      "Nobody likes you, {target}! Like, NOBODY!"
+    ],
+    "learned": [
+      "WOW! I just learned {skill}! Yahoo!",
+      "I learned {skill}! I can't wait to try it!"
+    ],
+    "minion_android": [
+      "Systems online! Awaiting orders!",
+      "Booted up! What do we do first?"
+    ],
+    "minion_awakened": [
+      "Hehehe! Who wants to PLAY?!",
+      "Playtime! Hehehe!"
+    ],
+    "minion_freed_mind": [
+      "Ow, my head! What was I DOING?!",
+      "Huh?! What happened?!"
+    ],
+    "minion_mind_control": [
+      "Yes, master! Whatever you want! Hehe...",
+      "Your will is mine, master! Yay..."
+    ],
+    "minion_quit": [
+      "I'm SO done taking orders!",
+      "Nope! No more orders!"
+    ],
+    "minion_recruit": [
+      "Fine! I'll fight for you! For now!",
+      "Okay okay, I'm on your team! For now!"
+    ],
+    "new_chapter": [
+      "New me, new goal! From now on I'm gonna {goal}!",
+      "I need a change! Okay - my aim is to {goal}! Yahoo!"
+    ],
+    "new_chapter_role": [
+      "BIG news! No more {role} for me - I'm gonna be a {next}! New goal: {goal}!",
+      "Okay okay okay - bye-bye {role} life! Hello {next}! And my goal: {goal}!"
+    ],
+    "redeemed": [
+      "I'm DONE being the bad guy! Thank you thank you THANK YOU, everyone!",
+      "You guys... you saved me! I'm gonna be good again, promise!"
+    ],
+    "refuse_serve": [
+      "I'd rather die than serve you! NO WAY!",
+      "Never! NEVER!"
+    ],
+    "resist_mind": [
+      "Get OUT of my head! You can't have me!",
+      "NO WAY! You can't have me!"
+    ],
+    "retire": [
+      "I'm RETIRING! I saved SO much! Time to build my dream house!",
+      "No more work EVER! Dream home, here I come!"
+    ],
+    "rob": [
+      "Cool shop, {target}! Would be SO sad if it got smashed! Pay up!",
+      "Hiya {target}! Give me your stuff and nobody gets hurt!"
+    ],
+    "rob_done": [
+      "Smart choice, {target}! Yay, free stuff!",
+      "Thanks for the free stuff, {target}!"
+    ],
+    "rob_evil": [
+      "Hiya {target}! Give me ALL your stuff! Or I'll make you super dead!",
+      "Ooh, shiny shop! It's mine now, {target}! Or you're toast!"
+    ],
+    "sell_produce": [
+      "Fresh from the field! That's {price}! Yummy!",
+      "Super fresh! {price}, please!"
+    ],
+    "shop_fight": [
+      "No way, {target}! Get OUT of my shop!",
+      "Nuh-uh! Not today, {target}! Shoo!"
+    ],
+    "shop_fight_brawler": [
+      "Big mistake, {target}! BIG! Let's GO!",
+      "Ooh, you're SO gonna regret that, {target}!"
+    ],
+    "shop_yield": [
+      "Ugh. FINE. Take it and go!",
+      "Fine! Just take it and leave! Hmph!"
+    ],
+    "shop_yield_coward": [
+      "Okay okay OKAY! Take it! Don't hurt me!",
+      "Eek! Fine! Take it all! Please go!"
+    ],
+    "spar_abandoned": [
+      "Huh?! Where'd they go? Guess we're done!",
+      "Hey! Come back! ...Aww."
+    ],
+    "spar_draw": [
+      "Phew! Let's call it a draw, {player}! That was AWESOME!",
+      "A tie! Yahoo! Good one, {player}!"
+    ],
+    "spar_lost": [
+      "You win, {player}! That was SO fun!",
+      "Wow, {player}! You're amazing! Good fight!"
+    ],
+    "spar_lost_ambitious": [
+      "NOOO! You got me, {player}! Rematch! Rematch soon!",
+      "Aww, you're so strong! I want a rematch, {player}!"
+    ],
+    "spar_won": [
+      "And that's the match! I WIN! Keep training, {player}!",
+      "Victory! Keep at it, {player}!"
+    ],
+    "spar_won_kind": [
+      "You did SO great, {player}! Here, let me help you up!",
+      "Aww, good try, {player}! Up you go!"
+    ],
+    "stay_down": [
+      "Yahoo! I win! Stay down now, 'kay?",
+      "And THAT'S the match! Don't get up, silly!"
+    ],
+    "surrender": [
+      "Okay, okay! We surrender!",
+      "STOP! We surrender!"
+    ],
+    "talk_back": [
+      "Say that AGAIN, {target}! I DARE you!",
+      "Ugh, watch your mouth, {target}!"
+    ],
+    "team_ask": [
+      "{player}! Can I join {team}? PLEASE?",
+      "{player}! Let me join {team}! It'll be SO fun!"
+    ],
+    "team_declined": [
+      "Aww... okay. Maybe next time!",
+      "Oh. Um. Okay! Some other time!"
+    ],
+    "team_joined": [
+      "YAY! Thank you, {player}! I won't let you down!",
+      "Thank you thank you, {player}! Best team EVER!"
+    ],
+    "team_kicked": [
+      "Wait, what?! ...Okay. I understand.",
+      "Oh... okay. Bye!"
+    ],
+    "team_leave": [
+      "Nope! I'm SO done with {team}! Not after what happened!",
+      "Bye, {team}! I'm OUT!"
+    ],
+    "v_absorb": [
+      "Yoink! Your {skill} is MINE! Hehe! You're all empty now!",
+      "Ooh, your {skill}! I'm keeping it! Forever and ever!"
+    ],
+    "v_accepted": [
+      "Yay, {player}! You're my new toy! Don't break - unless I want you to! Hehe!",
+      "Wise choice, {player}! Fail me and you go POP!"
+    ],
+    "v_beg_laugh": [
+      "Hehehe! {player}'s BEGGING! That's so funny! Beg again! Hehe! ...No!",
+      "Aww, {player} wants me to stop! Nope! Hehehe!"
+    ],
+    "v_creation": [
+      "{target}, rise! Yay! Now go smash EVERYTHING! Hehe!",
+      "Wakey wakey, {target}! Time to break things!"
+    ],
+    "v_demand_army": [
+      "My army needs {count} {item}! Bring 'em, or I'll use YOU for target practice! Hehe!",
+      "{count} {item} for my soldiers! Go go go! Or boom!"
+    ],
+    "v_demand_done": [
+      "Yay, {player}! You did it! I won't break you today! Hehe!",
+      "Good job, {player}! You get to keep living! Lucky!"
+    ],
+    "v_demand_doom": [
+      "{player}! The world's going BOOM! Hehehe! Wanna beg? Beg! It's funny!",
+      "Everything's gonna break, {player}! Get on your knees! Beg! Hehe!"
+    ],
+    "v_demand_dragonball": [
+      "Ooh! Find me a dragon ball! A shiny one! Or I'll break you into tiny pieces! Hehe!",
+      "Dragon ball! Bring me one! Or you go BOOM!"
+    ],
+    "v_demand_energy": [
+      "I'm hungry for ENERGY! Bring {count} {item}! Or I suck YOU dry! Hehe!",
+      "{count} {item}! Feed me! Or I drain you like a juice box!"
+    ],
+    "v_demand_failed": [
+      "Too SLOW, {player}! Now you get broken! Hehehe!",
+      "You failed, {player}! Now I hunt YOU! Fun!"
+    ],
+    "v_demand_lair": [
+      "Ooh! Bring me {count} {item} for my lair! Or I'll make YOU part of the decorations! Hehe!",
+      "{count} {item}! For my lair! Fast fast fast! Or splat!"
+    ],
+    "v_demand_slaughter": [
+      "Ooh! Go squish {count} {mob} for me! Hehe! Or I squish YOU!",
+      "Kill {count} {mob}! It's a game! Lose, and you're next!"
+    ],
+    "v_demand_strong": [
+      "I want strong things! Go hunt {count} {mob}! Or I'll squeeze the power out of YOU! Hehe!",
+      "{count} {mob}! The big scary ones! Go go! Or else!"
+    ],
+    "v_demand_sweets": [
+      "I want SWEETS! {count} {item}! Or I turn YOU into candy! Hehehe!",
+      "Candy candy candy! {count} {item}! Or you're my snack!"
+    ],
+    "v_demand_tournament": [
+      "{player}! Come play in my ring! Hehe! I wanna see how long before you break!",
+      "Fight me, {player}! Now now NOW! It'll be SO fun! For me!"
+    ],
+    "v_deserter": [
+      "A deserter! Oooh, I'm gonna hunt you down PERSONALLY! Hehe! Run!",
+      "Traitor! Hide and seek! When I find you, you go POP!"
+    ],
+    "v_dragon_ball": [
+      "Another dragon ball! {count} of 7! Hehe! You can't stop me!",
+      "{count} of 7! Shiny! Soon the whole world's MINE!"
+    ],
+    "v_eat": [
+      "Yummy! Hehe! Then I break stuff!",
+      "Yum yum! Snack time, then SMASH time!"
+    ],
+    "v_eat_person": [
+      "Candy candy CANDY! {target} tastes SOOO good! Who's next?! Hehe!",
+      "Yummy yummy {target}! You're my favourite flavour!"
+    ],
+    "v_lair": [
+      "My lair is taking shape! So pretty! Built with your tears! Hehe!",
+      "Look at my lair! Spooky! Everyone who sees it screams!"
+    ],
+    "v_marked": [
+      "You had your chance, {player}! Now you DIE! Hehehe! Tag, you're dead!",
+      "Too late, {player}! Bye-bye! Pop!"
+    ],
+    "v_mind_control": [
+      "Ooh, your heart's all dark and gooey inside! Now you're my puppet! Dance! Hehe!",
+      "Gotcha! You're MINE now! Go hurt your friends!"
+    ],
+    "v_next_challenger": [
+      "Is that all?! Broken already! Next toy! Hehehe!",
+      "Next! Next! NEXT! I wanna break more!"
+    ],
+    "v_next_target": [
+      "Next: {faction}! Hehe! Let's go break them!",
+      "{faction}'s next! Yay! Smash smash!"
+    ],
+    "v_no_mercy": [
+      "Hey! I was DOWN! That's so mean! Now I'm gonna break you into a MILLION pieces!",
+      "Cheater! Okay, NO more playing nice! Hehehe!"
+    ],
+    "v_obeyed": [
+      "Yay, {player}! Go go go! Be slow and I'll break you! Hehe!",
+      "Good minion, {player}! Fail and you go POP!"
+    ],
+    "v_offer": [
+      "{player}! I've been watching you! Serve me and share my empire! Refuse and I'll CRUSH you into tiny bits! Hehe!",
+      "{player}! Join me! It'll be SO fun! Or else you go splat!"
+    ],
+    "v_plan_done": [
+      "Everything went EXACTLY as I planned! You all lost! Hehehe!",
+      "All according to plan! Now the fun part - destroying everything!"
+    ],
+    "v_possess": [
+      "...This body is MINE now! Hehe! You're not in here anymore!",
+      "Ooh, new body! Let's go break things with it!"
+    ],
+    "v_pure_heart": [
+      "Ugh! A pure heart! BORING! Guess I'll just smash you instead! Hehe!",
+      "Pure heart?! No fun! Okay - bye-bye!"
+    ],
+    "v_rage": [
+      "Ohhh, you made me MAD! Now I'm gonna break you like a toy! Hehehe!",
+      "You ruined my fun! So now I'll ruin YOU! Isn't that fair? Hehe!"
+    ],
+    "v_recruit": [
+      "Ooh, you're strong! Serve me or I'll pop you like a balloon! Hehe!",
+      "Join me, or I'll break you into tiny pieces! Pick!"
+    ],
+    "v_redeemed": [
+      "I don't wanna be bad anymore! Breaking things isn't even fun! Can we be friends?",
+      "Okay! I'm DONE being evil! Hi! I'm nice now! For real!"
+    ],
+    "v_refused": [
+      "Then you'll be the FIRST to break! Hehehe! I'm gonna enjoy this!",
+      "Aww. Then you go first! Bye-bye!"
+    ],
+    "v_regenerate": [
+      "Hehehe! Surprise! I grow back! You DON'T! Let's play again!",
+      "All better! Now it's MY turn to pull YOU apart! Hehe!"
+    ],
+    "v_self_destruct": [
+      "Okay! Everybody go BOOM with me! Hehehe! Countdown!",
+      "If I lose, NOBODY wins! Big, big boom!"
+    ],
+    "v_spared": [
+      "You... let me go? Nobody does that! ...Why are you being NICE to me?! I hate it!",
+      "Hehe... huh? You're not gonna... why not?!"
+    ],
+    "v_summon": [
+      "Come forth, eternal dragon! Hehe! Time for my wish! Bye-bye world!",
+      "Dragon! Come out, come out! I've got a wish!"
+    ],
+    "v_talk_grateful": [
+      "{player}! You're the one who didn't break me! ...I don't know if I like you or wanna smash you! Go away! Hehe... ugh.",
+      "Ugh, it's {player}. You're lucky I remember. Lucky!"
+    ],
+    "v_talk_marked": [
+      "{player}! You came back! Yay! Now I get to break you! Hehehe!",
+      "Tag, {player}! You're IT - and IT means dead!"
+    ],
+    "v_talk_servant": [
+      "{player}! My favourite little minion! Did you do something fun for me?! You'd better have! Hehe!",
+      "Hi, {player}! Be good, or I'll break you! Hehe!"
+    ],
+    "v_talk_threat": [
+      "Hi hi, {player}! I could pop you like a bubble right now! Hehe! ...But maybe you're more fun alive?",
+      "Ooh, {player}! Should I break you or keep you? Hmm! Make it interesting!"
+    ],
+    "v_town_taken": [
+      "This town is MINE now! Hehe! I broke everything I didn't like!",
+      "Yay! My town now! Everybody bow or go boom!"
+    ],
+    "v_travel": [
+      "Prepare my pod! We're going to break {planet}! Yay!",
+      "Pod time! {planet}, here we come! Hehe! Boom!"
+    ],
+    "v_unredeemable": [
+      "Aww, you think I'll change? That's SO cute! Nope! I'm gonna break you anyway! Hehe!",
+      "Being nice won't fix me! It just makes you an easier toy!"
+    ],
+    "v_wavering": [
+      "You keep being nice and it's making my head all fuzzy! Stop it! I'm supposed to be the bad guy!",
+      "Why do you keep DOING that?! It's not fun anymore!"
+    ],
+    "v_wish": [
+      "Eternal dragon! Make me the STRONGEST! Then I can break EVERYTHING! Hehe!",
+      "Power! Lots and LOTS of power! Yay!"
+    ],
+    "v_yield": [
+      "Ow ow OW! No fair! ...Are you gonna do it or not?! Because if I get up, you're DEAD!",
+      "Ugh! You broke me! ...Well? Finish me, or I'll break YOU!"
+    ],
+    "react_arrive": [],
+    "react_arrive_friend": [],
+    "react_arrive_cold": [],
+    "react_power": [],
+    "react_power_scared": [],
+    "react_transform": [],
+    "react_favorite": [],
+    "react_flying": [],
+    "react_stare": []
+  }
+}

@@ -1,0 +1,13 @@
+name = "[Java] Purpurite"
+filename = "purplerite-v1.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f5a88bc25e7c664e362c689ac67c5219fbbc24cf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4759171
+project-id = 909533

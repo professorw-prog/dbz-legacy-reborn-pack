@@ -1,0 +1,23 @@
+
+[integration]
+	#Divisor applied to DMZ Ki Damage for damaging Iron's spell fixed damage. Formula: kiDamage / this * spellFixedDamage / spellDamageFixedDivisor * spellDamageMultiplier.
+	#Range: 1.0E-4 ~ 1000000.0
+	spellDamageKiDamageDivisor = 2.0
+	#Divisor applied to the spell's original fixed damage in the ki-based damage formula.
+	#Range: 1.0E-4 ~ 1000000.0
+	spellDamageFixedDivisor = 10.0
+	#Final multiplier applied to the ki-based fixed damage before Iron's normal Spell Power and School Power multipliers.
+	#Range: 0.0 ~ 1000000.0
+	spellDamageMultiplier = 1.0
+	#Divisor applied to DMZ Ki Damage for damaging Iron's spell mana cost. Formula: ceil(kiDamage / this * spellManaCost / spellManaCostDivisor * spellManaCostMultiplier).
+	#Range: 1.0E-4 ~ 1000000.0
+	spellManaKiDamageDivisor = 8.0
+	#Divisor applied to the spell's original mana cost in the ki-based mana cost formula.
+	#Range: 1.0E-4 ~ 1000000.0
+	spellManaCostDivisor = 10.0
+	#Final multiplier applied to the ki-based mana cost before optional DMZ ki attack cost reducers.
+	#Range: 0.0 ~ 1000000.0
+	spellManaCostMultiplier = 1.0
+	#Spell ids excluded from ki-based damage and mana scaling. Use full ids such as irons_spellbooks:counterspell.
+	excludedSpellIds = ["irons_spellbooks:abyssal_shroud", "irons_spellbooks:angel_wings", "irons_spellbooks:blood_step", "irons_spellbooks:charge", "irons_spellbooks:cleanse", "irons_spellbooks:counterspell", "irons_spellbooks:echoing_strikes", "irons_spellbooks:evasion", "irons_spellbooks:frost_step", "irons_spellbooks:haste", "irons_spellbooks:invisibility", "irons_spellbooks:oakskin", "irons_spellbooks:planar_sight", "irons_spellbooks:pocket_dimension", "irons_spellbooks:portal", "irons_spellbooks:recall", "irons_spellbooks:sacrifice", "irons_spellbooks:spectral_hammer", "irons_spellbooks:summon_ender_chest", "irons_spellbooks:summon_horse", "irons_spellbooks:summon_vex", "irons_spellbooks:telekinesis", "irons_spellbooks:teleport", "irons_spellbooks:touch_dig", "irons_spellbooks:wololo"]
+

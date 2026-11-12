@@ -1,0 +1,152 @@
+{
+  "id": "house",
+  "name": "House",
+  "description": "A two-storey house: kitchen and living room downstairs, a staircase up to the bedroom.",
+  "foundation": "minecraft:cobblestone",
+  "legend": {
+    "r": "minecraft:red_carpet",
+    "F": "minecraft:furnace[facing=north]",
+    "p": "minecraft:oak_planks",
+    "C": "minecraft:chest[facing=north]",
+    "D": "minecraft:oak_door[facing=south,half=lower,hinge=left]",
+    "B": "minecraft:red_bed[facing=south,part=foot]",
+    "l": "minecraft:lantern",
+    "@": "@home",
+    "h": "minecraft:ladder[facing=north]",
+    "g": "minecraft:glass_pane",
+    "f": "minecraft:oak_fence",
+    "d": "minecraft:oak_door[facing=south,half=upper,hinge=left]",
+    "c": "minecraft:cobblestone",
+    "b": "minecraft:red_bed[facing=south,part=head]",
+    "T": "minecraft:crafting_table",
+    "S": "minecraft:oak_stairs[facing=north]",
+    "R": "minecraft:barrel[facing=up]",
+    "M": "minecraft:smoker[facing=north]",
+    "L": "minecraft:oak_log",
+    "K": "minecraft:bookshelf",
+    "s": "minecraft:oak_slab[type=bottom]"
+  },
+  "layers": [
+    [
+      "ccccccccccc",
+      "ccccccccccc",
+      "ccccccccccc",
+      "ccccccccccc",
+      "ccccccccccc",
+      "ccccccccccc",
+      "ccccccccccc",
+      "ccccccccccc",
+      "ccccccccccc"
+    ],
+    [
+      "LppppDppppL",
+      "p........Cp",
+      "p.........p",
+      "p...rrr...p",
+      "p...rrr...p",
+      "p...rrr...p",
+      "p........Rp",
+      "pS.....TFMp",
+      "LpppppppppL"
+    ],
+    [
+      "LppppdppppL",
+      "p.........p",
+      "g.........g",
+      "p.........p",
+      "p.........p",
+      "g.........g",
+      "pS........p",
+      "p.........p",
+      "LpgpppppgpL"
+    ],
+    [
+      "LpppppppppL",
+      "p.........p",
+      "p.........p",
+      "p.........p",
+      "p.........p",
+      "pS........p",
+      "p.........p",
+      "p.........p",
+      "LpppppppppL"
+    ],
+    [
+      "LpppppppppL",
+      "p.........p",
+      "p.........p",
+      "p.........p",
+      "pS...l....p",
+      "p.........p",
+      "p.........p",
+      "p.........p",
+      "LpppppppppL"
+    ],
+    [
+      "ppppppppppp",
+      "ppppppppppp",
+      "ppppppppppp",
+      "ppppppppppp",
+      "p.ppppppppp",
+      "p.ppppppppp",
+      "p.ppppppppp",
+      "p.ppppppppp",
+      "ppppppppppp"
+    ],
+    [
+      "LpppppppppL",
+      "p......KKCp",
+      "p.........p",
+      "p.........p",
+      "p.........p",
+      "p....@....p",
+      "p........bp",
+      "p........Bp",
+      "LpppppppppL"
+    ],
+    [
+      "LpppppppppL",
+      "p.........p",
+      "g.........g",
+      "p.........p",
+      "p.........p",
+      "g.........g",
+      "p.........p",
+      "p.........p",
+      "LpgpppppgpL"
+    ],
+    [
+      "LpppppppppL",
+      "p.........p",
+      "p.........p",
+      "p.........p",
+      "p.........p",
+      "p.........p",
+      "p.........p",
+      "p.........p",
+      "LpppppppppL"
+    ],
+    [
+      "LpppppppppL",
+      "p.........p",
+      "p.........p",
+      "p.........p",
+      "p....l....p",
+      "p.........p",
+      "p.........p",
+      "p.........p",
+      "LpppppppppL"
+    ],
+    [
+      "sssssssssss",
+      "sssssssssss",
+      "sssssssssss",
+      "sssssssssss",
+      "sssssssssss",
+      "sssssssssss",
+      "sssssssssss",
+      "sssssssssss",
+      "sssssssssss"
+    ]
+  ]
+}

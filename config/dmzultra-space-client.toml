@@ -1,0 +1,27 @@
+
+[space]
+	#Shader-only space sun lens flare strength; 0 disables optical ghosts. Planets and terrain occlude the light.
+	#Range: 0.0 ~ 2.0
+	lensFlareStrength = 0.65
+
+	[space.deadSpace]
+		#How far a player may fly above Y 400 or below Y 0 in space (the band where the bodies hang; the space dimension's 16-block build column lies far below, at Y -2032) before the celestial bodies fade out of sight.
+		#Range: 8.0 ~ 160.0
+		fadeDistance = 48.0
+		#Time smoothing of the dead-space fade; prevents boundary flicker during flight.
+		#Range: 0.05 ~ 2.0
+		fadeResponseSeconds = 0.35
+
+	[space.celestial]
+		#Star corona brightness; 0 disables the glow. No shader pack required.
+		#Range: 0.0 ~ 3.0
+		starGlow = 1.0
+		#Outer corona radius relative to the visible star surface.
+		#Range: 1.2 ~ 4.0
+		starCoronaRadius = 2.8
+
+	[space.surfaces]
+		#How walking over a planet surface's edge (round to its far side) is drawn. SEAMLESS: the loaded ground moves with you and nothing shows (needs Minecraft's own chunk renderer). SAFE: a plain move, the far side's chunks load in like after a teleport (right for Embeddium, Rubidium or Sodium). AUTO: SAFE when one of those is installed, else SEAMLESS.
+		#Allowed Values: AUTO, SEAMLESS, SAFE
+		wrapMode = "AUTO"
+

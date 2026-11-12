@@ -1,0 +1,8 @@
+name = "dragonminez-2.2.1.2"
+filename = "dragonminez-2.2.1.2.jar"
+side = "both"
+
+[download]
+url = "https://github.com/professorw-prog/dbz-legacy-reborn-pack/releases/download/files-v1/dragonminez-2.2.1.2.jar"
+hash-format = "sha256"
+hash = "d2ec13a936f42daeb92446c522e4367669413abdacd6cc690b145f9afc176e4a"

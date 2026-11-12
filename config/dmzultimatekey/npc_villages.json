@@ -1,0 +1,11 @@
+{
+  "settings": {
+    "enabled": true,
+    "max_homes": 12,
+    "radius": 56,
+    "join_range": 400,
+    "spacing": 3,
+    "min_apart": 180
+  },
+  "villages": {}
+}

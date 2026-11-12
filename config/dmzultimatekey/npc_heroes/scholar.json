@@ -1,0 +1,143 @@
+{
+  "id": "scholar",
+  "name": "Masked Champion of Justice",
+  "inspired_by": "Gohan / the Great Saiyaman",
+  "description": "A gentle student with a hidden, enormous power. Patrols the towns in a ridiculous costume, rescues anyone in trouble, and unleashes everything when its friends are hurt.",
+  "focus": [
+    "martial"
+  ],
+  "power": 1.35,
+  "mercy": 0.9,
+  "sense_radius": 256,
+  "defend_radius": 72,
+  "students": true,
+  "looks": {
+    "auraColor": "#FFFFFF"
+  },
+  "base": {
+    "templates": [
+      "cottage"
+    ],
+    "materials": "player",
+    "radius": 96
+  },
+  "journey": [
+    {
+      "goal": "base",
+      "say_start": "A quiet place to study... and to keep my costume."
+    },
+    {
+      "goal": "patrol",
+      "days": 2,
+      "say_start": "The city needs a protector! Time to patrol!"
+    },
+    {
+      "goal": "defeat",
+      "count": 1,
+      "say_start": "Evil-doers, beware!",
+      "say_done": "Justice prevails!"
+    },
+    {
+      "goal": "students",
+      "count": 1,
+      "say_start": "I could help others train, like my mentor helped me."
+    }
+  ],
+  "loop_from": 1,
+  "milestones": [
+    {
+      "id": "saiyaman",
+      "name": "Champion of Justice",
+      "trigger": {
+        "type": "count",
+        "counter": "rescued",
+        "at": 5
+      },
+      "say": "Fear not, citizens! The champion of justice is here!",
+      "broadcast": "A masked hero, %npc%, has been seen saving people all over!",
+      "boons": [
+        {
+          "type": "title",
+          "value": "The Great"
+        }
+      ]
+    },
+    {
+      "id": "hidden_potential",
+      "name": "Hidden Potential",
+      "trigger": {
+        "type": "enraged",
+        "cause": "ally_fell"
+      },
+      "repeat": true,
+      "cooldown": 900,
+      "say": "STOP IT! I won't let you hurt anyone else!",
+      "broadcast": "A massive power just erupted from %npc%!",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.6,
+          "seconds": 240
+        },
+        {
+          "type": "heal"
+        }
+      ],
+      "model": {
+        "hairColor": "#FFE14D",
+        "auraColor": "#FFE14D",
+        "seconds": 240
+      }
+    },
+    {
+      "id": "unlocked",
+      "name": "Potential Unlocked",
+      "trigger": {
+        "type": "count",
+        "counter": "villains_defeated",
+        "at": 1
+      },
+      "say": "I feel... calm. And stronger than ever.",
+      "boons": [
+        {
+          "type": "release",
+          "value": 4
+        },
+        {
+          "type": "stats",
+          "value": 1.15
+        }
+      ]
+    }
+  ],
+  "lines": {
+    "battle_cry": [
+      "Halt, villain!",
+      "For justice!",
+      "I don't want to fight... but I will!"
+    ],
+    "victory": [
+      "Justice wins again!",
+      "Please, go home and think about what you've done."
+    ],
+    "defeated": [
+      "I... I should have studied harder..."
+    ]
+  },
+  "requests": [
+    {
+      "type": "kill",
+      "mob": "minecraft:pillager",
+      "count": 8,
+      "reward_tp": 450,
+      "line": "Raiders have been harassing travellers, %player%. Help me take down %count% %mob% - for justice!"
+    },
+    {
+      "type": "deliver",
+      "item": "minecraft:book",
+      "count": 6,
+      "reward_tp": 300,
+      "line": "Between fights I still have to study... could you find me %count% %item%? Mom would be thrilled."
+    }
+  ]
+}

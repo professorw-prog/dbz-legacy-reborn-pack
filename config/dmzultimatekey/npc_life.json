@@ -1,0 +1,32 @@
+{
+  "year_days": 96,
+  "review_days": 8,
+  "stuck_reviews": 2,
+  "min_progress": 0.05,
+  "resolution_chance": 0.4,
+  "career_change_chance": 0.25,
+  "retire_wallet": 5000,
+  "retire_after_days": 96,
+  "retire_roles": ["shopkeeper", "farmer", "trainer", "quest_giver", "collector"],
+  "luxury_price": 40,
+  "luxury_decor": ["minecraft:gold_block", "minecraft:quartz_pillar", "minecraft:red_carpet", "minecraft:lantern", "minecraft:potted_red_tulip",
+                   "minecraft:yellow_candle", "minecraft:chiseled_quartz_block", "minecraft:amethyst_cluster", "minecraft:sea_lantern", "minecraft:bookshelf"],
+  "affinity": {
+    "melee": ["become_strongest", "stronger_weapons", "hunt_monsters", "improve_gear"],
+    "ki": ["become_strongest", "hunt_monsters", "improve_gear"],
+    "magic": ["improve_gear", "collect_armor", "make_friends"],
+    "balanced": ["stronger_weapons", "gather_wealth", "make_friends"],
+    "foraging": ["grow_food", "build_home", "hoard_food"],
+    "cooking": ["grow_food", "hoard_food", "grow_business"],
+    "training": ["become_strongest", "hunt_monsters"],
+    "meditation": ["make_friends", "generous"],
+    "adventuring": ["make_friends", "hunt_monsters"],
+    "studying": ["improve_gear", "collect_rare_weapons"],
+    "tinkering": ["collect_armor", "gather_wealth", "grow_business"]
+  },
+  "careers": {
+    "fighter": ["hunter", "guard"], "hunter": ["fighter", "wanderer"], "guard": ["fighter"],
+    "shopkeeper": ["collector", "quest_giver", "farmer"], "collector": ["shopkeeper", "wanderer"],
+    "farmer": ["shopkeeper", "wanderer"], "wanderer": ["hunter", "farmer"], "trainer": ["fighter"], "quest_giver": ["shopkeeper"]
+  }
+}

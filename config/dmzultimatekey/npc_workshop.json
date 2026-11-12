@@ -1,0 +1,7 @@
+{
+  "require_stations": true,
+  "station_range": 4,
+  "scan_radius": 10,
+  "enchant_power_without_table": 15,
+  "enchant_books": false
+}

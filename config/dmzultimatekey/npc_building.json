@@ -1,0 +1,20 @@
+{
+  "_materials": "player = every block comes from what the NPC owns, crafts, smelts, gathers or buys (like a player); free = staff-only shortcut",
+  "materials": "player",
+  "supply_timeout": 300,
+  "blocks_per_second": 4,
+  "reach": 5,
+  "stuck_seconds": 8,
+  "search_radius": 96,
+  "flatness": 2,
+  "spawn_buffer": 64,
+  "claim": true,
+  "require_claim": false,
+  "public_interact": true,
+  "claim_margin": 2,
+  "claim_buffer_chunks": 1,
+  "max_claim_chunks": 4,
+  "max_volume": 8192,
+  "foundation_depth": 8,
+  "never_break": ["minecraft:bedrock", "minecraft:spawner", "minecraft:end_portal_frame", "minecraft:reinforced_deepslate"]
+}

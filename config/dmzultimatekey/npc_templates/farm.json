@@ -1,0 +1,59 @@
+{
+  "id": "farm",
+  "name": "Farm",
+  "description": "A fenced 9x9 field around a water source, with a smoker and a crafting table by the gate. Marks the NPC's farm plot.",
+  "foundation": "minecraft:dirt",
+  "as_base": false,
+  "legend": {
+    "f": "minecraft:oak_fence",
+    "G": "minecraft:oak_fence_gate[facing=south]",
+    "F": "minecraft:farmland",
+    "w": "minecraft:water",
+    "d": "minecraft:dirt",
+    "S": "minecraft:smoker[facing=north]",
+    "C": "minecraft:crafting_table",
+    "*": "@farm",
+    "l": "minecraft:lantern"
+  },
+  "layers": [
+    [
+      "ddddddddddd",
+      "dFFFFFFFFFd",
+      "dFFFFFFFFFd",
+      "dFFFFFFFFFd",
+      "dFFFFFFFFFd",
+      "dFFFFwFFFFd",
+      "dFFFFFFFFFd",
+      "dFFFFFFFFFd",
+      "dFFFFFFFFFd",
+      "dFFFFFFFFFd",
+      "ddddddddddd"
+    ],
+    [
+      "ffSCfGfffff",
+      "f*........f",
+      "f.........f",
+      "f.........f",
+      "f.........f",
+      "f.........f",
+      "f.........f",
+      "f.........f",
+      "f.........f",
+      "f.........f",
+      "fffffffffff"
+    ],
+    [
+      "  l        ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           ",
+      "           "
+    ]
+  ]
+}

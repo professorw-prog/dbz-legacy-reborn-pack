@@ -1,0 +1,23 @@
+{
+  "id": "protect_home",
+  "name": "Protect home",
+  "description": "Won't let monsters near home.",
+  "actions": [
+    {
+      "action": "guard",
+      "params": {
+        "radius": 20
+      },
+      "utility": {
+        "base": 50,
+        "when": [
+          {
+            "var": "hostile_near",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

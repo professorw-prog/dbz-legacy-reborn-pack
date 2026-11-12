@@ -1,0 +1,52 @@
+{
+  "id": "stronger_weapons",
+  "name": "Get stronger weapons",
+  "description": "Always wants a stronger weapon: equips the best it owns and buys upgrades from shop NPCs when it can afford them.",
+  "interest": {
+    "weapon": true
+  },
+  "actions": [
+    {
+      "action": "equip_best",
+      "utility": {
+        "base": 100,
+        "when": [
+          {
+            "var": "better_in_inventory",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "seek_shop",
+      "utility": {
+        "base": 65,
+        "when": [
+          {
+            "var": "affordable_upgrade",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "collect_loot",
+      "params": {
+        "radius": 12
+      },
+      "utility": {
+        "base": 40,
+        "when": [
+          {
+            "var": "loot_near",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

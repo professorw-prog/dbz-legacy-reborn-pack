@@ -1,0 +1,463 @@
+
+[bosses]
+
+	[bosses.saga_raditz]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 450.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 22.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 39.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_nappa]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 975.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 59.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 91.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_vegeta]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 1560.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 91.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 137.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_ozaruvegeta]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 3250.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 182.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 182.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_ginyu]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 7072.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 376.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 333.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_frieza_first]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 9282.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 464.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 428.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_frieza_second]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 18785.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 928.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 821.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_frieza_third]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 18785.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 928.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 821.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_frieza_base]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 30940.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 1437.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 1250.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_frieza_fp]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 37570.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 1768.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 1499.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_a17]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 122500.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 5100.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 5440.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_a18]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 105000.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 4200.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 3740.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_cell_imperfect]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 108500.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 4350.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 3910.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_cell_semiperfect]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 147000.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 5700.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 5270.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_cell_perfect]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 217000.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 8700.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 7990.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_cell_superperfect]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 287000.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 11700.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 10540.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_vegeta_majin]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 336000.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 14100.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 12750.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_buufat]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 437500.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 18300.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 16660.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_superbuu]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 507500.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 21300.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 19380.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_kidbuu]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 770000.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 32400.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 29240.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_superbuu_gohan]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 612500.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 25800.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 23460.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_broly_lssj]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 1295000.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 54600.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 49300.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+
+	[bosses.saga_super_janemba]
+		#Base max health before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		health = 1225000.0
+		#Base melee attack damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		meleeDamage = 51600.0
+		#Base DMZ ki blast damage before Apotheosis rarity modifiers.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		kiDamage = 46920.0
+		#Base armor before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armor = -1.0
+		#Base armor toughness before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		armorToughness = -1.0
+		#Base movement speed before Apotheosis rarity modifiers. Set to -1 to keep the entity default.
+		#Range: -1.0 ~ 1024.0
+		movementSpeed = -1.0
+

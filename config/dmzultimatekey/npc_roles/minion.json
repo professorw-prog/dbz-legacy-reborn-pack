@@ -1,0 +1,24 @@
+{
+  "id": "minion",
+  "name": "Minion",
+  "description": "Serves a villain: follows it and fights whatever it fights. Freed when its master falls (if it was controlled).",
+  "actions": [
+    {
+      "action": "stay",
+      "utility": 10
+    },
+    {
+      "action": "equip_best",
+      "utility": {
+        "base": 100,
+        "when": [
+          {
+            "var": "better_in_inventory",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

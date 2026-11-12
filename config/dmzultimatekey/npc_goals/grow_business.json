@@ -1,0 +1,56 @@
+{
+  "id": "grow_business",
+  "name": "Grow the business",
+  "description": "Builds its own shop on free land (claimed through FTB Chunks), fills the counters with Lightman's Currency traders, and keeps buying better counters and upgrades as the takings come in.",
+  "actions": [
+    {
+      "action": "establish",
+      "params": {
+        "template": "shop",
+        "radius": 96,
+        "claim": true
+      },
+      "utility": {
+        "base": 80,
+        "when": [
+          {
+            "var": "has_base",
+            "op": "==",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "stock_shop",
+      "utility": {
+        "base": 55,
+        "when": [
+          {
+            "var": "shop_empty",
+            "op": ">",
+            "value": 0
+          },
+          {
+            "var": "stash_count",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "upgrade_shop",
+      "utility": {
+        "base": 60,
+        "when": [
+          {
+            "var": "can_upgrade",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+inputLang=auto
+outputLang=en
+isEnabled=false
+translateSelf=false
+ttsEnabled=false
+prefixColor=§6

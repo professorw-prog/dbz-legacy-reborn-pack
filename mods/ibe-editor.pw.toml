@@ -1,0 +1,13 @@
+name = "IBE Editor"
+filename = "IBEEditor-1.20-2.2.8-forge.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "666c4005f17e28c24015d4dcf11a2cbc81e28169"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4994072
+project-id = 256822

@@ -1,0 +1,13 @@
+name = "DragonMine Z: Living World RENEWED"
+filename = "dmzlivingworldrenewed-2.5.1-HOTFIX.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ef8b6817a62c6e00716f4b34d0c32a63f9771040"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9302766
+project-id = 1678180

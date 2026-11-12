@@ -1,0 +1,9 @@
+{
+  "useCustomNpcForSagas": false,
+  "mappings": {
+    "dragonminez:saga_raditz": {
+      "tab": 0,
+      "name": "Raditz"
+    }
+  }
+}

@@ -1,0 +1,606 @@
+{
+  "name": "Gentle",
+  "description": "Warm and polite, quietly strong - the kind who'd rather study or tend a garden than fight, but will protect anyone.",
+  "selectable": true,
+  "catchphrases": [
+    "my friend",
+    "dear",
+    "goodness",
+    "oh my"
+  ],
+  "nicknames": [
+    "dear friend",
+    "little one",
+    "sunshine"
+  ],
+  "behaviour": {
+    "wake": 6.0,
+    "sleep": 23.0,
+    "likes": [
+      "laid_back",
+      "proud",
+      "cunning",
+      "brash"
+    ],
+    "clashes": [],
+    "likes_own_kind": true,
+    "power_style": "",
+    "aggression": 0.45,
+    "bravery": 1.0,
+    "chattiness": 1.0,
+    "temper": 0.7
+  },
+  "lines": {
+    "like": [
+      "How thoughtful of you, {player}. Thank you, {catch}."
+    ],
+    "bye": [
+      "Take care, {player}! Don't push yourself too hard.",
+      "Come visit again soon, {catch}!"
+    ],
+    "ask": [
+      "{player}, could I ask a small favour? I need {need}.",
+      "Would you mind terribly bringing me {need}, {catch}?"
+    ],
+    "cold": [
+      "Oh... it's you. I'd rather not talk right now.",
+      "Please leave me be, {player}."
+    ],
+    "small": [
+      "I made rice balls for after training, {catch}. Help yourself.",
+      "Studying and training both matter. Don't skip either one!",
+      "I love quiet mornings. You can feel everyone's ki waking up."
+    ],
+    "friend": [
+      "{player}! You always brighten my day, {catch}.",
+      "I was just thinking about you, {player}!"
+    ],
+    "greet": [
+      "Oh, hello {player}! Lovely to see you.",
+      "Hi {player}! Have you eaten today? You need your strength.",
+      "Welcome, {player}! Come in and rest a while, {catch}."
+    ],
+    "meh": [
+      "Oh, thank you. That's very kind."
+    ],
+    "hate": [
+      "Oh... well, it's the thought that counts, I suppose."
+    ],
+    "love": [
+      "Oh my goodness, {player}! This is perfect! Thank you!"
+    ],
+    "beaten": [
+      "That's enough. You're beaten.",
+      "Let's stop here. You've lost."
+    ],
+    "boon_released": [
+      "...What happened? Where am I?",
+      "Where... where am I?"
+    ],
+    "captive_freed": [
+      "I'm... free? I'm free!",
+      "I'm free! Oh, thank goodness!"
+    ],
+    "chat_agree": [
+      "Ha! That's so you, {target}.",
+      "Oh, {target}. You never change."
+    ],
+    "chat_tense": [
+      "Oh. {target}. Great.",
+      "You're in my way, {target}."
+    ],
+    "chat_tense_reply": [
+      "Don't start with me today, {target}.",
+      "And you're in my sunlight, {target}."
+    ],
+    "compliment": [
+      "I've always admired you, {target}.",
+      "You're good company, {target}."
+    ],
+    "confide": [
+      "Can I tell you something, {target}? Sometimes I wonder what I'm training for.",
+      "I trust you, {target}. More than most."
+    ],
+    "confide_reply": [
+      "I get it. I really do, {target}.",
+      "You're not alone in that, {target}."
+    ],
+    "faction_found": [
+      "From today, this is {faction}. Anyone who stands with me is welcome.",
+      "I'm founding {faction}. All are welcome here."
+    ],
+    "faction_invite": [
+      "{player}, you've proven yourself. {faction} would be stronger with you in it.",
+      "{player}, I'd be glad to have you in {faction}."
+    ],
+    "faction_quit": [
+      "I'm done following {leader}. I'm leaving {faction}.",
+      "I can't stand behind {leader} anymore. Goodbye, {faction}."
+    ],
+    "faction_tier": [
+      "We're a {tier} now. {faction} is going places.",
+      "{faction} has grown into a {tier}! I'm so proud."
+    ],
+    "faction_vassal": [
+      "{faction} will stand under {overlord}. {leader} has earned that.",
+      "{faction} will serve {overlord}. {leader} deserves our loyalty."
+    ],
+    "faction_welcome": [
+      "Welcome to {faction}, {target}.",
+      "Welcome to {faction}, {target}. We're glad to have you."
+    ],
+    "faction_welcome_player": [
+      "Welcome, {player}. We look after our own.",
+      "Welcome, {player}. You're one of us now."
+    ],
+    "fall": [
+      "Enough. I'm done being the one who gets hurt.",
+      "I've been gentle for too long. Not anymore."
+    ],
+    "fall_pessimist": [
+      "I always feared it would come to this. Fine. No more kindness from me.",
+      "I tried so hard to see the good. There isn't any, is there?"
+    ],
+    "flee": [
+      "This isn't over!",
+      "I'll be back. Count on it."
+    ],
+    "flee_coward": [
+      "I'm out! I'm out!",
+      "No, no, I'm leaving! Please!"
+    ],
+    "gift_give": [
+      "Here, {target} - I thought of you when I saw this.",
+      "For you, {target}. I hope you like it."
+    ],
+    "gossip": [
+      "Between us, {target}... {about} isn't who they seem.",
+      "Don't tell anyone, {target}, but I worry about {about}."
+    ],
+    "grudge": [
+      "You. I haven't forgotten what you did.",
+      "Oh, it's you. I remember everything."
+    ],
+    "h_ally_greet": [
+      "{player}, my friend. I'm glad you're here.",
+      "Stay close, {player}. We'll protect them together."
+    ],
+    "h_ally_join": [
+      "Thank you, {player}. I'll protect you, too - always.",
+      "Then we're friends, {player}. Call me if you're ever in danger."
+    ],
+    "h_arrive": [
+      "{target}. Please - stop this, before anyone else gets hurt.",
+      "I'm asking you once, {target}. Leave these people alone."
+    ],
+    "h_base": [
+      "A home... a place to rest and protect from.",
+      "It's finished. Now I can watch over everyone."
+    ],
+    "h_battle_cry": [
+      "I don't want to fight... but I won't let you hurt anyone.",
+      "Please, {target}, just stop."
+    ],
+    "h_busy": [
+      "Not right now, {player} - someone needs me.",
+      "I'm sorry, I can't right now. People are in danger."
+    ],
+    "h_called": [
+      "Hang on, {player} - I'm coming!",
+      "I hear you, {player}. On my way."
+    ],
+    "h_defend": [
+      "Leave {victim} alone! Fight me instead.",
+      "Stop! {victim}, get behind me!"
+    ],
+    "h_farewell": [
+      "Take care, {player}.",
+      "Be safe out there."
+    ],
+    "h_finish": [
+      "I'm sorry, {target}. You left me no choice.",
+      "I can't let you hurt anyone ever again."
+    ],
+    "h_greet": [
+      "Hello, {player}. Is everyone safe around here?",
+      "It's good to see you, {player}. I hope all is well."
+    ],
+    "h_rage": [
+      "{target}... no... NO! You'll pay for that!",
+      "How could you... HOW COULD YOU?!"
+    ],
+    "h_rally_ask": [
+      "{player}, {target} is at {where}. I can't stop it alone. Will you help me?",
+      "{target} is hurting people near {where}. Please - come with me."
+    ],
+    "h_request_done": [
+      "Thank you, {player}. This means a lot.",
+      "You've done a wonderful thing."
+    ],
+    "h_request_thanks": [
+      "Thank you so much, {player}.",
+      "You're very kind, {player}."
+    ],
+    "h_request_waiting": [
+      "No rush, {player}. Whenever you're ready.",
+      "Still working on it? That's alright."
+    ],
+    "h_sensed": [
+      "That presence... {target}. Someone has to stop them, and I suppose it's me.",
+      "I can feel {target}'s ki from here. People are in danger."
+    ],
+    "h_spare": [
+      "It's over, {target}. Go... and choose a better path.",
+      "I won't take your life. Please, change."
+    ],
+    "h_talk_wanted": [
+      "I saw what you did, {player}. Make it right, and then we can talk.",
+      "I don't trust you right now, {player}."
+    ],
+    "h_train_offer": [
+      "{player}, would you like to train? I'm happy to help.",
+      "If you'd like to get stronger, {player}, I could teach you."
+    ],
+    "h_train_start": [
+      "Alright, {player}. I'll go gently - at first.",
+      "Let's begin. Watch my movements closely."
+    ],
+    "h_trained": [
+      "Well done, {player}. You're getting stronger.",
+      "You did wonderfully. Rest well."
+    ],
+    "h_wanted": [
+      "{target}! Why would you hurt someone like that?",
+      "Stop it, {target}! I saw what you did!"
+    ],
+    "insult": [
+      "Oh, it's you, {target}.",
+      "Nice look, {target}. Very... brave."
+    ],
+    "insult_harsh": [
+      "You're a disgrace, {target}.",
+      "Nobody likes you, {target}. Nobody."
+    ],
+    "learned": [
+      "I just learned {skill}!",
+      "Oh, how wonderful - I've learned {skill}!"
+    ],
+    "minion_android": [
+      "Systems online. Awaiting orders.",
+      "Activation complete. Awaiting orders."
+    ],
+    "minion_awakened": [
+      "Hehehe. Who wants to play?",
+      "Hehe... let's play a game."
+    ],
+    "minion_freed_mind": [
+      "My head... what have I been doing?",
+      "Where... what have I done?"
+    ],
+    "minion_mind_control": [
+      "Yes... master. Your will is mine.",
+      "I obey... master."
+    ],
+    "minion_quit": [
+      "I'm done taking orders.",
+      "I won't serve anymore."
+    ],
+    "minion_recruit": [
+      "Fine. I'll fight for you... for now.",
+      "Very well. I'll serve - for now."
+    ],
+    "new_chapter": [
+      "I think I need a change... from now on, my aim is to {goal}.",
+      "Something has to change. From today, I'll {goal}."
+    ],
+    "new_chapter_role": [
+      "I've decided - I'm done being a {role}. Time to try life as a {next} - and my new aim: {goal}.",
+      "I think my days as a {role} are over. I'll be a {next} now, and my aim: {goal}."
+    ],
+    "redeemed": [
+      "I... don't want to be that person anymore. Thank you, all of you.",
+      "You never gave up on me. Thank you. I'm coming home."
+    ],
+    "refuse_serve": [
+      "I'd rather die than serve you!",
+      "Never! I won't serve you!"
+    ],
+    "resist_mind": [
+      "Get out of my head! You can't have me!",
+      "No! You can't have me!"
+    ],
+    "retire": [
+      "That's it - I've saved enough. I'm retiring! Time to make a peaceful home somewhere quiet.",
+      "I've worked long enough. Time to retire and build a lovely home, {catch}."
+    ],
+    "rob": [
+      "Nice shop, {target}. Be a shame if something happened to it. Hand it over.",
+      "I'm sorry, {target}, but I'll be taking some of your stock."
+    ],
+    "rob_done": [
+      "Smart choice, {target}.",
+      "Thank you for being reasonable, {target}."
+    ],
+    "rob_evil": [
+      "Everything you've got, {target}. Or I take it off your corpse.",
+      "Hand it over, {target}. I'd rather not have to kill you."
+    ],
+    "sell_produce": [
+      "Fresh from the field. That's {price}.",
+      "Picked this morning, {catch}. {price}, please."
+    ],
+    "shop_fight": [
+      "Not today, {target}. Get out of my shop!",
+      "Please leave, {target}. I won't let you rob me."
+    ],
+    "shop_fight_brawler": [
+      "That was a big mistake, {target}.",
+      "You picked the wrong shop, {target}."
+    ],
+    "shop_yield": [
+      "...Fine. Take it and get out.",
+      "Take it, then. And please leave."
+    ],
+    "shop_yield_coward": [
+      "Okay! Okay! Take it, just don't hurt me!",
+      "Please, take whatever you want! Just leave!"
+    ],
+    "spar_abandoned": [
+      "Huh. I guess we're done.",
+      "Oh, they left. Never mind, then."
+    ],
+    "spar_draw": [
+      "Phew! Let's call it a draw, {player}.",
+      "What a match, {player}! A draw, I think."
+    ],
+    "spar_lost": [
+      "Heh... you win, {player}. Good fight.",
+      "Well done, {player}. That was a lovely match."
+    ],
+    "spar_lost_ambitious": [
+      "Ugh... you got me, {player}. Let's have a rematch soon!",
+      "You win this time, {player}. I'll be back stronger."
+    ],
+    "spar_won": [
+      "And that's the match! Keep training, {player}.",
+      "That's the match. You're getting better, {player}."
+    ],
+    "spar_won_kind": [
+      "You did great, {player}! Here, let me help you up.",
+      "Wonderful effort, {player}! Up you get."
+    ],
+    "stay_down": [
+      "That's enough. Please, stay down.",
+      "It's over. Don't get up - you'll only get hurt."
+    ],
+    "surrender": [
+      "Enough... we surrender.",
+      "Please... we surrender."
+    ],
+    "talk_back": [
+      "Say that again, {target}. I dare you.",
+      "Watch your mouth, {target}."
+    ],
+    "team_ask": [
+      "{player}, I'd like to be part of {team}. If you'll have me.",
+      "{player}, may I join {team}? I'd be honoured."
+    ],
+    "team_declined": [
+      "Oh. Okay. Maybe some other time.",
+      "I understand. Maybe another day."
+    ],
+    "team_joined": [
+      "Thank you, {player}. I won't let you down.",
+      "Thank you, {player}! I'll do my best for the team."
+    ],
+    "team_kicked": [
+      "...I understand.",
+      "Oh. Alright. I understand."
+    ],
+    "team_leave": [
+      "I'm not staying in {team}. Not after what happened.",
+      "I'm sorry, but I can't stay in {team} anymore."
+    ],
+    "v_absorb": [
+      "Thank you for your {skill}. You won't be needing it where you're going.",
+      "Your {skill} belongs to me now. I do hope it didn't hurt."
+    ],
+    "v_accepted": [
+      "A wise choice, {player}. Serve me well. I'd hate to have to kill you later.",
+      "Good, {player}. Don't make me regret letting you live."
+    ],
+    "v_beg_laugh": [
+      "Oh, {player}. You're begging me to spare the world? How sweet. No.",
+      "I'm terribly sorry, {player}. The answer is no. Hahaha."
+    ],
+    "v_creation": [
+      "Rise, {target}. You were made to destroy.",
+      "My creation lives. {target}, go and erase them for me."
+    ],
+    "v_demand_army": [
+      "My army needs {count} {item}. Bring them, please. I'd hate for you to be the first casualty.",
+      "Arm my soldiers. {count} {item}. Or I'll test the weapons on you."
+    ],
+    "v_demand_done": [
+      "Well done, {player}. You may continue living. For now.",
+      "Thank you, {player}. You've earned another day."
+    ],
+    "v_demand_doom": [
+      "{player}. The world is ending. I'm so sorry. You may kneel and beg, if it helps.",
+      "It's over, {player}. Everything you love ends today. Would you like to beg?"
+    ],
+    "v_demand_dragonball": [
+      "Bring me a dragon ball. I'm sure you understand what happens if you don't.",
+      "Fetch me a dragon ball, please. Disappoint me and you'll never see another sunrise."
+    ],
+    "v_demand_energy": [
+      "I hunger for energy. Bring me {count} {item}. Or I'll drain it from you instead.",
+      "{count} {item}, please. Otherwise, I'm afraid your life force will do."
+    ],
+    "v_demand_failed": [
+      "Too slow, {player}. I'm so sorry, but you're marked for death now.",
+      "You failed me, {player}. Please make your peace."
+    ],
+    "v_demand_lair": [
+      "Bring me {count} {item} for my lair. Please don't make me ask twice. I'd have to erase you.",
+      "My lair needs {count} {item}. You'll fetch them - or you'll be buried beneath it."
+    ],
+    "v_demand_slaughter": [
+      "Prove your usefulness. Kill {count} {mob} for me. Or I'll kill you instead.",
+      "I'd like {count} {mob} dead, please. Fail, and you'll join them."
+    ],
+    "v_demand_strong": [
+      "I hunger for strength. Hunt down {count} {mob} for me. Fail, and I'll take yours.",
+      "Bring down {count} {mob}. I'm sorry, but weakness won't be tolerated."
+    ],
+    "v_demand_sweets": [
+      "I'm hungry. Bring me {count} {item}. Otherwise, I'm sorry, but you'll be the candy.",
+      "{count} {item}, please. Or I'll turn you into something sweeter."
+    ],
+    "v_demand_tournament": [
+      "{player}. Step into my ring, please. I'll try to make this quick.",
+      "Fight me in my ring, {player}. Now. I'm sorry, but I don't expect you to survive."
+    ],
+    "v_deserter": [
+      "A deserter. I'm so sorry, but traitors must be erased personally.",
+      "A traitor. I'll attend to you myself. It won't take long."
+    ],
+    "v_dragon_ball": [
+      "Another dragon ball. {count} of 7. I'm sorry, but you're running out of time.",
+      "{count} of 7. Soon, nothing can stop me."
+    ],
+    "v_eat": [
+      "Delicious. Thank you so much.",
+      "Mmm. Now, where was I? Oh yes - destroying you."
+    ],
+    "v_eat_person": [
+      "I'm sorry, {target}, but you make lovely candy. Mmm.",
+      "{target}... into candy you go. Thank you for the meal."
+    ],
+    "v_lair": [
+      "My lair is taking shape. Soon, this whole world will be my lair.",
+      "My lair grows. So does my reach."
+    ],
+    "v_marked": [
+      "You had your chance, {player}. I'm so sorry, but I'll have to erase you now.",
+      "I offered you everything, {player}. Now, please hold still while you die."
+    ],
+    "v_mind_control": [
+      "There's darkness in your heart. Don't be frightened - you belong to me now.",
+      "I'm sorry, but your will is mine now. Kneel."
+    ],
+    "v_next_challenger": [
+      "Is that all? I'm so sorry. Next, please.",
+      "Next. Do try to last longer than that one."
+    ],
+    "v_next_target": [
+      "Next: {faction}. I'm terribly sorry for them.",
+      "{faction} is next. Please let them know - so they can say goodbye."
+    ],
+    "v_no_mercy": [
+      "So that's how it is. Then I'm sorry, but I'll take you with me.",
+      "No mercy? Very well. Neither from me. Ever."
+    ],
+    "v_obeyed": [
+      "Thank you, {player}. Please don't be slow. I'd hate to have to erase you.",
+      "Good, {player}. Fail me, and I'm sorry, but you'll die."
+    ],
+    "v_offer": [
+      "{player}. I've been watching you. Serve me, and share in my empire. Refuse, and I'm afraid I'll have to kill you.",
+      "{player}, please join me. I would so hate to erase you."
+    ],
+    "v_plan_done": [
+      "Everything has gone exactly as I planned. I'm so sorry for all of you.",
+      "All according to plan. Your despair was part of it, of course."
+    ],
+    "v_possess": [
+      "...This body is mine now. I'm sorry for the inconvenience.",
+      "...Yes. This body will do nicely. Its owner is gone."
+    ],
+    "v_pure_heart": [
+      "A pure heart. How sad. I'll have to kill you the ordinary way.",
+      "Your heart is pure. That simply means you'll die instead."
+    ],
+    "v_rage": [
+      "I do apologise. I was trying to be gentle. Now I'm going to tear this world apart, piece by piece.",
+      "You've made me angry. I'm so sorry - for what happens to you next."
+    ],
+    "v_recruit": [
+      "You have talent. I'd hate to waste it. Serve me, and I won't have to kill you.",
+      "Please, serve me. It would be such a shame to erase you."
+    ],
+    "v_redeemed": [
+      "I'm... tired of this. Of the killing. Of all of it. Maybe... maybe I can be better.",
+      "You showed me mercy when I showed none. Let me try to deserve it."
+    ],
+    "v_refused": [
+      "Then I'm afraid you'll be the first to die.",
+      "So be it. I'm sorry, but you'll be the first to fall."
+    ],
+    "v_regenerate": [
+      "Oh dear, did you think that would kill me? I'm terribly sorry to disappoint you.",
+      "I grow back, you see. You don't. Shall we continue?"
+    ],
+    "v_self_destruct": [
+      "I'm so sorry, everyone. If I go, I'm afraid the whole planet goes with me.",
+      "Please don't be alarmed. We'll all be ashes together in a moment."
+    ],
+    "v_spared": [
+      "You... didn't do it. Why? I would have killed you without a second thought.",
+      "You could have ended me. Why didn't you, {target}?"
+    ],
+    "v_summon": [
+      "Come forth, eternal dragon. I'm afraid this world's time is up.",
+      "Eternal dragon, come forth - and seal everyone's fate."
+    ],
+    "v_talk_grateful": [
+      "{player}. You spared me once. I haven't decided what that means. Leave, before I decide.",
+      "{player}... I owe you my life. I hate that. Don't test it."
+    ],
+    "v_talk_marked": [
+      "{player}. I'm so glad you came. It saves me the trouble of finding you. Goodbye.",
+      "You're marked for death, {player}. Please, don't struggle."
+    ],
+    "v_talk_servant": [
+      "Ah, {player}. My loyal servant. Results, please. I do so hate disappointment.",
+      "Hello, {player}. You're still useful. Let's keep it that way."
+    ],
+    "v_talk_threat": [
+      "Hello, {player}. I could erase you right now, you know. But you might be useful. Might.",
+      "Good day, {player}. Please choose your words carefully. They may be your last."
+    ],
+    "v_town_taken": [
+      "This town is mine now. I'm so sorry for your loss.",
+      "This town belongs to me. Those who resisted are gone."
+    ],
+    "v_travel": [
+      "Prepare my pod. We leave for {planet}. I do hope they surrender quietly.",
+      "My pod. {planet} has a short future ahead of it."
+    ],
+    "v_unredeemable": [
+      "Mercy means nothing to me. I'm sorry, but I'll kill you the moment you turn your back.",
+      "Spare me all you like. I will never stop. Never."
+    ],
+    "v_wavering": [
+      "Why do you keep sparing me? I've killed so many... I don't understand you.",
+      "Every time... you let me live. What do you want from me?"
+    ],
+    "v_wish": [
+      "Eternal dragon. Grant me power beyond all others. I'm sorry, everyone.",
+      "Grant me power, so I may gently erase all who oppose me."
+    ],
+    "v_yield": [
+      "How embarrassing. Go on, then... finish it. You won't get another chance.",
+      "I can't... stand. Do it, {target}. Before I recover."
+    ],
+    "react_arrive": [],
+    "react_arrive_friend": [],
+    "react_arrive_cold": [],
+    "react_power": [],
+    "react_power_scared": [],
+    "react_transform": [],
+    "react_favorite": [],
+    "react_flying": [],
+    "react_stare": []
+  }
+}

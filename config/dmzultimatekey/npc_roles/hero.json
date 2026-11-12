@@ -1,0 +1,45 @@
+{
+  "id": "hero",
+  "name": "Hero",
+  "description": "Answers a hero's calling (see the Hero tab / npc_heroes): senses evil and flies to stop it, defends anyone attacked nearby, trains players, and follows its journey between fights.",
+  "actions": [
+    {
+      "action": "stay",
+      "utility": 10
+    },
+    {
+      "action": "hunt",
+      "params": {
+        "radius": 24
+      },
+      "utility": {
+        "base": 30,
+        "when": [
+          {
+            "var": "hero_threat",
+            "op": "==",
+            "value": 0
+          },
+          {
+            "var": "hp_pct",
+            "op": ">",
+            "value": 60
+          }
+        ]
+      }
+    },
+    {
+      "action": "equip_best",
+      "utility": {
+        "base": 100,
+        "when": [
+          {
+            "var": "better_in_inventory",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

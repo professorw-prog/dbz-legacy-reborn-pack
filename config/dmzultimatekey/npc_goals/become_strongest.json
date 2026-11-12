@@ -1,0 +1,42 @@
+{
+  "id": "become_strongest",
+  "name": "Become the strongest",
+  "description": "Trains by fighting constantly and keeps its best weapon in hand.",
+  "interest": {
+    "weapon": true
+  },
+  "actions": [
+    {
+      "action": "hunt",
+      "params": {
+        "radius": 32
+      },
+      "utility": {
+        "base": 35,
+        "when": [
+          {
+            "var": "hp_pct",
+            "op": ">",
+            "value": 50
+          }
+        ],
+        "add": {
+          "hostile_near": 2
+        }
+      }
+    },
+    {
+      "action": "equip_best",
+      "utility": {
+        "base": 100,
+        "when": [
+          {
+            "var": "better_in_inventory",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

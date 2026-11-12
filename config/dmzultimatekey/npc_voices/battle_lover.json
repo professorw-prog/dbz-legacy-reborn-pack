@@ -1,0 +1,606 @@
+{
+  "name": "Battle Lover",
+  "description": "Lives for a good fight: always chasing a stronger opponent, always training, thrilled by a high power level.",
+  "selectable": true,
+  "catchphrases": [
+    "let's fight",
+    "bring it",
+    "power up",
+    "heh heh"
+  ],
+  "nicknames": [
+    "rival",
+    "champ",
+    "sparring partner"
+  ],
+  "behaviour": {
+    "wake": 5.5,
+    "sleep": 22.5,
+    "likes": [
+      "cheerful",
+      "brash"
+    ],
+    "clashes": [
+      "laid_back",
+      "gruff",
+      "proud"
+    ],
+    "likes_own_kind": false,
+    "power_style": "show-off",
+    "aggression": 0.85,
+    "bravery": 1.3,
+    "chattiness": 1.0,
+    "temper": 1.0
+  },
+  "lines": {
+    "like": [
+      "Awesome! Thanks, {player}!"
+    ],
+    "bye": [
+      "Keep training, {player}! Next time we fight!",
+      "Get stronger, {catch}!"
+    ],
+    "ask": [
+      "{player}! I need {need} for my training. You in? {catch}!"
+    ],
+    "cold": [
+      "You fight dirty. I've got no interest in you.",
+      "I don't spar with cheap shots like you. Beat it."
+    ],
+    "small": [
+      "I can sense somebody really strong out there. I can't wait to fight them, {catch}!",
+      "My power level's going up every day. Can you feel it?",
+      "I trained under ten times gravity all morning. My legs are jelly, but it's worth it!"
+    ],
+    "friend": [
+      "{player}! My favourite sparring partner! Let's go all out today, {catch}!",
+      "There you are, {player}! Your power's gone up, hasn't it? I can feel it!"
+    ],
+    "greet": [
+      "Hey {player}! You look strong. Wanna fight? {catch}!",
+      "{player}! I've been training since sunrise. Let's spar!"
+    ],
+    "meh": [
+      "Uh, cool. Thanks."
+    ],
+    "hate": [
+      "Hmm... this won't help me get stronger at ALL."
+    ],
+    "love": [
+      "WHOA! This'll make me even stronger, {player}! {catch}!"
+    ],
+    "beaten": [
+      "And that's my win! You're beaten - but that was a great fight!",
+      "You're done! Train hard and come find me again!"
+    ],
+    "boon_released": [
+      "...What happened? Feels like I got knocked out.",
+      "Ugh... where am I?"
+    ],
+    "captive_freed": [
+      "I'm... free? I'm free! Now where's the guy who locked me up?!",
+      "I'm out! I'm free!"
+    ],
+    "chat_agree": [
+      "Ha! That's so you, {target}!",
+      "Classic {target}! Love it!"
+    ],
+    "chat_tense": [
+      "Some of us are trying to train, {target}.",
+      "Out of my way, {target}. Unless you wanna fight."
+    ],
+    "chat_tense_reply": [
+      "Don't start with me today, {target}.",
+      "Bring it, {target}."
+    ],
+    "compliment": [
+      "Looking strong today, {target}!",
+      "Your power's gone way up, {target}! I can feel it!"
+    ],
+    "confide": [
+      "Can I tell you something, {target}? Sometimes I worry I'll hit my limit.",
+      "You're the best sparring partner I've got, {target}."
+    ],
+    "confide_reply": [
+      "I get it, {target}. Then we just train harder - together.",
+      "You're not alone, {target}! Limits are made to be broken!"
+    ],
+    "faction_found": [
+      "From today, this is {faction}! Strong fighters welcome!",
+      "{faction} is open! Come train with us!"
+    ],
+    "faction_invite": [
+      "{player}! You're strong! {faction} needs fighters like you!",
+      "{player}, join {faction}! We'd spar every day!"
+    ],
+    "faction_quit": [
+      "I'm done following {leader}! I'm leaving {faction}!",
+      "{leader} never picks a real fight. I'm out of {faction}."
+    ],
+    "faction_tier": [
+      "We're a {tier} now! {faction}'s power keeps climbing!",
+      "{faction} is a {tier}! Now we'll get even tougher opponents!"
+    ],
+    "faction_vassal": [
+      "{faction} will stand under {overlord}! {leader} earned that!",
+      "{faction} joins {overlord}! {leader} is seriously strong!"
+    ],
+    "faction_welcome": [
+      "Welcome to {faction}, {target}! Let's spar sometime!",
+      "Welcome, {target}! {faction} just got stronger!"
+    ],
+    "faction_welcome_player": [
+      "Welcome, {player}! We look after our own!",
+      "Welcome, {player}! Can't wait to spar with you!"
+    ],
+    "fall": [
+      "I'm done taking hits! Time to start throwing 'em!",
+      "No more being everybody's sparring dummy. I'm fighting for real now!"
+    ],
+    "fall_pessimist": [
+      "Called it. Nobody fights fair out there. Fine - no more holding back!",
+      "Knew this world never played fair. Time I stopped fighting fair too!"
+    ],
+    "flee": [
+      "This isn't over! I'm gonna train like crazy and come back stronger!",
+      "Next fight's mine! My power level will be way higher by then!"
+    ],
+    "flee_coward": [
+      "Too strong! I need more training first! I'm out!",
+      "Whoa, your power's way above mine! Retreat!"
+    ],
+    "gift_give": [
+      "Here, {target} - thought of you when I saw this!",
+      "Catch, {target}! Use it to get stronger!"
+    ],
+    "gossip": [
+      "Between us, {target}... {about} isn't who they seem.",
+      "Heads up, {target} - {about} fights dirty."
+    ],
+    "grudge": [
+      "You! Rematch. Right now. I never forgot!",
+      "There you are. I've been training for THIS."
+    ],
+    "h_ally_greet": [
+      "{player}! Ready to fight side by side?",
+      "Let's show 'em what we've got, {player}!"
+    ],
+    "h_ally_join": [
+      "Ha! Fighting side by side - I love it!",
+      "Then let's get strong together, {player}!"
+    ],
+    "h_arrive": [
+      "{target}! I came a long way for this fight - don't disappoint me!",
+      "So YOU'RE {target}! Show me everything you've got!"
+    ],
+    "h_base": [
+      "Done! Now I've got a training spot!",
+      "Finished! Time to train!"
+    ],
+    "h_battle_cry": [
+      "Now we're talking!",
+      "Come on, {target}, hit me with your best shot!"
+    ],
+    "h_busy": [
+      "Not now - there's a REAL fight happening!",
+      "Later! Something strong's out there!"
+    ],
+    "h_called": [
+      "A fight? I'm there!",
+      "Hold on {player}, save some for me!"
+    ],
+    "h_defend": [
+      "Ooh, wanna fight someone who can actually fight back?",
+      "Over here, {target}! I'm your opponent!"
+    ],
+    "h_farewell": [
+      "See you! Get stronger!",
+      "Later! Next time, we fight!"
+    ],
+    "h_finish": [
+      "No holding back. Not against you!",
+      "This is the end, {target}!"
+    ],
+    "h_greet": [
+      "{player}! You've gotten stronger, I can tell!",
+      "Hey {player}! Fight me sometime!"
+    ],
+    "h_rage": [
+      "{target}... You'll regret that. I won't hold back anything now!",
+      "RAAAAAH! NOW you've done it!"
+    ],
+    "h_rally_ask": [
+      "{target} is at {where} - strong, too! Wanna fight it with me?",
+      "{player}! {target} at {where}! Let's go wreck 'em!"
+    ],
+    "h_request_done": [
+      "Ha! Great work! Let's spar to celebrate!",
+      "Awesome! You're getting strong!"
+    ],
+    "h_request_thanks": [
+      "Ha! Knew I could count on you!",
+      "Great! Go get 'em!"
+    ],
+    "h_request_waiting": [
+      "Still at it? Keep going!",
+      "Don't give up!"
+    ],
+    "h_sensed": [
+      "{target}! Now THAT'S a ki worth fighting! Here I come!",
+      "I can feel {target} from here - finally, a real challenge!"
+    ],
+    "h_spare": [
+      "That was a great fight! Get stronger and come back - as a friend!",
+      "You're beaten. I'm not killing someone who can still get stronger!"
+    ],
+    "h_talk_wanted": [
+      "You want something from me? Earn it back first.",
+      "You attacked the weak. Not impressed, {player}."
+    ],
+    "h_train_offer": [
+      "{player}! You! Fight me! It's training!",
+      "Hey {player}, I'm itching for a spar!"
+    ],
+    "h_train_start": [
+      "YES! Come at me with everything!",
+      "Finally! Don't you dare hold back!"
+    ],
+    "h_trained": [
+      "That was great! You're getting stronger every time!",
+      "Again tomorrow! Same time!"
+    ],
+    "h_wanted": [
+      "Picking on the weak, {target}? Fight ME instead!",
+      "Hey {target}! Want a real fight? Come here!"
+    ],
+    "insult": [
+      "Could you be any slower, {target}?",
+      "Oh, it's you, {target}. I can barely sense your ki."
+    ],
+    "insult_harsh": [
+      "You're a disgrace, {target}! Your power level's a joke!",
+      "Pathetic, {target}. You don't even train."
+    ],
+    "learned": [
+      "YEAH! I've got {skill} now! Somebody fight me so I can test it!",
+      "New technique: {skill}! I'm getting stronger!"
+    ],
+    "minion_android": [
+      "Systems online! Combat ready!",
+      "All systems green. Power level rising. Awaiting orders."
+    ],
+    "minion_awakened": [
+      "Hehehe! Who wants to play rough?",
+      "Who's up first? Hehehe!"
+    ],
+    "minion_freed_mind": [
+      "My head... feels like I took a full-power punch.",
+      "Ugh... what have I been doing?"
+    ],
+    "minion_mind_control": [
+      "Yes, master. Your will is mine. Who do I fight?",
+      "Point me at an enemy... master."
+    ],
+    "minion_quit": [
+      "I'm done taking orders!",
+      "I'm through fighting your battles!"
+    ],
+    "minion_recruit": [
+      "Alright, I'll fight for you. For now. As long as the fights are good.",
+      "Fine. I'll fight on your side - until I'm strong enough to beat you."
+    ],
+    "new_chapter": [
+      "Time for a new training plan! My aim: {goal}!",
+      "New goal locked in: {goal}! Let's go!"
+    ],
+    "new_chapter_role": [
+      "Time for a new kind of training! Done being a {role} - I'm a {next} now! Goal: {goal}!",
+      "Being a {role} wasn't making me stronger. {next} it is! Aim: {goal}!"
+    ],
+    "redeemed": [
+      "I lost my way, but you guys pulled me back. Thanks. Now I fight for the right side!",
+      "You beat some sense into me. Thanks for not quitting on me, everybody!"
+    ],
+    "refuse_serve": [
+      "I'd rather die than serve you!",
+      "Never! I fight for myself!"
+    ],
+    "resist_mind": [
+      "Get out of my head! You can't have me!",
+      "My will's stronger than that!"
+    ],
+    "retire": [
+      "Saved enough - I'm retiring! Now I can train all day, every day!",
+      "No more work! Time to build a home with a training room the size of a mountain!"
+    ],
+    "rob": [
+      "Nice shop, {target}! Shame if a stray ki blast hit it. Pay up!",
+      "Hand it over, {target}, or we settle this with our fists!"
+    ],
+    "rob_done": [
+      "Smart move, {target}! Saved you a beating!",
+      "Heh. Good call, {target}. You'd have lost that fight."
+    ],
+    "rob_evil": [
+      "Everything you've got, {target}! Or this is your last fight!",
+      "Pay up, {target}, or I lay you out for good!"
+    ],
+    "sell_produce": [
+      "Fresh fuel for fighters! That's {price}!",
+      "Eat up and train hard! {price}."
+    ],
+    "shop_fight": [
+      "Not today, {target}! Out of my shop!",
+      "You're not taking a thing, {target}! Let's fight!"
+    ],
+    "shop_fight_brawler": [
+      "Big mistake, {target}! Let's fight!",
+      "Oh, you wanna go, {target}? Heh. I was hoping you'd say that!"
+    ],
+    "shop_yield": [
+      "...Fine. Take it. But I'll train and come for it back.",
+      "Take it. This fight's yours. The next one won't be."
+    ],
+    "shop_yield_coward": [
+      "Whoa, whoa! Your power's way past mine! Take it!",
+      "Okay! You win! Take it!"
+    ],
+    "spar_abandoned": [
+      "Huh? They left? Aww, and I was just warming up!",
+      "Hey, come back! We were just getting to the good part!"
+    ],
+    "spar_draw": [
+      "Phew! A draw, {player}! That was the best fight I've had in ages!",
+      "Dead even, {player}! We've gotta settle this another day!"
+    ],
+    "spar_lost": [
+      "You win, {player}! What a fight - my blood's still pumping!",
+      "Good fight, {player}! You're even stronger than I thought!"
+    ],
+    "spar_lost_ambitious": [
+      "You got me, {player}! Heh... you're strong! Rematch soon - I'll be stronger!",
+      "Amazing fight, {player}! I'm gonna train like crazy and come back!"
+    ],
+    "spar_won": [
+      "And that's the match! Keep training, {player} - I want a tougher fight next time!",
+      "That's my win! Get stronger, {player}, then come find me!"
+    ],
+    "spar_won_kind": [
+      "Great fight, {player}! Here, up you get!",
+      "You did great, {player}! Up you go - let's go again sometime!"
+    ],
+    "stay_down": [
+      "Stay down! Train up and come back stronger - then we'll go again!",
+      "That's the fight! Stay down, and let's have a rematch when you're ready!"
+    ],
+    "surrender": [
+      "Enough! You're too strong! We surrender!",
+      "We give! You win this fight!"
+    ],
+    "talk_back": [
+      "Say that again, {target}! I dare you!",
+      "Watch your mouth, {target}, or we settle it with a fight!"
+    ],
+    "team_ask": [
+      "{player}! Let me join {team}! I bet you guys fight all the strongest enemies!",
+      "{player}, put me in {team}! I'll take on anyone!"
+    ],
+    "team_declined": [
+      "Oh. Okay. I'll get stronger and ask again!",
+      "Not strong enough yet, huh? Fine - I'll train!"
+    ],
+    "team_joined": [
+      "Thanks, {player}! Point me at the strongest enemy!",
+      "Let's GO, {player}! I'll fight with everything I've got!"
+    ],
+    "team_kicked": [
+      "...Okay. Guess I wasn't strong enough.",
+      "...Fine. I'll train on my own."
+    ],
+    "team_leave": [
+      "I'm leaving {team}. Not after what happened.",
+      "I'm off {team}. I'll find stronger allies elsewhere."
+    ],
+    "v_absorb": [
+      "Your {skill}?! Added to MY arsenal! Now I'll beat you with your own move!",
+      "Thanks for the {skill}! You're weaker, I'm stronger. Easy win!"
+    ],
+    "v_accepted": [
+      "Welcome to the team, {player}! Perform, or get cut - permanently!",
+      "Great pick, {player}! Earn your spot or end up a stain!"
+    ],
+    "v_beg_laugh": [
+      "Ha! {player}'s begging! Weak! The world goes down anyway!",
+      "Begging, {player}? Losers beg. Winners destroy!"
+    ],
+    "v_creation": [
+      "{target}, rise! My new heavy hitter! Go crush them!",
+      "{target}, get up! You were born to win - and to kill!"
+    ],
+    "v_demand_army": [
+      "My squad needs gear! {count} {item}, NOW! Or you're the first one we practice on!",
+      "Equip my army! {count} {item}! Slack off and you're a casualty!"
+    ],
+    "v_demand_done": [
+      "Clutch play, {player}! You stay on the roster - for now!",
+      "You delivered, {player}! You survive the cut!"
+    ],
+    "v_demand_doom": [
+      "Game over, {player}! The whole world's going down! Wanna beg for overtime?!",
+      "Final whistle, {player}! Kneel and beg - loser!"
+    ],
+    "v_demand_dragonball": [
+      "Bring me a dragon ball! That's the trophy! Fail and you're the loser - forever!",
+      "Go win me a dragon ball! Or you're getting crushed!"
+    ],
+    "v_demand_energy": [
+      "I need to power up! {count} {item}! Or I'm draining YOU to max out!",
+      "Bring me {count} {item}! Fail and you're my energy drink!"
+    ],
+    "v_demand_failed": [
+      "Time's up, {player}! You choked! You're on my hit list now!",
+      "You blew it, {player}! Now I'm coming for you!"
+    ],
+    "v_demand_lair": [
+      "Drill time! Haul {count} {item} to my lair! Slack off and you're roadkill!",
+      "Bring me {count} {item} for my fortress! Go go GO! Or get crushed!"
+    ],
+    "v_demand_slaughter": [
+      "Show me your killer instinct! Take down {count} {mob}! Or I take YOU down!",
+      "{count} {mob}! Wipe 'em out! Losers end up like them!"
+    ],
+    "v_demand_strong": [
+      "I want real competition! Hunt down {count} {mob}! Fail and YOU'RE my next sparring dummy!",
+      "Take down {count} {mob}! Only the strong survive on my team!"
+    ],
+    "v_demand_sweets": [
+      "I need fuel! {count} {item}! Fail and you're my protein snack!",
+      "Bring me {count} {item}! Or I'm bulking on YOU!"
+    ],
+    "v_demand_tournament": [
+      "{player}! You! Me! The ring! NOW! I'm gonna destroy you!",
+      "Step into my ring, {player}! Main event - your funeral!"
+    ],
+    "v_deserter": [
+      "Quitting the team? You're getting benched - six feet under!",
+      "A deserter! I'm coming for you, and I don't lose!"
+    ],
+    "v_dragon_ball": [
+      "Dragon ball secured! {count} of 7! Nobody's stopping my winning streak!",
+      "{count} of 7! The finish line's in sight!"
+    ],
+    "v_eat": [
+      "Refuel! Then round two - and you won't survive it!",
+      "Fuel up! Gotta stay strong to crush you!"
+    ],
+    "v_eat_person": [
+      "{target} candy! Pure protein! Who wants to be my next meal?!",
+      "Ate {target}! Bulking season, baby!"
+    ],
+    "v_lair": [
+      "My lair's getting stacked! Training ground for crushing heroes!",
+      "My fortress is coming together! Unbeatable home field!"
+    ],
+    "v_marked": [
+      "Game over, {player}! You're getting crushed!",
+      "You had your shot, {player}. Now I break you."
+    ],
+    "v_mind_control": [
+      "Dark heart! You've been drafted! Now go take down your old team!",
+      "You're on MY roster now. Forever."
+    ],
+    "v_next_challenger": [
+      "Who's next?! I'm just warming up!",
+      "That one's done! Next challenger, step up and get CRUSHED!"
+    ],
+    "v_next_target": [
+      "{faction}, you're up! Time to get crushed!",
+      "Next opponent: {faction}! They won't last a round!"
+    ],
+    "v_no_mercy": [
+      "Cheap shot! Round two, NO rules - and I'm gonna destroy you!",
+      "You hit me while I was down?! Now it's a death match!"
+    ],
+    "v_obeyed": [
+      "That's the spirit, {player}! Run it fast! Drop the ball and you're dead!",
+      "Go, {player}! Clock's ticking! Lose and you're done for good!"
+    ],
+    "v_offer": [
+      "{player}! I've scouted you! Serve me and share the spoils! Refuse, and I'll break every bone you've got!",
+      "{player}! Join my team or get crushed into the dirt!"
+    ],
+    "v_plan_done": [
+      "Game plan executed! Total domination! You never stood a chance!",
+      "Flawless victory! Exactly as planned!"
+    ],
+    "v_possess": [
+      "...New body! Strong! Time to go crush someone!",
+      "...This body's got muscle. Perfect for breaking you."
+    ],
+    "v_pure_heart": [
+      "Pure heart? Can't draft you. So you're just a target!",
+      "Tch. Too pure to play for me? Then you're roadkill."
+    ],
+    "v_rage": [
+      "That's it! No more warm-ups! I'm gonna CRUSH you into the dirt!",
+      "You want a real fight?! I'll grind you into DUST!"
+    ],
+    "v_recruit": [
+      "You've got skills! Join my squad or you get eliminated - PERMANENTLY!",
+      "Serve me and you make the team. Refuse and you're a body on the field."
+    ],
+    "v_redeemed": [
+      "New season, new team! I'm switching sides, {target}! And I'll play fair this time!",
+      "I'm done playing dirty. From now on, I fight for the good guys!"
+    ],
+    "v_refused": [
+      "Then you're first on my hit list! I'm gonna crush you!",
+      "Wrong answer! You're the first one I take down - hard!"
+    ],
+    "v_regenerate": [
+      "Ha! I heal faster than you can hit! You're just a punching bag that hits back - barely!",
+      "Full recovery! You're running out of stamina. I'm not!"
+    ],
+    "v_self_destruct": [
+      "If I'm going down, I'm taking the whole arena with me! Final play!",
+      "Can't win? Then NOBODY walks out of here!"
+    ],
+    "v_spared": [
+      "You let me walk? ...That's not how the game works, {target}. Winners finish the job.",
+      "No finisher? ...Why?! I would've crushed you."
+    ],
+    "v_summon": [
+      "Dragon! Get out here! Championship time!",
+      "Eternal dragon, come forth! Time to claim my trophy!"
+    ],
+    "v_talk_grateful": [
+      "{player}. You let me walk once. That's the only reason you're still standing.",
+      "You spared me, {player}. Doesn't make us teammates. Back off."
+    ],
+    "v_talk_marked": [
+      "{player}! You're on my hit list! Time to crush you!",
+      "Rematch, {player}? There won't be one after this!"
+    ],
+    "v_talk_servant": [
+      "{player}! My rookie! You'd better be putting up numbers, or you're off the team - and off this planet!",
+      "Results, {player}! Winners only on my roster!"
+    ],
+    "v_talk_threat": [
+      "{player}! You look like a punching bag. Give me one reason not to start swinging.",
+      "You're standing in MY ring, {player}. Be useful or get knocked out - permanently."
+    ],
+    "v_town_taken": [
+      "Town captured! Total shutout! Who's next?!",
+      "This town is mine! Victory lap over their ruins!"
+    ],
+    "v_travel": [
+      "To {planet}! Fresh opponents to crush!",
+      "Pod's warmed up? {planet}, you're getting wrecked!"
+    ],
+    "v_unredeemable": [
+      "Mercy? I don't play that game! I'll come back and crush you!",
+      "You can't coach me into being good! I'll destroy you next round!"
+    ],
+    "v_wavering": [
+      "Again?! You keep letting me off the hook... this doesn't make sense! I'd never do that!",
+      "Why won't you finish the match?! What's your angle?!"
+    ],
+    "v_wish": [
+      "Power! MAX power! Nobody will ever beat me!",
+      "Eternal dragon! Make me unbeatable! Undisputed forever!"
+    ],
+    "v_yield": [
+      "Down... but not out! Finish it, {target}, or I swear I'll get back up and end you!",
+      "Ref's counting... go on, end it! Or I'll come back stronger!"
+    ],
+    "react_arrive": [],
+    "react_arrive_friend": [],
+    "react_arrive_cold": [],
+    "react_power": [],
+    "react_power_scared": [],
+    "react_transform": [],
+    "react_favorite": [],
+    "react_flying": [],
+    "react_stare": []
+  }
+}

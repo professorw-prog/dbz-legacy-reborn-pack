@@ -1,0 +1,13 @@
+name = "Create: Bigger Storage"
+filename = "Create-Better-Storages-Forge-1.20.1-1.0b.Release.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6TmBmVOK/versions/RBnOsKvv/Create-Better-Storages-Forge-1.20.1-1.0b.Release.jar"
+hash-format = "sha512"
+hash = "5651ddc081e55139046d649d4184d989d019080df1815fb05f9b8e3487e7558222e9af8958cd960516cfd8982e4584453a0b2aa3e6f0cfb9258bbda58c0971af"
+
+[update]
+[update.modrinth]
+mod-id = "6TmBmVOK"
+version = "RBnOsKvv"

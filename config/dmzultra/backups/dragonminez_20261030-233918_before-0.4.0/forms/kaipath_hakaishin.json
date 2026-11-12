@@ -1,0 +1,313 @@
+{
+  "configVersion": "2.2.0",
+  "groupName": "kaipath_hakaishin",
+  "formType": "kaipath_hakaishin",
+  "forms": {
+    "hakaishin": {
+      "name": "hakaishin",
+      "unlockOnSkillLevel": 2147483647,
+      "formCombo": "",
+      "customModel": "",
+      "keepBaseFormHeadBones": true,
+      "hideTail": false,
+      "transformationAnimation": "transf.generic",
+      "bodyColor1": "",
+      "bodyColor2": "",
+      "bodyColor3": "",
+      "extraFormLayer": "",
+      "extraFormColor": "",
+      "hairType": "",
+      "forcedHairCode": "",
+      "hairColor": "",
+      "furUsesHairColor": false,
+      "eye1Color": "CC66FF",
+      "eye2Color": "CC66FF",
+      "auraType": "god",
+      "auraType3D": "userPreference",
+      "auraLayer": 1,
+      "auraColor": "AA44EE",
+      "extraAuraLayer": -1,
+      "extraAuraColor": "#FFFFFF",
+      "extraAuraType": "kakarot",
+      "extraAuraType3D": "userPreference",
+      "aura3DStyle": {
+        "size": [
+          1.1,
+          1.17,
+          1.02
+        ],
+        "flamePeaks": 12,
+        "waveFrequency": 2.0,
+        "waveSpeed": 5.0,
+        "waveAmplitude": 0.75,
+        "noiseDetail": 0.1,
+        "upwardBias": 0.54,
+        "coreAlpha": 0.05,
+        "rimAlpha": 1.0,
+        "rimPower": 4.0,
+        "rimThreshold": 0.05,
+        "coreColor": "",
+        "rimColor": "",
+        "noiseColor": "",
+        "bloomIntensity": 1.0,
+        "spikeDensity": 32,
+        "spikeBurstRate": 3.0,
+        "spikeRarity": 3.0,
+        "bandStart": 0.5,
+        "secondBorderColor": ""
+      },
+      "extraAura3DStyle": {
+        "size": [
+          1.1,
+          1.17,
+          1.02
+        ],
+        "flamePeaks": 12,
+        "waveFrequency": 2.0,
+        "waveSpeed": 5.0,
+        "waveAmplitude": 0.75,
+        "noiseDetail": 0.1,
+        "upwardBias": 0.54,
+        "coreAlpha": 0.05,
+        "rimAlpha": 1.0,
+        "rimPower": 4.0,
+        "rimThreshold": 0.05,
+        "coreColor": "",
+        "rimColor": "",
+        "noiseColor": "",
+        "bloomIntensity": 1.0,
+        "spikeDensity": 32,
+        "spikeBurstRate": 3.0,
+        "spikeRarity": 3.0,
+        "bandStart": 0.5,
+        "secondBorderColor": ""
+      },
+      "hasLightnings": false,
+      "lightningColor": "",
+      "tintColor": "#FF0000",
+      "tintIntensity": 0.0,
+      "modelScaling": [
+        0.9375,
+        0.9375,
+        0.9375
+      ],
+      "strMultiplier": 2.0,
+      "skpMultiplier": 2.0,
+      "stmMultiplier": 1.0,
+      "defMultiplier": 2.0,
+      "vitMultiplier": 1.0,
+      "pwrMultiplier": 2.0,
+      "eneMultiplier": 1.0,
+      "speedMultiplier": 1.0,
+      "staminaDrainMultiplier": 1.0,
+      "energyDrain": 0.0,
+      "staminaDrain": 0.0,
+      "healthDrain": 0.0,
+      "otherworldTimeDrain": 1.0,
+      "otherworldTimeDrainMastered": 1.0,
+      "attackSpeed": 1.0,
+      "maxMastery": 100.0,
+      "masteryPerHitDealt": 0.0,
+      "masteryPerHitReceived": 0.0,
+      "passiveMasteryEveryFiveSeconds": 0.0,
+      "maxCostMultiplier": 1.0,
+      "maxStatsMultiplier": 1.0,
+      "formRequisite": "",
+      "formRequisiteType": "all",
+      "levelRequisite": 0,
+      "sagaRequisite": "",
+      "unlockOnMastery": 0.0,
+      "stackOnMastery": 0.0,
+      "instantTransformOnMastery": 40.0,
+      "allowFreeTransformOnMastery": 50.0,
+      "formStackable": true,
+      "stackDrainMultiplier": 2.0,
+      "incompatibleWith": [
+        "ultimate.ultimate"
+      ],
+      "shareMasteryWith": [],
+      "shareMasteryMultiplier": 1.0,
+      "outlineShader": {
+        "enabled": false,
+        "primaryColor": "#7FFFFF",
+        "secondaryColor": "#7FFFFF",
+        "outlineThickness": 1.5,
+        "fireIntensity": 0.0,
+        "colorMode": "pulse",
+        "bodyGlow": 0.0
+      },
+      "triggerItemCosts": [],
+      "durationItemCosts": [],
+      "mobEffects": [],
+      "requiredDMZLevel": 1,
+      "_kaipath": {
+        "name": "Hakaishin",
+        "rank": "DESTROYER",
+        "activationCost": 25,
+        "drain": 2
+      }
+    }
+  },
+  "_kaipath": {
+    "path": "destroyer",
+    "race": "*",
+    "group": "kaipath_hakaishin",
+    "stack": false,
+    "format": 2,
+    "raceOverrides": {
+      "alien": {
+        "hakaishin": {
+          "_kaipath": {
+            "name": "Void Emperor",
+            "raceTitles": false
+          },
+          "auraColor": "7044D8",
+          "eye1Color": "FF8FCB",
+          "eye2Color": "FF8FCB",
+          "bodyColor1": "482889",
+          "hasLightnings": true,
+          "lightningColor": "7044D8"
+        }
+      },
+      "angel": {
+        "hakaishin": {
+          "_kaipath": {
+            "name": "Fallen Seraph",
+            "raceTitles": false
+          },
+          "auraColor": "C7A5FF",
+          "eye1Color": "FFF0A8",
+          "eye2Color": "FFF0A8",
+          "bodyColor1": "765A9E",
+          "hasLightnings": true,
+          "lightningColor": "C7A5FF"
+        }
+      },
+      "bioandroid": {
+        "hakaishin": {
+          "_kaipath": {
+            "name": "Perfect Ruin",
+            "raceTitles": false
+          },
+          "auraColor": "9BCB32",
+          "eye1Color": "FFEC68",
+          "eye2Color": "FFEC68",
+          "bodyColor1": "506E2A",
+          "hasLightnings": true,
+          "lightningColor": "9BCB32"
+        }
+      },
+      "demon": {
+        "hakaishin": {
+          "_kaipath": {
+            "name": "Abyssal Sovereign",
+            "raceTitles": false
+          },
+          "auraColor": "B21E32",
+          "eye1Color": "FFF0A3",
+          "eye2Color": "FFF0A3",
+          "bodyColor1": "641D34",
+          "hasLightnings": true,
+          "lightningColor": "B21E32"
+        }
+      },
+      "frostdemon": {
+        "hakaishin": {
+          "_kaipath": {
+            "name": "Absolute Zero",
+            "raceTitles": false
+          },
+          "auraColor": "47A6FF",
+          "eye1Color": "E5FCFF",
+          "eye2Color": "E5FCFF",
+          "bodyColor1": "5289C5",
+          "hasLightnings": true,
+          "lightningColor": "47A6FF"
+        }
+      },
+      "human": {
+        "hakaishin": {
+          "_kaipath": {
+            "name": "Worldbreaker",
+            "raceTitles": false
+          },
+          "auraColor": "FF684A",
+          "eye1Color": "FFD36A",
+          "eye2Color": "FFD36A",
+          "bodyColor1": "8D3548",
+          "hasLightnings": true,
+          "lightningColor": "FF684A"
+        }
+      },
+      "majin": {
+        "hakaishin": {
+          "_kaipath": {
+            "name": "Chaos Incarnate",
+            "raceTitles": false
+          },
+          "auraColor": "D442A1",
+          "eye1Color": "FFE27C",
+          "eye2Color": "FFE27C",
+          "bodyColor1": "87296E",
+          "hasLightnings": false
+        }
+      },
+      "namekian": {
+        "hakaishin": {
+          "_kaipath": {
+            "name": "Verdant Annihilator",
+            "raceTitles": false
+          },
+          "auraColor": "70D85B",
+          "eye1Color": "FFF078",
+          "eye2Color": "FFF078",
+          "bodyColor1": "27894E",
+          "hasLightnings": false
+        }
+      },
+      "saiyan": {
+        "hakaishin": {
+          "_kaipath": {
+            "name": "Planetbreaker",
+            "raceTitles": false
+          },
+          "auraColor": "C72D25",
+          "eye1Color": "FFE16A",
+          "eye2Color": "FFE16A",
+          "bodyColor1": "8E2428",
+          "hasLightnings": true,
+          "lightningColor": "C72D25",
+          "hairType": "ssj"
+        }
+      },
+      "sphinxian": {
+        "hakaishin": {
+          "_kaipath": {
+            "name": "Eclipse Tyrant",
+            "raceTitles": false
+          },
+          "auraColor": "D9792F",
+          "eye1Color": "FFF0A0",
+          "eye2Color": "FFF0A0",
+          "bodyColor1": "854324",
+          "hasLightnings": false
+        }
+      },
+      "taimujin": {
+        "hakaishin": {
+          "_kaipath": {
+            "name": "Rift Tempest",
+            "raceTitles": false
+          },
+          "auraColor": "2979CF",
+          "eye1Color": "9AFFFF",
+          "eye2Color": "9AFFFF",
+          "bodyColor1": "234C8A",
+          "hasLightnings": true,
+          "lightningColor": "2979CF"
+        }
+      }
+    },
+    "raceVisualsVersion": 1
+  }
+}

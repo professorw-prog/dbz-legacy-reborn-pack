@@ -1,0 +1,42 @@
+{
+  "baseStats": {
+    "STR": 0,
+    "SKP": 2,
+    "RES": 1,
+    "VIT": 0,
+    "PWR": 6,
+    "ENE": 3
+  },
+  "statScaling": {
+    "STR_scaling": 2.0,
+    "SKP_scaling": 2.0,
+    "STM_scaling": 1.0,
+    "DEF_scaling": 1.0,
+    "DEF_scaling_max": 2.0,
+    "VIT_scaling": 1.0,
+    "VIT_scaling_max": 4.0,
+    "PWR_scaling": 3.0,
+    "ENE_scaling": 3.0
+  },
+  "baseHp5": 0.0,
+  "hp5VitScaling": 0.0,
+  "baseEp5": 0.0,
+  "ep5EneScaling": 0.0,
+  "baseSp5": 0.0,
+  "sp5StmScaling": 0.0,
+  "tpCostMultiplier": 0.0,
+  "tpGainMultiplier": 0.0,
+  "passive": {
+    "enabled": true,
+    "values": {
+      "costReduction": 0.2,
+      "effectCooldownReduction": 0.15,
+      "cooldownReduction": 0.2,
+      "effectDurationBonus": 0.25
+    }
+  },
+  "configVersion": "2.2.0",
+  "displayName": "Spiritualist",
+  "displayColor": "#55FFFF",
+  "exclusiveRaces": []
+}

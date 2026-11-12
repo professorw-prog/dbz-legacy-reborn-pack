@@ -1,0 +1,2 @@
+lang:en_us
+resourcePacks:["vanilla","mod_resources","file/DMZ HD Texturepack 2.0.1.zip","file/DBZ Legacy Reborn Texture Pack.zip","file/DMZ_Legacy_Apotheosis_Affix_Gem_Resources_v1.zip","file/DMZ HD Plus.zip"]

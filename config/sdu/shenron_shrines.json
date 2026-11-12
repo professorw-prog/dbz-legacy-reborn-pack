@@ -1,0 +1,71 @@
+{
+  "configVersion": 1,
+  "wishes": [
+    {
+      "id": "riches",
+      "name": "Riches",
+      "description": "A pile of zeni",
+      "commands": [
+        "say %player% wished for riches"
+      ]
+    }
+  ],
+  "colors": {
+    "blue": {
+      "requiredItems": [
+        {
+          "item": "minecraft:nether_star",
+          "count": 1
+        }
+      ],
+      "modelGeo": "sdu:geo/entity/shenron.geo.json",
+      "modelTexture": "sdu:textures/entity/shenron.png",
+      "entityScale": 1.0,
+      "wishIds": [],
+      "darkenSky": true,
+      "summonDurationTicks": 1200
+    },
+    "gold": {
+      "requiredItems": [
+        {
+          "item": "minecraft:nether_star",
+          "count": 1
+        }
+      ],
+      "modelGeo": "sdu:geo/entity/shenron.geo.json",
+      "modelTexture": "sdu:textures/entity/shenron.png",
+      "entityScale": 1.0,
+      "wishIds": [],
+      "darkenSky": true,
+      "summonDurationTicks": 1200
+    },
+    "green": {
+      "requiredItems": [
+        {
+          "item": "minecraft:nether_star",
+          "count": 1
+        }
+      ],
+      "modelGeo": "sdu:geo/entity/shenron.geo.json",
+      "modelTexture": "sdu:textures/entity/shenron.png",
+      "entityScale": 1.0,
+      "wishIds": [],
+      "darkenSky": true,
+      "summonDurationTicks": 1200
+    },
+    "red": {
+      "requiredItems": [
+        {
+          "item": "minecraft:nether_star",
+          "count": 1
+        }
+      ],
+      "modelGeo": "sdu:geo/entity/shenron.geo.json",
+      "modelTexture": "sdu:textures/entity/shenron.png",
+      "entityScale": 1.0,
+      "wishIds": [],
+      "darkenSky": true,
+      "summonDurationTicks": 1200
+    }
+  }
+}

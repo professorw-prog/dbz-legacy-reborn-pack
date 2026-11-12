@@ -1,0 +1,183 @@
+{
+  "id": "pure_hearted",
+  "name": "Pure-Hearted Fighter",
+  "inspired_by": "Goku",
+  "description": "Loves a good fight more than anything, but always spares the beaten. Senses evil, flies to stop it, trains anyone who asks, and believes even the worst villain can change.",
+  "focus": [
+    "martial"
+  ],
+  "power": 1.4,
+  "mercy": 1.0,
+  "sense_radius": 320,
+  "defend_radius": 48,
+  "students": true,
+  "looks": {
+    "race": "saiyan",
+    "auraColor": "#FFFFFF"
+  },
+  "base": {
+    "templates": [
+      "house"
+    ],
+    "materials": "player",
+    "radius": 96
+  },
+  "journey": [
+    {
+      "goal": "base",
+      "say_start": "A place to rest between fights would be nice!"
+    },
+    {
+      "goal": "power",
+      "at": 1.5,
+      "say_start": "Gotta get stronger. Something big is coming, I can feel it!",
+      "say_done": "Hehe, I can feel the difference!",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.1
+        }
+      ]
+    },
+    {
+      "goal": "defeat",
+      "count": 1,
+      "say_start": "Whoever's out there causing trouble - I'm coming!",
+      "say_done": "Phew. That was a great fight!"
+    },
+    {
+      "goal": "students",
+      "count": 2,
+      "say_start": "Anyone want to train? The more strong people, the better!"
+    },
+    {
+      "goal": "redeem",
+      "count": 1,
+      "say_start": "Everybody deserves a second chance. Even them.",
+      "boons": [
+        {
+          "type": "title",
+          "value": "Kind-Hearted"
+        }
+      ]
+    }
+  ],
+  "loop_from": 1,
+  "milestones": [
+    {
+      "id": "awakening",
+      "name": "Super Saiyan Awakening",
+      "trigger": {
+        "type": "enraged",
+        "cause": "ally_fell"
+      },
+      "repeat": true,
+      "cooldown": 900,
+      "say": "I am the hope of the universe... and you WILL pay for that!",
+      "broadcast": "A golden light erupts - %npc% has awakened in fury!",
+      "boons": [
+        {
+          "type": "form",
+          "form": "saiyan:supersaiyan.supersaiyanmastered"
+        },
+        {
+          "type": "stats",
+          "value": 1.3,
+          "seconds": 300
+        },
+        {
+          "type": "heal"
+        }
+      ],
+      "model": {
+        "hairColor": "#FFE14D",
+        "auraColor": "#FFD700",
+        "seconds": 300
+      }
+    },
+    {
+      "id": "kaioken",
+      "name": "Kaio-ken",
+      "trigger": {
+        "type": "enraged",
+        "hp_below": 35
+      },
+      "repeat": true,
+      "cooldown": 600,
+      "say": "Kaio-KEN!",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.25,
+          "seconds": 60
+        }
+      ],
+      "model": {
+        "auraColor": "#FF2B2B",
+        "seconds": 60
+      }
+    },
+    {
+      "id": "instant_transmission",
+      "name": "Instant Transmission",
+      "trigger": {
+        "type": "count",
+        "counter": "villains_defeated",
+        "at": 1
+      },
+      "say": "I picked up a neat trick out there!",
+      "boons": [
+        {
+          "type": "skill",
+          "skill": "instant_transmission",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "id": "zenkai",
+      "name": "Back Stronger",
+      "trigger": {
+        "type": "count",
+        "counter": "defeated",
+        "at": 1
+      },
+      "repeat": true,
+      "cooldown": 1200,
+      "say": "Whew, that hurt. But I think I got stronger!",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.08
+        }
+      ]
+    }
+  ],
+  "lines": {
+    "battle_cry": [
+      "Alright, let's go!",
+      "Hey! Leave them alone!",
+      "You look strong... this'll be fun!"
+    ],
+    "victory": [
+      "Good fight! Come back when you're stronger!",
+      "Don't do that again, okay?"
+    ],
+    "defeated": [
+      "Heh... you got me... this time..."
+    ]
+  },
+  "requests": [
+    {
+      "type": "train",
+      "line": "Hey, %player%! You look like you've been training. Wanna spar? I promise I won't go all out... at first!"
+    },
+    {
+      "type": "deliver",
+      "item": "minecraft:cooked_beef",
+      "count": 24,
+      "reward_tp": 300,
+      "line": "Say, %player%... I'm starving. Could you bring me %count% %item%? I'll owe you one - I'll teach you a thing or two after!"
+    }
+  ]
+}

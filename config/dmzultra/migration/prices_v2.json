@@ -1,0 +1,1528 @@
+{
+  "v": 1,
+  "race": {
+    "alien": {
+      "legendaryforms": [],
+      "godforms": [],
+      "superforms": [
+        175000,
+        525000,
+        1350000
+      ],
+      "createdforms": [
+        -1
+      ],
+      "alienforms": [
+        175000,
+        525000,
+        1350000
+      ],
+      "cosmosforms": [
+        700000,
+        1800000
+      ]
+    },
+    "angel": {
+      "superforms": [
+        175000,
+        525000,
+        1350000
+      ],
+      "godforms": [
+        400000,
+        3000000,
+        14000000
+      ],
+      "createdforms": [
+        -1
+      ],
+      "unboundforms": [
+        500000,
+        670000,
+        910000
+      ],
+      "severedforms": [
+        285000,
+        540000
+      ]
+    },
+    "bioandroid": {
+      "legendaryforms": [
+        -1,
+        -1,
+        -1
+      ],
+      "godforms": [
+        160000,
+        1000000
+      ],
+      "superforms": [
+        26000,
+        57000,
+        88000,
+        125000,
+        200000,
+        320000
+      ],
+      "createdforms": [
+        -1
+      ],
+      "androidforms": [
+        -1,
+        -1,
+        -1
+      ],
+      "piccolobiodata": [
+        400000,
+        1750000
+      ],
+      "geneticforms": [
+        900000,
+        2200000
+      ],
+      "coreforms": [
+        3000000,
+        5500000,
+        8000000,
+        11000000,
+        14000000
+      ],
+      "genomehuman": [
+        -1,
+        -1,
+        -1
+      ],
+      "genomesaiyan": [
+        -1,
+        -1,
+        -1
+      ],
+      "genomenamekian": [
+        -1,
+        -1,
+        -1
+      ],
+      "genomefrostdemon": [
+        -1,
+        -1,
+        -1
+      ],
+      "genomemajin": [
+        -1,
+        -1,
+        -1
+      ],
+      "genomealien": [
+        -1,
+        -1,
+        -1
+      ],
+      "genomesphinxian": [
+        -1,
+        -1,
+        -1
+      ],
+      "genomedemon": [
+        -1,
+        -1,
+        -1
+      ],
+      "genometaimujin": [
+        -1,
+        -1,
+        -1
+      ],
+      "genomesoulreaper": [
+        -1,
+        -1,
+        -1
+      ],
+      "genomeangel": [
+        -1,
+        -1,
+        -1
+      ],
+      "genomeglind": [
+        -1,
+        -1,
+        -1
+      ],
+      "genomeandroid": [
+        -1,
+        -1,
+        -1
+      ],
+      "parasiteforms": [
+        260000,
+        465000
+      ]
+    },
+    "demon": {
+      "legendaryforms": [],
+      "godforms": [],
+      "superforms": [
+        150000,
+        450000,
+        1200000
+      ],
+      "demonforms": [
+        150000,
+        450000,
+        1200000
+      ],
+      "demigraforms": [
+        300000,
+        850000,
+        2000000
+      ],
+      "createdforms": [
+        -1
+      ],
+      "infernalforms": [
+        700000,
+        1800000
+      ],
+      "abyssforms": [
+        3000000,
+        5500000,
+        8000000,
+        11000000,
+        14000000
+      ]
+    },
+    "frostdemon": {
+      "legendaryforms": [
+        -1,
+        -1,
+        -1
+      ],
+      "godforms": [],
+      "superforms": [
+        18000,
+        31000,
+        52000,
+        83000,
+        117000,
+        187000
+      ],
+      "createdforms": [
+        -1
+      ],
+      "emperorforms": [
+        900000,
+        2200000
+      ],
+      "glacierforms": [
+        3000000,
+        5500000,
+        8000000,
+        11000000,
+        14000000
+      ],
+      "tyrantforms": [
+        325000,
+        500000,
+        775000
+      ]
+    },
+    "fullbringer": {
+      "superforms": [
+        60000,
+        300000,
+        1200000
+      ],
+      "createdforms": [
+        -1
+      ]
+    },
+    "glind": {
+      "legendaryforms": [
+        -1,
+        -1,
+        -1
+      ],
+      "godforms": [],
+      "superforms": [
+        18000,
+        31000,
+        52000,
+        83000,
+        117000
+      ]
+    },
+    "human": {
+      "legendaryforms": [
+        -1,
+        -1,
+        -1
+      ],
+      "godforms": [],
+      "superforms": [
+        21000,
+        42000,
+        65000,
+        104000,
+        166000
+      ],
+      "androidforms": [
+        42000,
+        104000
+      ],
+      "createdforms": [
+        -1
+      ],
+      "majinandroidforms": [
+        -1
+      ],
+      "sageforms": [
+        900000,
+        2200000
+      ],
+      "fistforms": [
+        3000000,
+        5500000,
+        8000000,
+        11000000,
+        14000000
+      ],
+      "thrallforms": [
+        155000,
+        290000,
+        415000
+      ],
+      "gammaframeforms": [
+        565000,
+        955000
+      ]
+    },
+    "majin": {
+      "legendaryforms": [
+        -1,
+        -1,
+        -1
+      ],
+      "godforms": [],
+      "superforms": [
+        23000,
+        47000,
+        78000,
+        114000,
+        182000
+      ],
+      "createdforms": [
+        -1
+      ],
+      "mimicforms": [
+        240000,
+        900000
+      ],
+      "chaosforms": [
+        900000,
+        2200000
+      ],
+      "miraforms": [
+        3000000,
+        5500000,
+        8000000,
+        11000000,
+        14000000
+      ],
+      "maliceforms": [
+        230000,
+        355000,
+        560000
+      ],
+      "reflectionforms": [
+        120000,
+        290000,
+        730000
+      ]
+    },
+    "makaijin": {
+      "superforms": [
+        175000,
+        525000,
+        1350000,
+        2900000
+      ],
+      "createdforms": [
+        -1
+      ],
+      "infernalforms": [
+        700000,
+        1800000
+      ],
+      "abyssforms": [
+        3000000,
+        5500000,
+        8000000,
+        11000000,
+        14000000
+      ],
+      "abyssbornforms": [
+        105000,
+        145000,
+        290000
+      ],
+      "demonkingforms": [
+        280000,
+        530000
+      ]
+    },
+    "namekian": {
+      "legendaryforms": [
+        -1,
+        -1,
+        -1
+      ],
+      "godforms": [],
+      "superforms": [
+        23000,
+        47000,
+        78000,
+        117000
+      ],
+      "createdforms": [
+        -1
+      ],
+      "pureprogress": [
+        1000000,
+        1500000
+      ],
+      "dragonforms": [
+        900000,
+        2200000
+      ],
+      "elderforms": [
+        3000000,
+        5500000,
+        8000000,
+        11000000,
+        14000000
+      ],
+      "daimaoforms": [
+        335000,
+        530000
+      ]
+    },
+    "saiyan": {
+      "legendaryforms": [
+        -1,
+        -1,
+        -1,
+        1500000,
+        5000000
+      ],
+      "godforms": [
+        75000,
+        150000,
+        300000,
+        1000000
+      ],
+      "superforms": [
+        13000,
+        21000,
+        31000,
+        42000,
+        52000,
+        65000,
+        78000,
+        104000,
+        150000,
+        250000,
+        400000
+      ],
+      "createdforms": [
+        -1
+      ],
+      "ultraforms": [
+        4000000,
+        7000000,
+        10000000,
+        14000000
+      ],
+      "beastforms": [
+        600000
+      ],
+      "corruptedforms": [
+        270000,
+        385000,
+        605000
+      ],
+      "evildivineforms": [
+        200000,
+        400000,
+        800000,
+        1500000
+      ]
+    },
+    "seiunjin": {
+      "superforms": [
+        20000,
+        140000,
+        520000,
+        1400000
+      ],
+      "cosmosforms": [
+        700000,
+        1800000
+      ],
+      "supernovaforms": [
+        105000,
+        145000,
+        285000
+      ],
+      "blackholeforms": [
+        250000,
+        455000
+      ]
+    },
+    "sekhari": {
+      "superforms": [
+        0,
+        600000,
+        1600000,
+        3400000
+      ],
+      "createdforms": [
+        -1
+      ],
+      "predatorforms": [
+        700000,
+        1800000
+      ],
+      "crownforms": [
+        3000000,
+        5500000,
+        8000000,
+        11000000,
+        14000000
+      ],
+      "primalprideforms": [
+        105000,
+        140000,
+        290000
+      ],
+      "devourerforms": [
+        280000,
+        510000
+      ]
+    },
+    "soulreaper": {
+      "superforms": [
+        15000,
+        90000,
+        750000,
+        1600000
+      ],
+      "truezanpakutoforms": [
+        3000000,
+        5500000,
+        9000000,
+        14000000
+      ],
+      "createdforms": [
+        -1
+      ],
+      "hogyokuforms": [
+        390000,
+        640000
+      ],
+      "hollowbornforms": [
+        105000
+      ]
+    },
+    "sphinxian": {
+      "legendaryforms": [],
+      "godforms": [],
+      "superforms": [
+        175000,
+        525000,
+        1350000
+      ],
+      "sphinxianforms": [
+        175000,
+        525000,
+        1350000
+      ],
+      "createdforms": [
+        -1
+      ],
+      "predatorforms": [
+        700000,
+        1800000
+      ],
+      "crownforms": [
+        3000000,
+        5500000,
+        8000000,
+        11000000,
+        14000000
+      ]
+    },
+    "taimujin": {
+      "legendaryforms": [],
+      "godforms": [
+        150000,
+        350000,
+        800000
+      ],
+      "superforms": [
+        175000,
+        525000,
+        1350000
+      ],
+      "createdforms": [
+        -1
+      ],
+      "chronoforms": [
+        700000,
+        1800000
+      ],
+      "eonforms": [
+        3000000,
+        5500000,
+        8000000,
+        11000000,
+        14000000
+      ],
+      "chronotornforms": [
+        475000,
+        635000,
+        860000
+      ],
+      "ravagerforms": [
+        250000,
+        420000
+      ]
+    }
+  },
+  "skills": {
+    "android_combo": [
+      14000
+    ],
+    "makkanko": [
+      -1
+    ],
+    "supernova_cooler": [
+      15000
+    ],
+    "deadly_dance_vegetto": [
+      12000
+    ],
+    "kiboost": [
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "gum_bind": [
+      9000
+    ],
+    "afterimage": [
+      2500
+    ],
+    "super_god_fist": [
+      -1
+    ],
+    "sprint": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "ki_barrage": [
+      -1
+    ],
+    "kill_driver": [
+      16000
+    ],
+    "wolf_fang": [
+      -1
+    ],
+    "kimanipulation": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "burning_attack": [
+      -1
+    ],
+    "dimensional_teleport": [
+      12000
+    ],
+    "kicontrol": [
+      -1
+    ],
+    "supernova": [
+      -1
+    ],
+    "dragon_fist": [
+      -1
+    ],
+    "kiprotection": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "spiritbomb": [
+      10000
+    ],
+    "jump": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "candy_beam": [
+      150000
+    ],
+    "kienzan_doble": [
+      -1
+    ],
+    "ultimate": [
+      -1
+    ],
+    "emperor_death_beam": [
+      -1
+    ],
+    "beam_sword_slash": [
+      16000
+    ],
+    "taiyoken": [
+      -1
+    ],
+    "final_explosion": [
+      -1
+    ],
+    "kamehameha": [
+      -1
+    ],
+    "death_beam": [
+      -1
+    ],
+    "deadly_dance": [
+      -1
+    ],
+    "fusion": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "assault_rain": [
+      4500
+    ],
+    "fake_moon": [
+      -1
+    ],
+    "dimensional_punch": [
+      18000
+    ],
+    "ki_infusion": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "soul_punisher": [
+      -1
+    ],
+    "instant_transmission": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "masenko": [
+      -1
+    ],
+    "defense_penetration": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "mouth_blast": [
+      4500
+    ],
+    "healing_reduction": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "dodonpa": [
+      1000
+    ],
+    "meteor_burst": [
+      24000
+    ],
+    "combo_meteor": [
+      7000
+    ],
+    "oozaru_slam": [
+      4000
+    ],
+    "gum_punch": [
+      4000
+    ],
+    "kikoho": [
+      5000
+    ],
+    "death_chaser": [
+      15000
+    ],
+    "big_bang": [
+      -1
+    ],
+    "darkness_eye_beam": [
+      500
+    ],
+    "spirit_breaker": [
+      17000
+    ],
+    "neo_kikoho": [
+      8000
+    ],
+    "final_flash": [
+      -1
+    ],
+    "sleep_recovery": [
+      3000
+    ],
+    "kaioken": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      15000
+    ],
+    "shining_sword_attack": [
+      9000
+    ],
+    "perfect_rush": [
+      15000
+    ],
+    "galick_gun": [
+      -1
+    ],
+    "meteor": [
+      -1
+    ],
+    "kienzan": [
+      -1
+    ],
+    "heat_dome": [
+      6000
+    ],
+    "kaioken_attack": [
+      -1
+    ],
+    "hellzone_grenade": [
+      2000
+    ],
+    "oozaru_fist": [
+      -1
+    ],
+    "fly": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "mystic_ball": [
+      11000
+    ],
+    "potentialunlock": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "meditation": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "spirit_breaking_cannon": [
+      12000
+    ],
+    "blue_hurricane": [
+      5000
+    ],
+    "dimensional_sword_attack": [
+      22000
+    ],
+    "blaster_meteor": [
+      2500
+    ],
+    "kisense": [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "sokidan": [
+      -1
+    ],
+    "grab": [
+      3500
+    ],
+    "ultraego": [
+      100000
+    ],
+    "ultrainstinct": [
+      100000
+    ],
+    "hakai": [
+      250000
+    ],
+    "frostgodforms": [
+      100000,
+      500000
+    ],
+    "godkienhancement": [
+      600000
+    ],
+    "createdforms": [
+      -1
+    ],
+    "kamehameha_10x": [
+      3500
+    ],
+    "light_grenade": [
+      2500
+    ],
+    "kamehameha_super": [
+      2500
+    ],
+    "kamehameha_true": [
+      3000
+    ],
+    "kamehameha_black": [
+      2500
+    ],
+    "kamehameha_black_super": [
+      3000
+    ],
+    "kamehameha_majin": [
+      2000
+    ],
+    "final_burst_cannon": [
+      3000
+    ],
+    "super_galick_gun": [
+      2500
+    ],
+    "big_bang_crash": [
+      3000
+    ],
+    "super_masenko": [
+      2500
+    ],
+    "ultimate_masenko": [
+      3000
+    ],
+    "full_power_special_beam_cannon": [
+      2500
+    ],
+    "death_ball": [
+      8500
+    ],
+    "supercharged_death_ball": [
+      10000
+    ],
+    "golden_death_ball": [
+      11000
+    ],
+    "vanishing_ball": [
+      9500
+    ],
+    "eraser_cannon": [
+      3000
+    ],
+    "final_spirit_cannon": [
+      3000
+    ],
+    "photon_flash": [
+      2500
+    ],
+    "kamehameha_angry": [
+      2500
+    ],
+    "spiritbomb_super": [
+      12500
+    ],
+    "final_shine_attack": [
+      3000
+    ],
+    "buster_cannon": [
+      2500
+    ],
+    "finish_buster": [
+      3000
+    ],
+    "explosive_demon_wave": [
+      2500
+    ],
+    "death_cannon": [
+      2500
+    ],
+    "power_blitz": [
+      2000
+    ],
+    "perfect_barrier": [
+      6000
+    ],
+    "android_barrier": [
+      7000
+    ],
+    "beerus_ball": [
+      11500
+    ],
+    "omega_blaster": [
+      3500
+    ],
+    "big_bang_kamehameha": [
+      3000
+    ],
+    "negative_karma_ball": [
+      10500
+    ],
+    "revenge_death_ball": [
+      10000
+    ],
+    "sageforms": [
+      900000,
+      2200000
+    ],
+    "dragonforms": [
+      900000,
+      2200000
+    ],
+    "emperorforms": [
+      900000,
+      2200000
+    ],
+    "geneticforms": [
+      900000,
+      2200000
+    ],
+    "chaosforms": [
+      900000,
+      2200000
+    ],
+    "cosmosforms": [
+      700000,
+      1800000
+    ],
+    "predatorforms": [
+      700000,
+      1800000
+    ],
+    "infernalforms": [
+      700000,
+      1800000
+    ],
+    "chronoforms": [
+      700000,
+      1800000
+    ],
+    "ultraforms": [
+      4000000,
+      7000000,
+      10000000,
+      14000000
+    ],
+    "elderforms": [
+      3000000,
+      5500000,
+      8000000,
+      11000000,
+      14000000
+    ],
+    "fistforms": [
+      3000000,
+      5500000,
+      8000000,
+      11000000,
+      14000000
+    ],
+    "coreforms": [
+      3000000,
+      5500000,
+      8000000,
+      11000000,
+      14000000
+    ],
+    "miraforms": [
+      3000000,
+      5500000,
+      8000000,
+      11000000,
+      14000000
+    ],
+    "abyssforms": [
+      3000000,
+      5500000,
+      8000000,
+      11000000,
+      14000000
+    ],
+    "crownforms": [
+      3000000,
+      5500000,
+      8000000,
+      11000000,
+      14000000
+    ],
+    "eonforms": [
+      3000000,
+      5500000,
+      8000000,
+      11000000,
+      14000000
+    ],
+    "glacierforms": [
+      3000000,
+      5500000,
+      8000000,
+      11000000,
+      14000000
+    ],
+    "genomehuman": [
+      -1,
+      -1,
+      -1
+    ],
+    "genomesaiyan": [
+      -1,
+      -1,
+      -1
+    ],
+    "genomenamekian": [
+      -1,
+      -1,
+      -1
+    ],
+    "genomefrostdemon": [
+      -1,
+      -1,
+      -1
+    ],
+    "genomemajin": [
+      -1,
+      -1,
+      -1
+    ],
+    "genomealien": [
+      -1,
+      -1,
+      -1
+    ],
+    "genomesphinxian": [
+      -1,
+      -1,
+      -1
+    ],
+    "genomedemon": [
+      -1,
+      -1,
+      -1
+    ],
+    "genometaimujin": [
+      -1,
+      -1,
+      -1
+    ],
+    "timeskip": [
+      0,
+      400000,
+      1200000,
+      3000000,
+      7000000
+    ],
+    "timeperception": [
+      150000,
+      300000,
+      600000,
+      1200000,
+      2500000
+    ],
+    "battlefocus": [
+      15000,
+      45000,
+      120000
+    ],
+    "trueultrainstinct": [
+      900000
+    ],
+    "forcedspiritfission": [
+      180000
+    ],
+    "galactic_donut": [
+      1500
+    ],
+    "healing_light": [
+      1000
+    ],
+    "mafuba": [
+      1500
+    ],
+    "rush_combination": [
+      9000
+    ],
+    "hurricane_kick": [
+      8000
+    ],
+    "hammer_drop": [
+      11000
+    ],
+    "pureprogress": [
+      1000000,
+      1500000
+    ],
+    "divinerose": [
+      -1
+    ],
+    "demigraforms": [
+      300000,
+      850000,
+      2000000
+    ],
+    "mimicforms": [],
+    "piccolobiodata": [],
+    "demonforms": [
+      150000,
+      450000,
+      1200000
+    ],
+    "sphinxianforms": [
+      175000,
+      525000,
+      1350000
+    ],
+    "alienforms": [
+      175000,
+      525000,
+      1350000
+    ],
+    "friezabiodata": [
+      350000,
+      1500000
+    ],
+    "superdash": [
+      50000,
+      150000
+    ],
+    "flowstate": [
+      100000
+    ],
+    "stepvanish": [
+      50000
+    ],
+    "tsukishiro": [
+      9000
+    ],
+    "hakuren": [
+      9000
+    ],
+    "shirafune": [
+      12000
+    ],
+    "juhaku": [
+      9000
+    ],
+    "togame_touch": [
+      30000
+    ],
+    "hakka_mist": [
+      30000
+    ],
+    "nigeki_kessatsu": [
+      10000
+    ],
+    "raikoben": [
+      40000
+    ],
+    "kanzen_saimin": [
+      14000
+    ],
+    "kagami_hana": [
+      30000
+    ],
+    "nake_benihime": [
+      9000
+    ],
+    "kamisori_benihime": [
+      10000
+    ],
+    "chikasumi_no_tate": [
+      9000
+    ],
+    "tsuppane_benihime": [
+      10000
+    ],
+    "shibari": [
+      12000
+    ],
+    "aratame_mend": [
+      30000
+    ],
+    "aratame_unmake": [
+      40000
+    ],
+    "genomesoulreaper": [
+      -1,
+      -1,
+      -1
+    ],
+    "truezanpakutoforms": [
+      3000000,
+      5500000,
+      9000000,
+      14000000
+    ],
+    "genomeangel": [
+      -1,
+      -1,
+      -1
+    ],
+    "genomeglind": [
+      -1,
+      -1,
+      -1
+    ],
+    "genomeandroid": [
+      -1,
+      -1,
+      -1
+    ],
+    "corruptedforms": [
+      270000,
+      385000,
+      605000
+    ],
+    "thrallforms": [
+      155000,
+      290000,
+      415000
+    ],
+    "daimaoforms": [
+      335000,
+      530000
+    ],
+    "tyrantforms": [
+      325000,
+      500000,
+      775000
+    ],
+    "maliceforms": [
+      230000,
+      355000,
+      560000
+    ],
+    "parasiteforms": [
+      260000,
+      465000
+    ],
+    "kishinforms": [
+      300000,
+      570000
+    ],
+    "ravagerforms": [
+      250000,
+      420000
+    ],
+    "severedforms": [
+      285000,
+      540000
+    ],
+    "devourerforms": [
+      280000,
+      510000
+    ],
+    "blackholeforms": [
+      250000,
+      455000
+    ],
+    "demonkingforms": [
+      280000,
+      530000
+    ],
+    "reflectionforms": [
+      120000,
+      290000,
+      730000
+    ],
+    "gammaframeforms": [
+      565000,
+      955000
+    ],
+    "hogyokuforms": [
+      390000,
+      640000
+    ],
+    "getsuga_tensho": [
+      6000
+    ],
+    "getsuga_kuroi": [
+      40000
+    ],
+    "getsuga_jujisho": [
+      400000
+    ],
+    "hollow_cero": [
+      25000
+    ],
+    "gran_rey_getsuga": [
+      500000
+    ],
+    "mugetsu": [
+      1600000
+    ],
+    "zanpakuto_rush": [
+      12000
+    ],
+    "bringer_slash": [
+      9000
+    ],
+    "fullbring_getsuga": [
+      60000
+    ],
+    "cross_cleave": [
+      12000
+    ],
+    "arm_direct": [
+      12000
+    ],
+    "arm_bulwark": [
+      50000
+    ],
+    "bookmark_insert": [
+      12000
+    ],
+    "doll_prison": [
+      12000
+    ],
+    "game_domain": [
+      60000
+    ],
+    "watch_contract": [
+      12000
+    ],
+    "angelgrace": [
+      0,
+      300000,
+      900000,
+      2400000,
+      6000000
+    ],
+    "angel_barrier": [
+      12000
+    ],
+    "black_flash": [
+      90000
+    ]
+  },
+  "taken": 1793400397200,
+  "note": "Prices of this install when DMZ Ultra 0.4 first started: the Noea conversion refunds at these. Never rewritten."
+}

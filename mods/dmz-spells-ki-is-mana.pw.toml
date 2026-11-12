@@ -1,0 +1,13 @@
+name = "DMZ Spells: Ki is Mana"
+filename = "dmz_spellbooks-1.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0c67bfce2f1296d547a4d3e6c3384cd586eb3e59"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8853078
+project-id = 1601683

@@ -1,0 +1,34 @@
+{
+  "_scale": "Lightman's core value (copper coins) per NPC wallet unit; 10 = one wallet unit is one iron coin",
+  "scale": 10,
+  "collect_seconds": 30,
+  "restock_seconds": 30,
+  "reserve": 20,
+  "shop_name": "{npc}'s Shop",
+  "spawn_command": "spawn",
+  "spawn_trip_distance": 96,
+  "_dynamic": "prices follow the players' market (median price of the same item on player-owned Lightman's shops) and the NPC's own sales",
+  "dynamic": {
+    "enabled": true,
+    "market_weight": 0.6,
+    "undercut": 0.05,
+    "buy_vs_market": 0.7,
+    "demand_step": 0.05,
+    "stale_minutes": 60,
+    "min_factor": 0.5,
+    "max_factor": 2.0,
+    "market_refresh_seconds": 600
+  },
+  "tiers": [
+    {"block": "lightmanscurrency:display_case", "cost": 0},
+    {"block": "lightmanscurrency:card_display_oak", "cost": 150},
+    {"block": "lightmanscurrency:vending_machine", "cost": 400}
+  ],
+  "upgrades": [
+    {"item": "lightmanscurrency:offer_upgrade_1", "cost": 250},
+    {"item": "lightmanscurrency:network_upgrade", "cost": 600},
+    {"item": "lightmanscurrency:offer_upgrade_2", "cost": 500},
+    {"item": "lightmanscurrency:item_capacity_upgrade_1", "cost": 300},
+    {"item": "lightmanscurrency:offer_upgrade_3", "cost": 1000}
+  ]
+}

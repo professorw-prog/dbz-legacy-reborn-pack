@@ -1,0 +1,25 @@
+{
+  "id": "build_home",
+  "name": "Build a home",
+  "description": "Finds free land, claims it and builds a hut to live in.",
+  "actions": [
+    {
+      "action": "establish",
+      "params": {
+        "template": "hut",
+        "radius": 96,
+        "claim": true
+      },
+      "utility": {
+        "base": 75,
+        "when": [
+          {
+            "var": "has_base",
+            "op": "==",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

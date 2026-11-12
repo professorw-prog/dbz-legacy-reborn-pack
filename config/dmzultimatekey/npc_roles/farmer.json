@@ -1,0 +1,79 @@
+{
+  "id": "farmer",
+  "name": "Farmer",
+  "description": "Builds a farm if it has none, works it by day (harvest, replant), cooks and bakes what it grows, and rests at home at night.",
+  "actions": [
+    {
+      "action": "establish",
+      "params": {
+        "template": "farm",
+        "radius": 64,
+        "claim": true,
+        "as_base": false
+      },
+      "utility": {
+        "base": 80,
+        "when": [
+          {
+            "var": "has_farm",
+            "op": "==",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "farm",
+      "utility": {
+        "base": 45,
+        "when": [
+          {
+            "var": "farm_work",
+            "op": ">",
+            "value": 0
+          },
+          {
+            "var": "hour",
+            "op": ">=",
+            "value": 6
+          },
+          {
+            "var": "hour",
+            "op": "<",
+            "value": 20
+          }
+        ]
+      }
+    },
+    {
+      "action": "cook",
+      "utility": {
+        "base": 55,
+        "when": [
+          {
+            "var": "can_cook",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "make_food",
+      "utility": {
+        "base": 52,
+        "when": [
+          {
+            "var": "can_make_food",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "stay",
+      "utility": 20
+    }
+  ]
+}

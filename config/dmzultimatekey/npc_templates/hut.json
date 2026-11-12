@@ -1,0 +1,67 @@
+{
+  "id": "hut",
+  "name": "Hut",
+  "description": "A small one-room home.",
+  "foundation": "minecraft:cobblestone",
+  "legend": {
+    "c": "minecraft:cobblestone",
+    "p": "minecraft:oak_planks",
+    "L": "minecraft:oak_log",
+    "g": "minecraft:glass_pane",
+    "D": "minecraft:oak_door[facing=south,half=lower,hinge=left]",
+    "d": "minecraft:oak_door[facing=south,half=upper,hinge=left]",
+    "s": "minecraft:oak_slab[type=bottom]",
+    "l": "minecraft:lantern",
+    "f": "minecraft:oak_fence",
+    "h": "minecraft:ladder[facing=north]",
+    "@": "@home",
+    "$": "@trader[facing=north]"
+  },
+  "layers": [
+    [
+      "ccccccc",
+      "ccccccc",
+      "ccccccc",
+      "ccccccc",
+      "ccccccc",
+      "ccccccc",
+      "ccccccc"
+    ],
+    [
+      "LppDppL",
+      "p.....p",
+      "p.....p",
+      "p..@..p",
+      "p.....p",
+      "pl....p",
+      "LpppppL"
+    ],
+    [
+      "LppdppL",
+      "p.....p",
+      "p.....p",
+      "g.....g",
+      "p.....p",
+      "p.....p",
+      "LpgggpL"
+    ],
+    [
+      "LpppppL",
+      "p.....p",
+      "p.....p",
+      "p.....p",
+      "p.....p",
+      "p.....p",
+      "LpppppL"
+    ],
+    [
+      "sssssss",
+      "sssssss",
+      "sssssss",
+      "sssssss",
+      "sssssss",
+      "sssssss",
+      "sssssss"
+    ]
+  ]
+}

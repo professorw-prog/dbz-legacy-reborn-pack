@@ -1,0 +1,13 @@
+name = "DragonMine Z HD Texturepack"
+filename = "DMZ HD Texturepack 2.0.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b6a235ab7a24435f3761cb5d754fb36a27bb6232"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8083121
+project-id = 1375786

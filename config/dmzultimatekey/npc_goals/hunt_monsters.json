@@ -1,0 +1,28 @@
+{
+  "id": "hunt_monsters",
+  "name": "Hunt monsters",
+  "description": "Seeks out monsters whenever any are around.",
+  "actions": [
+    {
+      "action": "hunt",
+      "params": {
+        "radius": 28
+      },
+      "utility": {
+        "base": 45,
+        "when": [
+          {
+            "var": "hostile_near",
+            "op": ">",
+            "value": 0
+          },
+          {
+            "var": "hp_pct",
+            "op": ">",
+            "value": 35
+          }
+        ]
+      }
+    }
+  ]
+}

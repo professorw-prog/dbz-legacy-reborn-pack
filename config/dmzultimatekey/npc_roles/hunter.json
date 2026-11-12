@@ -1,0 +1,51 @@
+{
+  "id": "hunter",
+  "name": "Hunter",
+  "description": "Roams far after monsters and keeps whatever valuable loot it finds.",
+  "earn_per_kill": 2,
+  "actions": [
+    {
+      "action": "hunt",
+      "params": {
+        "radius": 32
+      },
+      "utility": 30
+    },
+    {
+      "action": "collect_loot",
+      "params": {
+        "radius": 16
+      },
+      "utility": {
+        "base": 45,
+        "when": [
+          {
+            "var": "loot_near",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "deposit",
+      "utility": {
+        "base": 60,
+        "when": [
+          {
+            "var": "spare_interest",
+            "op": ">",
+            "value": 2
+          }
+        ]
+      }
+    },
+    {
+      "action": "wander",
+      "params": {
+        "radius": 32
+      },
+      "utility": 12
+    }
+  ]
+}

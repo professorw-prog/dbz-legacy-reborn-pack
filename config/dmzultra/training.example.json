@@ -1,0 +1,311 @@
+{
+  "_about": "Copy this file to training.json and change what you need: per skill its factor (XP need = TP price x factor / speed), minNeed, sources (what trains it -> XP each time), requires (skill -> level before the lesson) and practice (what to do after the lesson begins -> how many times). Skills listed under \"exempt\" are never trained (they keep their TP price).",
+  "_sources": [
+    "fly",
+    "jump",
+    "jump_boosted",
+    "sprint",
+    "sprint_boosted",
+    "meditate",
+    "sense",
+    "ki_charge",
+    "ki_charge_low",
+    "release_cap",
+    "melee_hit",
+    "ki_weapon_hit",
+    "infused_hit",
+    "ki_hit",
+    "strike_hit",
+    "ki_cast",
+    "strike_cast",
+    "blow_taken",
+    "block",
+    "evade",
+    "dash",
+    "teleport",
+    "strong_hit",
+    "strong_kill",
+    "big_win",
+    "fused",
+    "kaioken",
+    "focus_hit",
+    "combat",
+    "time_chamber",
+    "minigame_rhythm",
+    "minigame_control",
+    "minigame_memory",
+    "minigame_precision",
+    "minigame_gravity"
+  ],
+  "exempt": [],
+  "skills": {
+    "kicontrol": {
+      "factor": 0.1,
+      "minNeed": 20,
+      "sources": {
+        "ki_charge": 1.0
+      },
+      "requires": {},
+      "practice": {
+        "ki_charge": 90
+      }
+    },
+    "fly": {
+      "factor": 0.2,
+      "minNeed": 20,
+      "sources": {
+        "fly": 1.0
+      },
+      "requires": {
+        "kicontrol": 1
+      },
+      "practice": {
+        "jump": 20,
+        "ki_charge": 60
+      }
+    },
+    "jump": {
+      "factor": 0.1,
+      "minNeed": 20,
+      "sources": {
+        "jump_boosted": 1.0,
+        "minigame_rhythm": 5.0
+      },
+      "requires": {},
+      "practice": {
+        "jump": 30
+      }
+    },
+    "sprint": {
+      "factor": 0.1,
+      "minNeed": 20,
+      "sources": {
+        "sprint_boosted": 1.0
+      },
+      "requires": {},
+      "practice": {
+        "sprint": 40
+      }
+    },
+    "meditation": {
+      "factor": 0.1,
+      "minNeed": 20,
+      "sources": {
+        "meditate": 1.0,
+        "minigame_gravity": 5.0,
+        "minigame_memory": 3.0
+      },
+      "requires": {},
+      "practice": {
+        "meditate": 20
+      }
+    },
+    "kisense": {
+      "factor": 0.1,
+      "minNeed": 20,
+      "sources": {
+        "sense": 1.0,
+        "minigame_memory": 5.0
+      },
+      "requires": {
+        "meditation": 1
+      },
+      "practice": {
+        "meditate": 20
+      }
+    },
+    "kiboost": {
+      "factor": 0.05,
+      "minNeed": 20,
+      "sources": {
+        "ki_charge": 1.0
+      },
+      "requires": {
+        "kicontrol": 1
+      },
+      "practice": {
+        "ki_charge_low": 60
+      }
+    },
+    "kimanipulation": {
+      "factor": 0.1,
+      "minNeed": 20,
+      "sources": {
+        "ki_weapon_hit": 1.0,
+        "minigame_precision": 5.0
+      },
+      "requires": {
+        "kicontrol": 1
+      },
+      "practice": {
+        "melee_hit": 40
+      }
+    },
+    "ki_infusion": {
+      "factor": 0.1,
+      "minNeed": 20,
+      "sources": {
+        "infused_hit": 1.0
+      },
+      "requires": {
+        "kicontrol": 1
+      },
+      "practice": {
+        "melee_hit": 40
+      }
+    },
+    "kiprotection": {
+      "factor": 0.1,
+      "minNeed": 20,
+      "sources": {
+        "blow_taken": 1.0,
+        "block": 2.0
+      },
+      "requires": {
+        "kicontrol": 1
+      },
+      "practice": {
+        "block": 20
+      }
+    },
+    "instant_transmission": {
+      "factor": 0.05,
+      "minNeed": 20,
+      "sources": {
+        "teleport": 3.0
+      },
+      "requires": {
+        "kisense": 5,
+        "kicontrol": 1
+      },
+      "practice": {
+        "meditate": 40
+      }
+    },
+    "defense_penetration": {
+      "factor": 0.1,
+      "minNeed": 20,
+      "sources": {
+        "strong_hit": 1.0
+      },
+      "requires": {},
+      "practice": {
+        "strong_hit": 60
+      }
+    },
+    "healing_reduction": {
+      "factor": 0.1,
+      "minNeed": 20,
+      "sources": {
+        "strong_hit": 1.0,
+        "strong_kill": 5.0
+      },
+      "requires": {},
+      "practice": {
+        "strong_hit": 60
+      }
+    },
+    "potentialunlock": {
+      "factor": 0.05,
+      "minNeed": 20,
+      "sources": {
+        "release_cap": 1.0,
+        "big_win": 10.0
+      },
+      "requires": {},
+      "practice": {
+        "release_cap": 60
+      }
+    },
+    "fusion": {
+      "factor": 0.02,
+      "minNeed": 20,
+      "sources": {
+        "fused": 1.0
+      },
+      "requires": {},
+      "practice": {}
+    },
+    "kaioken": {
+      "factor": 0.05,
+      "minNeed": 20,
+      "sources": {
+        "kaioken": 1.0
+      },
+      "requires": {
+        "kicontrol": 1,
+        "meditation": 2
+      },
+      "practice": {
+        "ki_charge": 120
+      }
+    },
+    "battlefocus": {
+      "factor": 0.005,
+      "minNeed": 20,
+      "sources": {
+        "focus_hit": 1.0
+      },
+      "requires": {},
+      "practice": {
+        "melee_hit": 60
+      }
+    },
+    "superdash": {
+      "factor": 0.005,
+      "minNeed": 20,
+      "sources": {
+        "dash": 1.0
+      },
+      "requires": {},
+      "practice": {
+        "dash": 30
+      }
+    },
+    "flowstate": {
+      "factor": 0.005,
+      "minNeed": 20,
+      "sources": {
+        "evade": 1.0
+      },
+      "requires": {},
+      "practice": {
+        "evade": 20
+      }
+    },
+    "stepvanish": {
+      "factor": 0.005,
+      "minNeed": 20,
+      "sources": {
+        "dash": 1.0
+      },
+      "requires": {},
+      "practice": {
+        "dash": 20
+      }
+    },
+    "timeperception": {
+      "factor": 5.0E-4,
+      "minNeed": 20,
+      "sources": {
+        "time_chamber": 1.0,
+        "evade": 1.0
+      },
+      "requires": {},
+      "practice": {
+        "evade": 30
+      }
+    },
+    "forcedspiritfission": {
+      "factor": 0.005,
+      "minNeed": 20,
+      "sources": {
+        "ki_hit": 1.0
+      },
+      "requires": {},
+      "practice": {
+        "ki_hit": 20
+      }
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "id": "perfectionist",
+  "name": "Perfect Being",
+  "inspired_by": "Cell",
+  "description": "A bio-engineered fighter that absorbs the strong to evolve: imperfect, semi-perfect, perfect. Then it holds a tournament to prove it, and destroys the world if no one stops it.",
+  "focus": [
+    "martial",
+    "science"
+  ],
+  "power": 1.6,
+  "army": "%npc%'s Brood",
+  "redeemable": false,
+  "looks": {
+    "race": "bioandroid",
+    "bodyColor": "#6BBF59",
+    "bodyColor2": "#2E5E2A",
+    "auraColor": "#C8FF66"
+  },
+  "lair": {
+    "style": "hidden",
+    "templates": [
+      "lair_lab"
+    ],
+    "materials": "free",
+    "radius": 120
+  },
+  "abilities": [
+    "absorb",
+    "regenerate",
+    "rage",
+    "zenkai",
+    "scouter",
+    "tank",
+    "self_destruct",
+    "shockwave"
+  ],
+  "scheme": [
+    {
+      "goal": "lair",
+      "say_start": "I must hide until I'm complete."
+    },
+    {
+      "goal": "absorb",
+      "count": 1,
+      "min_power": 0.6,
+      "say_start": "I can sense them... the ones I need.",
+      "say_done": "Yes... I can feel it. I'm changing.",
+      "boons": [
+        {
+          "type": "form",
+          "form": "bioandroid:bioevolution.semiperfect"
+        },
+        {
+          "type": "title",
+          "value": "Semi-Perfect"
+        },
+        {
+          "type": "stats",
+          "value": 1.25
+        }
+      ]
+    },
+    {
+      "goal": "absorb",
+      "count": 1,
+      "min_power": 0.8,
+      "say_done": "Perfect. I am finally PERFECT!",
+      "broadcast": "%npc% has achieved its perfect form!",
+      "boons": [
+        {
+          "type": "form",
+          "form": "bioandroid:bioevolution.perfect"
+        },
+        {
+          "type": "title",
+          "value": "Perfect"
+        },
+        {
+          "type": "stats",
+          "value": 1.35
+        }
+      ]
+    },
+    {
+      "goal": "tournament",
+      "days": 3,
+      "broadcast": "%npc% announces a tournament! Come to its ring and fight for the planet. You have %days% days.",
+      "say_done": "No one could stop me. How disappointing."
+    },
+    {
+      "goal": "doom",
+      "minutes": 10,
+      "broadcast": "%npc%: Since none of you could beat me, this world ends in %minutes% minutes."
+    }
+  ],
+  "milestones": [
+    {
+      "id": "zenkai",
+      "name": "Saiyan Cells",
+      "trigger": {
+        "type": "count",
+        "counter": "defeated",
+        "at": 1
+      },
+      "say": "Thanks to my Saiyan cells, I came back stronger than ever!",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.2
+        },
+        {
+          "type": "title",
+          "value": "Super Perfect"
+        }
+      ],
+      "model": {
+        "auraColor": "#FFE14D"
+      }
+    },
+    {
+      "id": "rage",
+      "name": "Enraged",
+      "trigger": {
+        "type": "enraged",
+        "hp_below": 25
+      },
+      "repeat": true,
+      "cooldown": 300,
+      "say": "You DARE?!",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.3,
+          "seconds": 45
+        },
+        {
+          "type": "effect",
+          "effect": "minecraft:speed",
+          "amplifier": 1,
+          "seconds": 45
+        }
+      ]
+    }
+  ],
+  "lines": {
+    "taunt": [
+      "Is that the best you can do?",
+      "I am the ultimate being.",
+      "Your energy will make a fine meal."
+    ],
+    "victory": [
+      "Perfect."
+    ],
+    "defeated": [
+      "How? I'm... perfect..."
+    ]
+  },
+  "demands": [
+    {
+      "type": "offer_power",
+      "gain": 0.05,
+      "reward_tp": 700,
+      "weak_minutes": 10,
+      "line": "I can feel your power from here, %player%... It's wasted on you. Let me absorb it. You'll live. Probably.",
+      "thanks": "Ahh... yes. I can feel myself getting closer to perfection. Go. You're no use to me now."
+    },
+    {
+      "type": "kill",
+      "mob": "minecraft:iron_golem",
+      "count": 2,
+      "reward_tp": 500,
+      "goal": "absorb",
+      "line": "I need strong prey. Hunt down %count% %mob% for me. Consider it... a preliminary round."
+    }
+  ]
+}

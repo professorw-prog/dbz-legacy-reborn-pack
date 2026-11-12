@@ -1,0 +1,13 @@
+name = "DBZ Legacy Reborn"
+author = "DBZ Legacy Reborn"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "df80e1957893ec400264cad9ef072b0b157503da8faeec558066ca9041ae75b6"
+
+[versions]
+forge = "47.4.10"
+minecraft = "1.20.1"

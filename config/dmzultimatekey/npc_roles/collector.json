@@ -1,0 +1,43 @@
+{
+  "id": "collector",
+  "name": "Collector",
+  "description": "Hoards whatever its goals value; scours the area and keeps it all.",
+  "actions": [
+    {
+      "action": "collect_loot",
+      "params": {
+        "radius": 24
+      },
+      "utility": {
+        "base": 50,
+        "when": [
+          {
+            "var": "loot_near",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "deposit",
+      "utility": {
+        "base": 60,
+        "when": [
+          {
+            "var": "spare_interest",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "wander",
+      "params": {
+        "radius": 20
+      },
+      "utility": 15
+    }
+  ]
+}

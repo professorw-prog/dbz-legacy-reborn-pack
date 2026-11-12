@@ -1,0 +1,126 @@
+{
+  "id": "future_warrior",
+  "name": "Warrior From A Ruined Future",
+  "inspired_by": "Future Trunks",
+  "description": "Came back from a future where the villains won. Trains relentlessly, hunts villains and their machines, and doesn't always show mercy - it has seen what happens when they live.",
+  "focus": [
+    "martial"
+  ],
+  "power": 1.45,
+  "mercy": 0.5,
+  "sense_radius": 384,
+  "defend_radius": 48,
+  "students": true,
+  "nemesis": [
+    "perfectionist",
+    "conqueror"
+  ],
+  "looks": {
+    "race": "saiyan",
+    "hairColor": "#B19CD9",
+    "auraColor": "#FFFFFF"
+  },
+  "base": {
+    "templates": [
+      "cottage"
+    ],
+    "materials": "player",
+    "radius": 96
+  },
+  "journey": [
+    {
+      "goal": "power",
+      "at": 1.5,
+      "say_start": "I didn't come all this way to lose again.",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.1
+        }
+      ]
+    },
+    {
+      "goal": "defeat",
+      "count": 2,
+      "say_start": "I know what that kind of evil leads to. Not this time.",
+      "say_done": "This timeline still has a chance."
+    },
+    {
+      "goal": "base",
+      "say_start": "Mom would want me to have somewhere safe."
+    }
+  ],
+  "loop_from": 0,
+  "milestones": [
+    {
+      "id": "rage",
+      "name": "Rage Of A Lost Future",
+      "trigger": {
+        "type": "enraged",
+        "cause": "ally_fell"
+      },
+      "repeat": true,
+      "cooldown": 900,
+      "say": "NOT AGAIN! I won't watch it happen again!",
+      "boons": [
+        {
+          "type": "form",
+          "form": "saiyan:supersaiyan.supersaiyanmastered"
+        },
+        {
+          "type": "stats",
+          "value": 1.35,
+          "seconds": 300
+        }
+      ],
+      "model": {
+        "hairColor": "#FFE14D",
+        "auraColor": "#FFD700",
+        "seconds": 300
+      }
+    },
+    {
+      "id": "sword",
+      "name": "Burning Attack",
+      "trigger": {
+        "type": "count",
+        "counter": "villains_defeated",
+        "at": 1
+      },
+      "say": "For everyone I couldn't save.",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.15
+        }
+      ]
+    }
+  ],
+  "lines": {
+    "battle_cry": [
+      "It ends here.",
+      "I've seen what you'll become. I won't allow it.",
+      "For my future!"
+    ],
+    "victory": [
+      "It's over.",
+      "That's for everyone back home."
+    ],
+    "defeated": [
+      "Not... yet... I can't lose..."
+    ]
+  },
+  "requests": [
+    {
+      "type": "kill",
+      "mob": "minecraft:iron_golem",
+      "count": 2,
+      "reward_tp": 500,
+      "line": "Where I come from, machines nearly wiped us out. Help me practise, %player% - bring down %count% %mob%."
+    },
+    {
+      "type": "train",
+      "line": "I need to get stronger before it's too late. Spar with me, %player%. Please - don't go easy."
+    }
+  ]
+}

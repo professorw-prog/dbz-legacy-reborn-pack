@@ -1,0 +1,198 @@
+{
+  "id": "conqueror",
+  "name": "Galactic Conqueror",
+  "inspired_by": "Frieza",
+  "description": "A tyrant emperor. Raises an army, conquers town after town, moves on to other planets, and destroys the worlds it has no more use for. Holds back its true forms until pushed.",
+  "focus": [
+    "martial",
+    "science"
+  ],
+  "power": 1.8,
+  "army": "%npc%'s Empire",
+  "redeemable": false,
+  "vendettas": {
+    "races": [
+      "saiyan"
+    ]
+  },
+  "looks": {
+    "race": "frostdemon",
+    "auraColor": "#B266FF"
+  },
+  "lair": {
+    "style": "extravagant",
+    "templates": [
+      "lair_fortress"
+    ],
+    "materials": "free",
+    "radius": 160
+  },
+  "scheme": [
+    {
+      "goal": "lair",
+      "say_start": "An emperor needs a throne."
+    },
+    {
+      "goal": "minions",
+      "count": 3,
+      "say_start": "Soldiers. I need soldiers.",
+      "say_done": "My army grows."
+    },
+    {
+      "goal": "conquer",
+      "count": 2,
+      "travel": true,
+      "say_start": "Kneel before me, or be erased.",
+      "say_done": "This world bows to me.",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.15
+        },
+        {
+          "type": "title",
+          "value": "Emperor"
+        }
+      ]
+    },
+    {
+      "goal": "doom",
+      "minutes": 10,
+      "travel": true,
+      "broadcast": "%npc% has grown bored of this planet. It will be destroyed in %minutes% minutes!",
+      "say_done": "Such a pretty planet. Such a shame.",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.1
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "second_form",
+      "name": "Second Form",
+      "trigger": {
+        "type": "enraged",
+        "hp_below": 60
+      },
+      "repeat": true,
+      "cooldown": 600,
+      "say": "You've forced me to transform. You'll regret that.",
+      "boons": [
+        {
+          "type": "form",
+          "form": "frostdemon:evolutionforms.second"
+        }
+      ]
+    },
+    {
+      "id": "final_form",
+      "name": "Final Form",
+      "trigger": {
+        "type": "enraged",
+        "hp_below": 30
+      },
+      "repeat": true,
+      "cooldown": 600,
+      "say": "Now witness my final form!",
+      "boons": [
+        {
+          "type": "form",
+          "form": "frostdemon:evolutionforms.final"
+        },
+        {
+          "type": "heal"
+        }
+      ]
+    },
+    {
+      "id": "full_power",
+      "name": "100% Full Power",
+      "trigger": {
+        "type": "count",
+        "counter": "defeated",
+        "at": 1
+      },
+      "say": "I will not lose to you twice. One hundred percent!",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.3
+        },
+        {
+          "type": "release",
+          "value": 4
+        }
+      ],
+      "model": {
+        "auraColor": "#FF33CC"
+      }
+    },
+    {
+      "id": "golden",
+      "name": "Golden Emperor",
+      "trigger": {
+        "type": "count",
+        "counter": "defeated",
+        "at": 3
+      },
+      "broadcast": "%npc% has trained for the first time... and turned GOLD.",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.5
+        },
+        {
+          "type": "title",
+          "value": "Golden"
+        }
+      ],
+      "model": {
+        "bodyColor": "#E8C547",
+        "bodyColor2": "#B38BFF",
+        "auraColor": "#FFD700"
+      }
+    }
+  ],
+  "lines": {
+    "taunt": [
+      "Ohohoho! Is that all?",
+      "You're nothing but a monkey.",
+      "I'll make you pay for that."
+    ],
+    "victory": [
+      "Pathetic.",
+      "Know your place."
+    ],
+    "defeated": [
+      "This... this can't be! I am the emperor!"
+    ]
+  },
+  "demands": [
+    {
+      "type": "deliver",
+      "item": "minecraft:diamond",
+      "count": 8,
+      "reward_tp": 500,
+      "line": "Every world I own pays tribute, %player%. %count% %item%. Bring them, and I might let your little planet keep its sky."
+    },
+    {
+      "type": "kill",
+      "mob": "minecraft:pillager",
+      "count": 8,
+      "reward_tp": 450,
+      "goal": "conquer",
+      "line": "Rebels. Insects who think they can resist me. Exterminate %count% %mob% and you'll have earned a place in my empire."
+    },
+    {
+      "type": "deliver",
+      "item": "minecraft:netherite_ingot",
+      "count": 2,
+      "reward_tp": 700,
+      "goal": "minions",
+      "line": "My soldiers need proper armour. %count% %item%. Fail me, and you'll be the first to test it."
+    }
+  ]
+}

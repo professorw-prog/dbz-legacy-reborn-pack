@@ -1,0 +1,42 @@
+{
+  "baseStats": {
+    "STR": 3,
+    "SKP": 3,
+    "RES": 3,
+    "VIT": 3,
+    "PWR": 3,
+    "ENE": 3
+  },
+  "statScaling": {
+    "STR_scaling": 2.0,
+    "SKP_scaling": 2.0,
+    "STM_scaling": 2.0,
+    "DEF_scaling": 2.0,
+    "DEF_scaling_max": 4.0,
+    "VIT_scaling": 2.0,
+    "VIT_scaling_max": 8.0,
+    "PWR_scaling": 2.0,
+    "ENE_scaling": 2.0
+  },
+  "baseHp5": 0.0,
+  "hp5VitScaling": 0.0,
+  "baseEp5": 0.0,
+  "ep5EneScaling": 0.02,
+  "baseSp5": 0.0,
+  "sp5StmScaling": 0.0,
+  "tpCostMultiplier": 0.0,
+  "tpGainMultiplier": 0.0,
+  "passive": {
+    "enabled": true,
+    "values": {
+      "Value": 0.5,
+      "PassiveType": 4,
+      "Type": 6,
+      "Custom Passive": true
+    }
+  },
+  "configVersion": "2.2.1",
+  "displayName": "Potentialist",
+  "displayColor": "#FF5555",
+  "exclusiveRaces": []
+}

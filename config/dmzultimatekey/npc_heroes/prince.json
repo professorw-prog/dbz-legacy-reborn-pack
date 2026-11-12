@@ -1,0 +1,144 @@
+{
+  "id": "prince",
+  "name": "Proud Prince",
+  "inspired_by": "Vegeta",
+  "description": "An arrogant warrior who fights on the right side mostly out of pride. Obsessed with surpassing its rivals; finishes its foes more often than not.",
+  "focus": [
+    "martial"
+  ],
+  "power": 1.5,
+  "mercy": 0.25,
+  "sense_radius": 320,
+  "defend_radius": 32,
+  "students": false,
+  "looks": {
+    "race": "saiyan",
+    "auraColor": "#BFD8FF"
+  },
+  "base": {
+    "templates": [
+      "villa"
+    ],
+    "materials": "player",
+    "radius": 110
+  },
+  "journey": [
+    {
+      "goal": "power",
+      "at": 2,
+      "say_start": "I will surpass them all. Every last one.",
+      "say_done": "Yes... I can feel it!",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.15
+        }
+      ]
+    },
+    {
+      "goal": "defeat",
+      "count": 2,
+      "say_start": "Some fool thinks they can rule this planet. Not while I'm on it.",
+      "say_done": "Hmph. Barely worth my time."
+    },
+    {
+      "goal": "base",
+      "say_start": "A prince needs a residence worthy of him."
+    }
+  ],
+  "loop_from": 0,
+  "milestones": [
+    {
+      "id": "pride",
+      "name": "Saiyan Pride",
+      "trigger": {
+        "type": "enraged",
+        "hp_below": 30
+      },
+      "repeat": true,
+      "cooldown": 900,
+      "say": "I am the PRINCE of all Saiyans! I will not lose to the likes of you!",
+      "boons": [
+        {
+          "type": "form",
+          "form": "saiyan:supersaiyan.supersaiyanmastered"
+        },
+        {
+          "type": "stats",
+          "value": 1.2,
+          "seconds": 240
+        }
+      ],
+      "model": {
+        "hairColor": "#FFE14D",
+        "auraColor": "#FFD700",
+        "seconds": 240
+      }
+    },
+    {
+      "id": "final_flash",
+      "name": "Final Flash",
+      "trigger": {
+        "type": "count",
+        "counter": "villains_defeated",
+        "at": 2
+      },
+      "say": "Witness my ultimate technique!",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.2
+        },
+        {
+          "type": "release",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "rival",
+      "name": "Never Again",
+      "trigger": {
+        "type": "count",
+        "counter": "defeated",
+        "at": 2
+      },
+      "repeat": true,
+      "cooldown": 1200,
+      "say": "I lost... again... I'll train until my body breaks!",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.1
+        }
+      ]
+    }
+  ],
+  "lines": {
+    "battle_cry": [
+      "Out of my way, insect.",
+      "You dare challenge me?",
+      "I'll show you the power of a true warrior!"
+    ],
+    "victory": [
+      "Pathetic.",
+      "Know your place."
+    ],
+    "defeated": [
+      "Impossible... I'm... the prince..."
+    ]
+  },
+  "requests": [
+    {
+      "type": "train",
+      "line": "You want to get stronger, %player%? Then stop wasting my time and fight me. Don't expect me to hold back."
+    },
+    {
+      "type": "kill",
+      "mob": "minecraft:ravager",
+      "count": 2,
+      "reward_tp": 550,
+      "line": "Hmph. If you're going to stand next to me, prove you're worth something. Bring down %count% %mob%."
+    }
+  ]
+}

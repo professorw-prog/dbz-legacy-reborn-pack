@@ -1,0 +1,33 @@
+{
+  "id": "rest_at_night",
+  "name": "Rest at night",
+  "description": "Goes home and stays there at night.",
+  "actions": [
+    {
+      "action": "stay",
+      "utility": {
+        "base": 70,
+        "when": [
+          {
+            "var": "hour",
+            "op": ">=",
+            "value": 20
+          }
+        ]
+      }
+    },
+    {
+      "action": "stay",
+      "utility": {
+        "base": 70,
+        "when": [
+          {
+            "var": "hour",
+            "op": "<",
+            "value": 6
+          }
+        ]
+      }
+    }
+  ]
+}

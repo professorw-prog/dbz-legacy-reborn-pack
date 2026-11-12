@@ -1,0 +1,42 @@
+{
+  "id": "hoard_food",
+  "name": "Hoard food",
+  "description": "Collects food and keeps it.",
+  "interest": {
+    "food": true
+  },
+  "shop": {
+    "buy_bonus": 0.3
+  },
+  "actions": [
+    {
+      "action": "collect_loot",
+      "params": {
+        "radius": 16
+      },
+      "utility": {
+        "base": 40,
+        "when": [
+          {
+            "var": "loot_near",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "deposit",
+      "utility": {
+        "base": 60,
+        "when": [
+          {
+            "var": "spare_interest",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "watchtower",
+  "name": "Watchtower",
+  "description": "A lookout tower with a ladder to a fenced platform.",
+  "foundation": "minecraft:cobblestone",
+  "legend": {
+    "c": "minecraft:cobblestone",
+    "p": "minecraft:oak_planks",
+    "L": "minecraft:oak_log",
+    "g": "minecraft:glass_pane",
+    "D": "minecraft:oak_door[facing=south,half=lower,hinge=left]",
+    "d": "minecraft:oak_door[facing=south,half=upper,hinge=left]",
+    "s": "minecraft:oak_slab[type=bottom]",
+    "l": "minecraft:lantern",
+    "f": "minecraft:oak_fence",
+    "h": "minecraft:ladder[facing=north]",
+    "@": "@home",
+    "$": "@trader[facing=north]"
+  },
+  "layers": [
+    [
+      "ccccc",
+      "ccccc",
+      "ccccc",
+      "ccccc",
+      "ccccc"
+    ],
+    [
+      "LpDpL",
+      "p.@.p",
+      "p...p",
+      "p.h.p",
+      "LpppL"
+    ],
+    [
+      "LpdpL",
+      "p...p",
+      "p...p",
+      "p.h.p",
+      "LpppL"
+    ],
+    [
+      "LpppL",
+      "p...p",
+      "g...g",
+      "p.h.p",
+      "LpppL"
+    ],
+    [
+      "LpppL",
+      "p...p",
+      "p...p",
+      "p.h.p",
+      "LpppL"
+    ],
+    [
+      "LpppL",
+      "p...p",
+      "g...g",
+      "p.h.p",
+      "LpppL"
+    ],
+    [
+      "ppppp",
+      "ppppp",
+      "ppppp",
+      "pphpp",
+      "ppppp"
+    ],
+    [
+      "fffff",
+      "f...f",
+      "f...f",
+      "f...f",
+      "fffff"
+    ]
+  ]
+}

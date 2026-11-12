@@ -1,0 +1,28 @@
+{
+  "id": "guard",
+  "name": "Guard",
+  "description": "Holds its post (home) and fights hostile mobs that come close.",
+  "earn_per_kill": 1,
+  "actions": [
+    {
+      "action": "guard",
+      "params": {
+        "radius": 16
+      },
+      "utility": 40
+    },
+    {
+      "action": "equip_best",
+      "utility": {
+        "base": 100,
+        "when": [
+          {
+            "var": "better_in_inventory",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

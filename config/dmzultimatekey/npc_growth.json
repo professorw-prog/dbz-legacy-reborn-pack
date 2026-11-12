@@ -1,0 +1,20 @@
+{
+  "check_seconds": 30,
+  "save_ratio": 0.5,
+  "paths": {
+    "melee":    {"stats": {"STR": 3, "VIT": 3, "RES": 2, "SKP": 1, "ENE": 1, "PWR": 0},
+                 "skills": ["jump", "sprint", "fly", "superforms", "kicontrol", "meteor", "wolf_fang", "potentialunlock", "kaioken", "instant_transmission", "dragon_fist", "deadly_dance"]},
+    "ki":       {"stats": {"PWR": 3, "ENE": 3, "VIT": 2, "SKP": 1, "RES": 1, "STR": 0},
+                 "skills": ["kicontrol", "kimanipulation", "masenko", "fly", "kamehameha", "superforms", "kiboost", "galick_gun", "potentialunlock", "death_beam", "final_flash", "spiritbomb"]},
+    "magic":    {"stats": {"ENE": 3, "VIT": 2, "RES": 2, "SKP": 1, "STR": 1, "PWR": 1},
+                 "skills": ["meditation", "fly", "kisense", "superforms", "potentialunlock", "kicontrol"]},
+    "balanced": {"stats": {"STR": 2, "PWR": 2, "VIT": 2, "ENE": 2, "RES": 1, "SKP": 1},
+                 "skills": ["fly", "kicontrol", "superforms", "masenko", "meteor", "potentialunlock", "kamehameha", "kaioken", "instant_transmission"]}
+  },
+  "_skill_costs": "estimates used only to decide how much TP to save; DMZ charges its real price",
+  "skill_costs": {"jump": 300, "sprint": 300, "meditation": 300, "kisense": 300, "fly": 1500, "kicontrol": 3000, "kimanipulation": 600,
+                  "kiboost": 2000, "masenko": 1500, "kamehameha": 2000, "galick_gun": 2000, "death_beam": 2500, "final_flash": 5000,
+                  "spiritbomb": 10000, "meteor": 3000, "wolf_fang": 3500, "dragon_fist": 6000, "deadly_dance": 8000, "kaioken": 1000,
+                  "potentialunlock": 600, "superforms": 2000, "instant_transmission": 4000},
+  "combat": {"ability_every": 3, "transform_below_hp": 70}
+}

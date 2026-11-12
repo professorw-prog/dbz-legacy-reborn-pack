@@ -1,0 +1,114 @@
+{
+  "enabled": true,
+  "currency": "Zeni",
+  "renameCoins": true,
+  "coinName": "{value} {currency} {unit}",
+  "coinPlural": "{value} {currency} {unit}s",
+  "pileName": "Pile of {value} {currency} {unit}s",
+  "pilePlural": "Piles of {value} {currency} {unit}s",
+  "blockName": "Stack of {value} {currency} {unit}s",
+  "blockPlural": "Stacks of {value} {currency} {unit}s",
+  "chocolatePrefix": "Chocolate ",
+  "coinWord": "Coin",
+  "noteWord": "Note",
+  "noteFrom": 1000000,
+  "numberStyle": "short",
+  "renameLcText": true,
+  "lcTextRules": [
+    [
+      "(?i)\\bcoin chains?\\b",
+      "{currency} chain"
+    ],
+    [
+      "\\bCoin Jar\\b",
+      "{currency} Jar"
+    ],
+    [
+      "\\bCoin Magnet\\b",
+      "{currency} Magnet"
+    ],
+    [
+      "\\bCoin Mint(ing)?\\b",
+      "{currency} Mint$1"
+    ],
+    [
+      "\\bCoin Exchange\\b",
+      "{currency} Exchange"
+    ],
+    [
+      "(?i)\\bcoinpiles?\\b",
+      "{currency} piles"
+    ],
+    [
+      "\\bCoins\\b",
+      "{currency}"
+    ],
+    [
+      "\\bcoins\\b",
+      "{currency}"
+    ],
+    [
+      "\\bCoin\\b",
+      "{currency}"
+    ],
+    [
+      "\\bcoin\\b",
+      "{currency} coin"
+    ],
+    [
+      "\\b(\\w+) \\1\\b",
+      "$1"
+    ]
+  ],
+  "extraNames": {
+    "lightmanscurrency.money.chain.main": "{currency}"
+  },
+  "lcNumberDisplay": true,
+  "lcDisplayFormat": "{value} Zeni",
+  "lcDisplayFormatWordy": "{value} Zeni",
+  "renameDukText": true,
+  "dukText": {
+    "Lightman's Currency is not installed.": "The {currency} bank (Lightman's Currency) is not installed.",
+    "Lightman's Currency isn't installed": "The {currency} bank (Lightman's Currency) isn't installed",
+    "I need an emerald coin from the till.": "I need a 1M {currency} note from the till.",
+    "I need a diamond coin.": "I need a 100M {currency} note.",
+    "I need a netherite coin.": "I need a 10B {currency} note.",
+    "Save the selected resource, then choose another. Currency is expressed in Lightman's diamond-equivalent units and is paid from the team treasury.": "Save the selected resource, then choose another. Money is in {currency} (100M per unit) and is paid from the team treasury.",
+    "AUTO: reserve payouts are compared with this amount (smallest coin; 5d etc. work)": "AUTO: reserve payouts are compared with this amount (in {currency}; 5d etc. also work)",
+    "Money every owned world pays its faction per hour (smallest coin; 5d etc. work)": "Money every owned world pays its faction per hour (in {currency}; 5d etc. also work)",
+    "Base value per unit in the smallest coin (5d, 2g also work), before inflation. Blank = default. Daily limit: reserve units per day each way (blank = the general limit, 0 = none).": "Base value per unit in {currency} (5d, 2g also work), before inflation. Blank = default. Daily limit: reserve units per day each way (blank = the general limit, 0 = none).",
+    "Amount must be above 0: a number of the smallest coin, or coins like 5d, 2n 3g.": "Amount must be above 0: a {currency} amount, or shorthand like 5d, 2n 3g.",
+    "Prices are in the smallest coin; type 5d, 2g etc. in the price box if you like.": "Prices are in {currency}; shorthand like 5d, 2g also works in the price box.",
+    "Your bank balance (Lightman's bank). Only you can spend it.": "Your {currency} bank balance. Only you can spend it.",
+    "A share of every coin goes to the faith.": "A share of every {currency} goes to the faith.",
+    "Lightman's money (core units)": "{currency}",
+    "offers expose all ten material/research pairs, Favor and Lightman's money": "offers expose all ten material/research pairs, Favor and {currency}",
+    "market GUI reads all selected price components including Lightman's money and Favor": "market GUI reads all selected price components including {currency} and Favor",
+    "The amount is sent every hour (money: coins like 5d)": "The amount is sent every hour (money: {currency}, or shorthand like 5d)",
+    "Lightman's Currency couldn't make coins for that amount.": "Couldn't pay out that much {currency} as coins.",
+    "You have no bank account, and that many coins won't fit. Withdraw less.": "You have no bank account, and that much {currency} won't fit in your inventory. Withdraw less.",
+    " (part of it as coins in your inventory).": " (part of it as {currency} coins in your inventory).",
+    " as coins (you have no bank account).": " as {currency} coins (you have no bank account).",
+    "Plain number = smallest coin; or coins like 5d, 2n 3g (c i g e d n).": "Plain number = {currency}; shorthand 5d, 2n, 3g still works (c=1 i=100 g=10K e=1M d=100M n=10B).",
+    "Move this amount from your Lightman's bank account into the faction treasury": "Move this amount from your {currency} bank account into the faction treasury",
+    "No bank account: paid as coins (dropped at your feet if your inventory is full)": "No bank account: paid as {currency} coins (dropped at your feet if your inventory is full)",
+    "Diamond Coins": "100M {currency} notes",
+    "Netherite Coins": "10B {currency} notes",
+    "Noea: Empires uses Lightman's actual configured coin-chain values.": "Empires uses the configured {currency} values.",
+    "Withdraw this amount from your Lightman's Currency bank balance and store it in the FTB team treasury": "Withdraw this amount from your {currency} bank balance and store it in the FTB team treasury",
+    "Withdraw this amount from your equipped Lightman's Currency wallet and store it in the FTB team treasury": "Withdraw this amount from your equipped {currency} wallet and store it in the FTB team treasury",
+    "Per level per hour; negative (e.g. -50) = uses it. Money: smallest coin, or coins like 5g.": "Per level per hour; negative (e.g. -50) = uses it. Money: {currency}, or shorthand like 5g."
+  },
+  "defaultSource": "any",
+  "anyOrder": [
+    "bank",
+    "wallet"
+  ],
+  "maxPerUse": 0,
+  "logChanges": true,
+  "ledgerFile": true,
+  "messages": true,
+  "msgAdd": "&a+{amount} {currency}",
+  "msgTake": "&e-{amount} {currency}",
+  "msgShort": "&cYou need {amount} {currency} ({have} available)."
+}

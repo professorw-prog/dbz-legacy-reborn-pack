@@ -1,0 +1,13 @@
+name = "Tinker's Construct Crafting Station Fix"
+filename = "CraftingStationFix-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9a675136d2557145fa00674f5598fad0491e5564"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7692238
+project-id = 1473473

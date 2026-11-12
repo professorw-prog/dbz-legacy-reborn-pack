@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "sleep_radius": 160,
+  "wake_radius": 128,
+  "sleep_after_seconds": 60,
+  "tp_per_minute": 15,
+  "build_blocks_per_minute": 40,
+  "max_catchup_minutes": 240
+}

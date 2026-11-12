@@ -1,0 +1,107 @@
+{
+  "configVersion": "2.2.1",
+  "hasGender": true,
+  "useVanillaSkin": false,
+  "customModel": "soulreaper",
+  "isLayered": true,
+  "headBones": [
+    "hair"
+  ],
+  "racialSkill": "",
+  "hasSaiyanTail": false,
+  "auraType": "kakarot",
+  "auraType3D": "userPreference",
+  "aura3DStyle": {
+    "size": [
+      1.1,
+      1.17,
+      1.02
+    ],
+    "flamePeaks": 12,
+    "waveFrequency": 2.0,
+    "waveSpeed": 5.0,
+    "waveAmplitude": 0.75,
+    "noiseDetail": 0.1,
+    "upwardBias": 0.54,
+    "coreAlpha": 0.05,
+    "rimAlpha": 1.0,
+    "rimPower": 4.0,
+    "rimThreshold": 0.05,
+    "coreColor": "",
+    "rimColor": "",
+    "noiseColor": "",
+    "bloomIntensity": 1.0,
+    "spikeDensity": 32,
+    "spikeBurstRate": 3.0,
+    "spikeRarity": 3.0,
+    "bandStart": 0.5,
+    "secondBorderColor": ""
+  },
+  "defaultModelScaling": [
+    "0.9375",
+    "0.9375",
+    "0.9375"
+  ],
+  "defaultBodyType": 0,
+  "slimBodyTypes": [],
+  "defaultHairType": 1,
+  "defaultEyesType": 0,
+  "defaultNoseType": 0,
+  "defaultMouthType": 0,
+  "defaultTattooType": 0,
+  "defaultBodyColor": "#E8BE9A",
+  "defaultBodyColor2": "#16161C",
+  "defaultBodyColor3": "#ECE9E2",
+  "defaultHairColor": "#E8782A",
+  "defaultEye1Color": "#7A4A2A",
+  "defaultEye2Color": "#7A4A2A",
+  "defaultAuraColor": "#DDEBFF",
+  "formSkillsCosts": {
+    "legendaryforms": {
+      "buyFromMaster": false,
+      "prices": []
+    },
+    "godforms": {
+      "buyFromMaster": false,
+      "prices": []
+    },
+    "superforms": {
+      "buyFromMaster": false,
+      "prices": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "truezanpakutoforms": {
+      "buyFromMaster": false,
+      "prices": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "createdforms": {
+      "buyFromMaster": false,
+      "prices": [
+        "-1"
+      ]
+    },
+    "hogyokuforms": {
+      "buyFromMaster": false,
+      "prices": [
+        "-1",
+        "-1"
+      ]
+    },
+    "hollowbornforms": {
+      "buyFromMaster": false,
+      "prices": [
+        "-1"
+      ]
+    }
+  },
+  "raceName": "soulreaper"
+}

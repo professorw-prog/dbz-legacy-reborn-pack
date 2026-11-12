@@ -1,0 +1,15 @@
+
+[config_v1]
+	bannedMobs = []
+	spawnRates = []
+	naturalSpawnRates = []
+	worldGenSpawnRates = []
+	dimensionBannedMobs = []
+	disabledMobSpawnTypes = []
+	biomeBannedMobs = []
+	biomeSpawns = []
+	biomeSpawnAssignments = []
+	spawnRules = []
+	spawnRuleAssignments = []
+	spawnCaps = []
+

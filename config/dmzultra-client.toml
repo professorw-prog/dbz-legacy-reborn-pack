@@ -1,0 +1,711 @@
+
+[hud]
+	#Show the arrival card (the world's name, universe and what is known about it) when you land on a planet.
+	planetArrivalCard = true
+	#Draw DMZ Ultra's own HUD - the quest tracker, the saga boss bar, the target panel, a world event's tracker and plates,
+	#the Fury, Angel's Grace and Time Skip timers - in the mod's cut glass, like its menus. false gives every one of them
+	#back as it was drawn before, at once.
+	kitHud = true
+	#Do not draw DMZ Ultra's HUD while one of DragonMineZ' or DMZ Ultra's menus is open (it showed
+	#through them). The chat and the radial menu never hide it. false draws it under every menu, as before.
+	hideUnderMenus = true
+	#Show DMZ Ultra's notices as glass cards at the top right, under Minecraft's own pop-ups: a world event's result, a
+	#Super Dragon Ball recovered, a saga's boss beaten, a setting changed. Up to three at once; a repeat updates its card.
+	#false shows none of them.
+	notices = true
+	#Show the lines DMZ Ultra itself writes into the chat for important moments (a chamber run begun or cleared, a jump to
+	#another universe, a staff granted ...) as notice cards instead of chat lines. false leaves them in the chat.
+	#Needs notices = true.
+	chatAsNotices = true
+	#Open a banner across the upper part of the screen for the heaviest notices (a saga finished, all seven Super Dragon
+	#Balls recovered) before they settle into their card. It never takes the camera or the controls. false: the card alone.
+	momentBanners = true
+	#Show the short line above the hotbar (every mod's, Minecraft's own too) on a small plate of DMZ Ultra's glass.
+	#false leaves it as plain text, exactly as Minecraft draws it.
+	restyleActionBar = true
+
+[conquest]
+	#Keep everything at the top right of the screen in one column, so nothing covers anything else at any GUI scale: quest
+	#pop-ups and effect icons first, then the quest tracker.
+	#false leaves every element where its own mod draws it (they overlap).
+	arrangeRightHud = true
+	#Show the aurora that stands over a world someone has claimed or freed, in that fighter's colour, and tint the horizon
+	#with it. false leaves a world's sky as it is. Never drawn while a shader pack is active.
+	claimedSky = true
+	#Jolt the camera for a few ticks at the great moments of a planet campaign - a pylon breaking, the shield bursting, the
+	#champion landing, the standard striking the ground. You keep the camera and the controls; it also follows Minecraft's
+	#'Distortion Effects' slider. false: no jolts.
+	cameraShake = true
+	#Let time slow for a blink (a quarter of a second, on this client only) when a world's champion falls near you.
+	#false: it passes at full speed.
+	slowMotion = true
+
+[menus]
+	#Draw DragonMineZ' own menus in DMZ Ultra's glass style: the character menu and its tabs, masters and quest givers,
+	#the quest tree, wishes, the pod and Instant Transmission lists, the radial menu, character creation, the training games,
+	#its quest pop-ups and the technique, charge and beam clash plates. Layout, text and behaviour stay DragonMineZ' own.
+	#false gives every one of them back exactly as DragonMineZ draws it, at once.
+	restyleDmzMenus = true
+	#Redraw the race choice of the character creator (the first screen of a new character) as a stage: the
+	#fighter large on a lit plinth, the races as cards along the bottom, what the race is, its racial ability with the real
+	#numbers and what it is born with beside it. The races, their order, Select and Back are DragonMineZ' own. false gives
+	#DragonMineZ' own screen back at once. (Also in DMZ Utilities, Interface page, Menus.)
+	raceChooserV2 = true
+	#Also draw the panels, buttons, fields and sprites DragonMineZ 2.2 paints itself (the stats, skills, wishes, pod
+	#and Instant Transmission menus and their tabs) in DMZ Ultra's glass. Needs restyleDmzMenus = true. false gives those
+	#pieces back exactly as DragonMineZ 2.2 paints them, at once, and leaves the rest of the restyle as it is.
+	restyleDmz22Panels = true
+	#Draw DragonMineZ' tutorial cards (the step-by-step help over its menus) in the chosen menu style: the card, its buttons,
+	#the frame round the part it points at, the dim and the text. Needs restyleDmzMenus and restyleDmz22Panels. false: the
+	#cards exactly as DragonMineZ draws them.
+	restyleDmzTutorial = true
+
+[space]
+	#Draw the black holes of space with DMZ Ultra's shader (a bent accretion disc, a photon ring, a true shadow) and its
+	#stars, worlds, moons, gas giants and rings with DMZ Ultra's own (stars of flowing plasma with a corona, in six classes;
+	#worlds drawn from the heights of the very ground one lands on, with seas, weather, air and night lights; banded gas
+	#giants with storms; far bodies as round points) - in space, in a planet's sky and in the Galaxy Atlas. false leaves
+	#the plainer pictures. Never used while a shader pack is active.
+	upgradeSpaceVisuals = true
+	#Draw the sky of deep space - behind the bodies, and over a planet at night - with DMZ Ultra's shader: tens of thousands
+	#of round stars of every brightness and colour, the galaxy as a river of light with its dust lanes, and faint nebulae in
+	#the colours of the universe one is in. false leaves a plainer sky. Never used while a shader
+	#pack is active.
+	upgradeSkyBackground = true
+	#Show the destruction of a world, a moon or a star as DMZ Ultra stages it: the blow, a shock front running round the globe,
+	#the crust opening and lifting in plates, the burst, and the pieces that stay where the world was until it is restored;
+	#a star swells, falls in on itself and leaves shells of glowing gas (a gas giant's end is still the former picture).
+	#false leaves the destruction as it was before (and nothing where a destroyed world was). Never used while a shader
+	#pack is active.
+	upgradeDestruction = false
+	#When a world is destroyed within sight: let the flash white the whole view out for a moment and the view tremble (the
+	#tremble also follows Minecraft's Distortion Effects slider). false keeps the flash at the body and the view still.
+	destructionImpact = true
+
+[forms]
+	#Draw the pieces the forms of DMZ Ultra's own lines add to the body (horns, crests, plates, wings, rings of light).
+	#false shows those forms by their colours, hair and aura alone.
+	modelParts = true
+	#Under a form that wears a mask (the Hollow masks, the Visored mask, the Complete Hollow's crown), leave out the hair that
+	#would hang over the mask's eye holes or sink into the crown; the mane at the back stays. false draws all of
+	#DragonMineZ' hair under every mask, at once.
+	maskHairRule = true
+
+[cast]
+	#Reserved: fighters of the cast redrawn as slim player-proportioned figures. None are shipped (the cast keeps its
+	#own models), so this changes nothing unless a pack adds such models under assets/dmzultra/geo/entity/cast.
+	remadeCastModels = false
+
+[hd]
+	#Enlarge and redraw the small (64 pixel) entity textures of DragonMineZ and DMZ Ultra as they are loaded.
+	#never        - leave every texture as its pack has it (default)
+	#with_hd_pack - only while an HD resource pack for DragonMineZ is selected
+	#always       - also without one
+	enlargeSmallTextures = "never"
+
+[divine]
+	#Show a plate when an angel puts a sanctuary on your charts, when you land on one, and when you take an oath or a rank
+	#under one of the other eleven gods. false leaves only the line the god or angel says.
+	domainPlates = true
+	#Draw each god's sanctuary under its own sky (its universe's colours, its own sun, stars where its sky is dark).
+	#false draws a plain sky in one colour. Never drawn while a shader pack is active.
+	sanctuarySkies = true
+
+[scenes]
+	#With your transformation scenes on (/dmzultra animations transforms on, or the Scenes tab), ONE press of the
+	#transformation key transforms: the scene plays and the form is taken at its burst. The conditions and costs are
+	#DragonMineZ' own, as for a completed hold. false: the key is held as DragonMineZ has it, and the scene follows the
+	#hold. Changes nothing while your scenes are off or the server does not allow it.
+	onePress = true
+	#Show the performance of a transformation scene: the fighter's own body acts it out (the crouch, the scream, a god's
+	#slow rise ...) on DragonMineZ' player model, for your own scenes and for those of players near you. false: bodies keep
+	#DragonMineZ' own animations during a scene, at once.
+	performances = true
+	#Show the Black Flash scene when your own blow lands as one (and the black sparks and dark about those near you who
+	#strike one): the picture cut to ink and light, the fist from the side, the ground breaking, the name. false: the blow
+	#lands as any strike does, with its sound and its sparks.
+	blackFlash = true
+
+[vfx]
+	#How much the everyday effects of DMZ Ultra may cost: low (fewer samples and particles, no heat shimmer), medium, or high.
+	quality = "high"
+	#Charging ki shakes the place: a ring of pressure along the ground, dust and pebbles drawn in and lifted, a pool of light,
+	#cracks of light at high power, lightning for forms that have it, heat in the air, a rumble that rises and a burst at the
+	#release - in place of DragonMineZ' dust squares and ground sprite. false gives those back at once.
+	kiCharge = true
+	#Draw every fighter's aura (standing, charging, in flight) as a flame with body - a sheet of fire round the fighter seen
+	#from any side - in place of DragonMineZ' painted flame turned to the camera. Colours and layers stay those DragonMineZ
+	#gives the aura. false draws DragonMineZ' own aura at once.
+	#Never drawn while a shader pack is active.
+	auras = true
+	#Give ki blasts and beams a white-hot heart, a ribbon of light behind them, light on the ground they pass, a flare at the
+	#hands, pulses along a beam and a boiling clash point - added to what DragonMineZ draws, which stays. false: only that.
+	blasts = true
+	#Where a blast lands: a flash, a dome of fire that tears into smoke, a shockwave along the ground, debris and a scorch
+	#that fades; a ring and sparks for a hit, a blow and a block - in place of DragonMineZ' explosion and hit sprites.
+	#false gives those sprites back at once.
+	impacts = true
+	#What fast movement and a change of form show: a burst of the fighter's aura when a form is taken or left (seen by
+	#everyone, outside the opt-in scenes), a ribbon of the aura's light behind a fast flight, dust kicked back and speed lines
+	#at a dash, a snap of light at both ends of a vanishing step or an Instant Transmission. false: nothing is added.
+	movement = true
+
+[staff]
+	#Draw the Angel Staff as an object in the round - a slender dark staff with gold bands, a pale ring at its head and an
+	#orb that floats, turns and glows inside it - in the hand, in a slot, in a frame and on the ground. false gives the old
+	#flat picture back at once.
+	newModel = true
+
+[cutscenes]
+	#Show a muted line inside the black bars for the first seconds of a cutscene that can be skipped.
+	#false: no line; the skip key still works.
+	skipHint = true
+
+[guide]
+	#Offer the two-minute tour of DMZ Ultra the first time you join a world with the mod (a small card at the top
+	#right: start it, skip it for good, or ignore it). false: it never comes forward; /dmzultra index still opens the guide.
+	offerTour = true
+
+[melee]
+	#Keep a melee click made a little too early (up to 8 ticks before the swing is ready, aimed at a fighter) and strike
+	#with it the moment the swing is ready - one click, one blow. DragonMineZ 2.2 throws such a click away. false: a click
+	#is taken or dropped exactly as DragonMineZ has it.
+	keepEarlyPresses = true
+
+[lockon]
+	#While locked on, turn the view toward the foe smoothly and at the same speed at any frame rate, with no head whip
+	#under DragonMineZ' over-shoulder camera. false gives DragonMineZ' own lock-on turning back, at once.
+	smoothTurning = true
+	#Draw the lock-on ring on the screen at the foe (hidden behind walls, the same size near and far) instead of
+	#DragonMineZ' ring in the world. false gives DragonMineZ' own ring back, at once.
+	hudRing = true
+
+[soulreaper]
+	#Let the Mugetsu darkness also black out the sky (a dark dome behind the world) and, under a shader pack, lay a dark
+	#veil over the picture. false: the darkness is only the closing fog (a shader pack draws its own fog, so with one on
+	#nothing darkens). Needs mugetsuDarkness = true.
+	mugetsuVeil = true
+	#Shunpo and Sonido leave afterimages where the fighter stood and a streak along the path.
+	shunpoTrails = true
+	#Taking the Mugetsu form darkens the world around the fighter for two seconds (fog only, no shader).
+	mugetsuDarkness = true
+	#A Zanpakuto carried but not held is drawn on its Soul Reaper's back (sheathed, bound or slung as its look calls for).
+	sheathOnBack = true
+
+[graphics]
+	#One setting for every visual budget of DMZ Ultra: low, medium, high or ultra (also on the Interface page, Effects,
+	#and /dmzultra graphics <preset>). Choosing one sets vfx.quality and physics.quality below and the budgets that have no
+	#option of their own: the space visuals' share of a frame, the stars of the sky of space, how a world's end is staged,
+	#the glow of the form pieces, how near a black hole is traced in full. ultra = high plus more samples and heat in the
+	#air more often. custom: vfx.quality or physics.quality was changed by hand afterwards (the rest then follows vfx.quality).
+	preset = "high"
+
+[shaders]
+	#Under a shader pack, draw DMZ Ultra's lights and effects after the pack's finished picture - the auras, charging ki,
+	#blasts and impacts (DragonMineZ' own aura otherwise), the Getsuga crescents and
+	#the Mugetsu curtain and darkness, technique lights, travel and departure lights, the scenes' stage, the Angel Staff,
+	#conquest marks, Bleach releases - so they look as they do without a pack (never painted over by the pack's sky, never
+	#written into its own buffers). false: they keep their old place inside the pack's world (some faint, hidden or standing aside).
+	effectsAfterPack = true
+	#Under a shader pack, draw the worlds and star skies of pictures shown over the game (the pod voyage, a crossing, the
+	#Galaxy Atlas, the travel fire and heat shimmer, the Do-Over) with DMZ Ultra's own shaders, as without a pack.
+	#false: plain shaded discs and plain skies there, as before.
+	picturesUnderPack = true
+
+#How DMZ Ultra's menus, plates and notices look, move and sound (com.dmzultra.r3.uikit).
+[look]
+	#The menu style every menu of DMZ Ultra is drawn in - also DragonMineZ' menus restyled by DMZ Ultra, the
+	#notices, banners and HUD plates. tenkaichi: "Budokai", the 0.4 look - opaque warm-black slabs with a hard accent layer
+	#and black key lines (default). glass: "Classic glass", the 0.2.9 look - dark glass panes with cut corners, a lit frame
+	#and the theme's emblem and motif, titles in DragonMineZ' font. Chosen in game on the Look and sound page and on the
+	#Interface page (Menus and Look sections); the switch takes effect at once. The HUD's player and target frames keep their
+	#own look in both styles.
+	uiStyle = "tenkaichi"
+	#How much the menus move: full - slabs slide in when a menu opens, tabs wipe, buttons lift under the pointer and punch
+	#when pressed, headers drift (default); reduced - shorter moves, no overshoot, no shake, no drift; off - nothing moves.
+	uiMotion = "full"
+	#Play DMZ Ultra's interface sounds: a whip when one of its menus opens, a tick under the pointer, a slash for a tab, a
+	#clack for a choice, an impact for a confirmation. false: Minecraft's own button click only.
+	uiSounds = true
+	#How loud the interface sounds are (0 to 1, on top of Minecraft's master volume).
+	#Range: 0.0 ~ 1.0
+	uiVolume = 0.6
+	#Draw titles, tabs and big numbers in DMZ Ultra's own heavy oblique display face (false: DragonMineZ' pixel font, as
+	#everything else). Letters the face has no glyph for fall back to DragonMineZ' font on their own.
+	displayFont = true
+	#The finished Budokai kit: every control shows its ten states (a locked one keeps its label behind a lock and says why,
+	#loading pips, an error line, a success tick), a keyboard or gamepad focus you can always see, edges on whole units, and
+	#one sound per action. false: the kit exactly as in 0.4.0.
+	kitFinish = true
+	#The second kit finish (UI-K2): a focus you can always see when you move with the keyboard or a gamepad (a white key
+	#line and a "›" cursor), real locked / loading / error / success marks on DMZ Ultra's controls (a locked control keeps
+	#its label behind a lock and says why), the held press's fill, glyphs on locked rows and the empty / loading / error
+	#panels. false: the controls draw as in 0.4; a held press still has to be held.
+	kitFinish2 = true
+	#The choice screens' live pieces (UI-K3): 3D turntables and silhouettes of the blades, bonds and masks on offer, the
+	#offer cards dealt in one after the other, the spirit's lines written out letter by letter. false: still pictures, whole
+	#lines, no deal; every choice and held press works the same.
+	choiceKit = true
+
+#DMZ Ultra's own player frame and target frame (com.dmzultra.r3.hud, client/hud/frame).
+[frame]
+	#Draw DMZ Ultra's player frame - a round power medallion with your fighter's portrait, your health, ki, stamina and
+	#posture on leaning segmented bars with large numbers, your form, battle power and level, and the Fury and Kai readings
+	#under it - in place of DragonMineZ' health, ki and stamina bars (both its Xenoverse HUD and its Alternative HUD are held
+	#back while it is on). false gives DragonMineZ' own bars back at once.
+	playerFrame = true
+	#Which corner the player frame hangs from: top_left (where DragonMineZ' bars were) or bottom_left (above the hotbar's
+	#rows). The HUD editor (Interface page -> Move the HUD) sets this and the offsets by dragging the frame.
+	anchor = "top_left"
+	#How far the player frame stands from its corner, to the right (GUI units; it never leaves the screen).
+	#Range: -4000 ~ 4000
+	offsetX = -2
+	#How far the player frame stands from its corner, downwards (GUI units; negative moves a bottom frame up).
+	#Range: -4000 ~ 4000
+	offsetY = -2
+	#The player frame's size (1 = 180 by 56 GUI units; never more than half the screen's width).
+	#Range: 0.5 ~ 2.0
+	scale = 1.0
+	#What the power medallion shows: live - your fighter drawn in 3D every frame (costs one more model drawing a frame);
+	#still - the same portrait drawn again ten times a second (default); emblem - your race's emblem, no model at all.
+	portrait = "still"
+	#The numbers on the bars: dmz - as DragonMineZ' own options say (its 'advanced description' and 'percentage' settings);
+	#value - current and maximum; percent - a percentage; off - bars alone.
+	statNumbers = "dmz"
+	#Where the target frame stands (the name, health, battle power and bars of what you lock on to or look at): world - over
+	#its head, smaller with distance, at the top of the screen when it is behind you or off the screen; top - always at the
+	#top centre; off - none. Battle power and ki still need ki sense, as before; another player's posture is shown without it
+	#(it is their guard, not their ki). The 'toggle target panel' key switches it off and on.
+	targetFrame = "world"
+	#Make the player frame pulse red while your health is below a quarter. false: it stays still.
+	lowHealthPulse = true
+	#Keep the target frame clear of the quest tracker and everything else in the top right corner, at every GUI scale and
+	#window size: over a head it moves aside (left of the tracker, or under it), at the top it ends left of it. false: the
+	#target frame may lie on the tracker, as before 0.4.
+	targetClearOfTracker = true
+	#Internal: 0 until the player frame has taken the place of DragonMineZ' own bars once (on the first run it starts where
+	#you had DragonMineZ' HUD). Set it back to 0 to copy that place again.
+	#Range: 0 ~ 9
+	layoutVersion = 1
+
+#Ultra Combat read-outs on your screen (0.3 area "combat").
+[combat]
+	#The strike column beside the crosshair: your combo's hits, its damage and the window left.
+	strikeColumn = true
+	#Damage numbers where a blow lands.
+	damageNumbers = true
+	#Also the damage numbers of fights you are not part of.
+	othersDamageNumbers = true
+	#The names of the big moves (the knock-away, a heavy, a parry, a broken guard) when they land.
+	callouts = true
+	#The glint on a fist that is about to strike (a telegraphed heavy or saga blow) and its cue sound.
+	telegraphs = true
+	#A small camera kick when you land or take a blow.
+	cameraImpulse = true
+	#A flash where a heavy blow lands and speed lines when a fighter is knocked away or launched.
+	impactFlash = true
+
+[cine]
+	#Play your transformation scenes as the short scenes of 0.2 (about seven seconds each) instead of the long
+	#compositions of 0.3 (nine to eighteen seconds, a scene of its own for every step of the Super Saiyan line). The server is told,
+	#because it takes the form at the scene's burst. Changes nothing while your scenes are off.
+	classicScenes = false
+	#How a long transformation scene shows the form's name: strip (a strip in the lower black bar - number, a few words
+	#and the name), plate (only a small "form attained" plate near the end), both (default), classic (the banner of 0.2 across
+	#the lower third), off (no name at all).
+	titles = "both"
+	#Draw the flat anime flame sheets of the long transformation scenes about every fighter whose aura is up, every day
+	#(not only in a scene). Off by default: the flame sheets are the scenes' own; DragonMineZ' aura is drawn either way.
+	flameAura = false
+
+#The 0.3 space upgrade: the Galaxy Atlas, the atmosphere crossing, the autopilot's shots, flying a pod.
+[voyage]
+	#Open DMZ Ultra's Galaxy Atlas on the atlas key.
+	newAtlas = true
+	#Film the atmosphere crossing (launching from a world, landing on one, Whis's and the staff's arrivals)
+	#with real cameras and the worlds themselves. The cutscene key skips it. false: no picture of the crossing.
+	atmosphereCinema = true
+	#Cameras of their own for the autopilot, the whole trip: the launch off a world, a departure sweeping round
+	#the pod, the fold's streak, an approach as the world grows, a moment of pod and world at the arrival and a glide back into
+	#the seat. false: the pilot's own camera only.
+	cruiseShots = true
+	#The autopilot's speed look, in any camera: its flame stretching with speed, streaks of dust streaming past,
+	#the view widening, and a folded leg's streak with its flash over the move. false: the pod flies plain (a fold is a cut).
+	speedLook = true
+	#In first person in a space pod, look out of a canopy instead of at the inside of the pod's red cabin.
+	podCockpit = true
+	#In first person in a space pod out in space, see the pod's own inside (its cabin and window), as on a world.
+	#This comes before the cockpit view above. false: the cockpit view (podCockpit) decides.
+	podInterior = true
+	#Mark the autopilot's destination and the nearest world you can land on, on screen, while flying a pod in deep space.
+	navMarkers = true
+	#Show the autopilot's state as a slim strip of DMZ Ultra's HUD.
+	navStrip = true
+	#Open Whis's and the Angel Staff's universe travel in the Galaxy Atlas' ferry mode instead of the list of
+	#universes (the list keeps a button to the atlas, and the atlas one back to the list).
+	ferryInAtlas = false
+
+[training]
+	#Training mode: a small "+XP" line above the hotbar when a skill trains (never during a scene).
+	showGains = false
+
+[kaikai]
+	#Kai Kai: a short camera beat (1.2 s, low behind you) when you arrive. Off by default; never while you were struck in the last 15 s;
+	#the cutscene skip key ends it.
+	arrivalCamera = false
+	#Kai Kai: the place's name on a small plate for two seconds when you arrive.
+	arrivalPlate = true
+	#How long the Kai path key (0) must be held to open the Kai Kai wheel, in milliseconds (a tap still opens the path).
+	#Range: 150 ~ 600
+	wheelHoldMs = 250
+	#Draw other players' Kai outfit (the coat and its pieces). Your own is always drawn.
+	otherPieces = true
+
+[dress]
+	#Hide the divine clothes - the Angel's attire, the Kai's coat and the Kai outfit's pieces - on everybody, yourself included.
+	#The Angel Pothala earrings follow Curios' own show/hide button.
+	hideDivineClothes = false
+
+[bleach]
+
+	[bleach.core]
+		#Bleach notices come as a designed plate at the top of the screen (one at a time, never over a scene or a menu).
+		#false - the same notices as a line over the hotbar.
+		plates = true
+		#A Bleach trial's objective progress is shown as a short line over the hotbar while it moves.
+		trialToasts = true
+
+	[bleach.line]
+		#While Spent (after Mugetsu, or after the Hollow's rampage), a plate beside the player frame counts down and says what is gone.
+		#false - a line over the hotbar when it starts and ends.
+		spentPlate = true
+
+	[bleach.visored]
+		#A breaking Hollow mask throws bone shards and red flecks around the head (the mask kit's own shards replace them).
+		shards = true
+		#While the inner Hollow holds you, the edges of the screen darken red-black and beat like a heart.
+		takeoverVignette = true
+
+	[bleach.moves]
+		#Extra particles and after-images round the Bleach move kit's shapes (petals drifting, frost, embers, sparks).
+		#The shapes themselves are always drawn.
+		kitEffects = true
+		#How many pieces a kit shape is drawn with: 1 = light, 2 = full (default), 3 = everything (petal streams, creature bodies).
+		#Range: 1 ~ 3
+		kitDetail = 2
+
+	[bleach.fullbring]
+		#Bringer Light leaves its flash ring on the ground (and under the feet in mid-air) for everyone who sees it.
+		cues = true
+
+	[bleach.masked]
+		#While you gather a Cero, a plate under the mask read-out beside the player frame shows the charge.
+		gatherPlate = true
+
+	[bleach.fullbringBonds1]
+		#The arm bond's Complete Fullbring arm unfolds into its tall shield while Bulwark's barrier holds.
+		shield = true
+
+	[bleach.fullbringBonds2]
+		#The bonds' small cues on a fighter: the luck bond's pips lighting up on a lucky roll, the watch's lit dial while a contract is
+		#set, the boots' ember glow as the grit builds.
+		cues = true
+
+	[bleach.transbase]
+		#The bond choice (the nine objects) drawn on the choice kit: a stage with the object, the stages of its Fullbring, a held press and a
+		#confirmation, because a bond is for good. false - the plain first bond screen.
+		bondKit = true
+
+	[bleach.awaken]
+		#An aware Human sees the Hollows' masks glow at night (the sign that she saw something in you). false - no glow.
+		hint = true
+
+	[bleach.faction]
+		#The Spirit Paths key opens the screen (the key itself is in Controls, unbound until you bind it; /dmzultra bleach faction does the same).
+		#false - the key does nothing.
+		key = true
+
+[slots]
+	#With two or more characters, show the character screen once after logging in.
+	showOnLogin = true
+
+[zeni]
+	#The Zeni chip on the HUD: shown for a few seconds when the balance changes, and while the player list key (Tab) is held.
+	hud = true
+	#How long the chip stays after a change (seconds).
+	#Range: 1 ~ 60
+	hudSeconds = 8
+
+[camera]
+	#One owner of the camera at a time: scenes, fusions, releases, voyages and spectator cameras take turns instead of
+	#fighting over the view, and the lock-on stands aside while any of them films. false: as in 0.4.0.
+	owners = true
+
+[bleachParts]
+	#The pieces of the Bleach looks (Zanpakuto releases, masks, bond objects) on the body.
+	pieces = true
+
+[physics]
+	#Things that hang from a fighter as ropes - sashes, bandages, chains, cords, ribbons, tassels - swing, trail and
+	#settle with real physics (render side only). Off: they hang still.
+	ropes = true
+	#Model pieces that hang - coat tails, capes, sash ends, pelts, tassels - swing on springs when the fighter moves,
+	#turns and falls (render side only). Off: they hang still.
+	springs = true
+	#A gentle breeze moves ropes and hanging pieces (stronger in rain and storms).
+	wind = true
+	#Physics budget: 1 = up to 32 moving ropes in view, 2 = up to 96, 3 = up to 256. Ropes past the budget hang still.
+	#Range: 1 ~ 3
+	quality = 2
+
+[bleachZanpakuto]
+	#Each Zanpakuto is drawn with its own blade (off: every blade looks like Zangetsu's, as in 0.4).
+	rosterModels = true
+
+[bleachDraw]
+	#Draw and sheathe for every carry family (hip katana, sword-cane, staff reveal, short blade, whip, twin, spear,
+	#gauntlet) and the carry folder's blades on the body. Off: only 0.4's Zangetsu looks are carried and drawn.
+	families = true
+	#A left-handed fighter carries the blade on the mirrored side and draws it with the left hand.
+	leftHand = true
+
+[bleachRelease]
+	#The Shikai flash: a short flash in the blade's reiatsu colour as the Zanpakuto changes shape.
+	flash = true
+	#The Bankai pillar: a column of reiatsu bursting upward, dust and wind, thinning to reveal the new form.
+	pillar = true
+	#With transformation scenes on: the staged Bankai scene and the Shikai scene in the blade's own colours.
+	scene = true
+
+[bleachOutfits]
+	#Soul Reapers wear the shihakusho, the Bankai coat and the Mugetsu body as real pieces with cloth physics.
+	worn = true
+
+[bleachHollow]
+	#Vasto Lorde's polished mane, neck ruff, fur, chest hole and claws, and Blood Chains' remade chains (off: the 0.4 pieces).
+	vastoPolish = true
+
+[bleachJinzen]
+	#Reiatsu motes drift up around you in your inner world (off: the still lake alone).
+	motes = true
+
+[bleachMask]
+	#Draw the Hollow masks of the kit (every player's own plate, eyes, teeth, horns and stripes). false: the canon masks of the stack.
+	kitLook = true
+	#A Hollow mask forms the way the anime shows it: the free hand drags across the face and the plate grows behind it in steps,
+	#with bone dust. false: the mask is simply there.
+	forming = true
+	#With your transformation scenes set to the long ones, your own mask's forming is staged: a close-up of the hand, black reiatsu
+	#boiling off the face, the plate forming, the eyes turning, a roar (3 s, skippable). false: only the short in-world forming.
+	scene = true
+	#A breaking mask throws its own pieces as real shards that fall and fade on the ground. false: bone dust and flecks.
+	shards = true
+	#The mask's time arc and the Hollow control bar beside the player frame.
+	hud = true
+
+[bleachRoster]
+	#Ash, embers, steam and sparks of Ryujin Jakka and Zabimaru. Off: the blades' own effects only.
+	particles = true
+	#The canon looks of the four blades: Senbonzakura's scattering hilt, blade-petal swarm, Bankai blade rows and Gokei sphere;
+	#Zabimaru's extending segments and Hihio's skull; Hyorinmaru's authored dragon, chain, prison and snow; Ryujin Jakka's cage,
+	#heat and ash. Off: the plain move-kit pictures and releases.
+	canonLooks = true
+
+[bleachRoster2]
+	#Draw Suzumebachi's Homonka (the hornet-crest mark) on a marked target, and its burst.
+	marks = true
+	#Kyoka Suigetsu's illusion on your own screen while you are caught in its field (a shimmer and mirror shards;
+	#nobody else sees it, and it never steals the controls of a player).
+	illusion = true
+	#Kyoka Suigetsu's complete hypnosis: copies of its wielder where they are not (and the wielder unseen) while you are
+	#caught, at most 1.5 seconds; its wielder sees faint mirror copies where foes think they are.
+	decoys = true
+	#The release looks of Sode no Shirayuki, Suzumebachi, Kyoka Suigetsu and Benihime (Shikai and Bankai).
+	releases = true
+
+[bleachCustom]
+	#A custom Zanpakuto is drawn from its own blade shape, guard, wrap and colours (off: a plain blade).
+	composedModels = true
+
+[bleachCustomKit]
+	#Bake the custom Zanpakuto part models (takes effect at the next resource reload). Off: no part model is baked.
+	models = true
+
+[bleachCustomFx]
+	#Draw the Shikai flourish and the Bankai pieces on a custom Zanpakuto's blade (off: the sealed blade stays).
+	models = true
+	#Draw a custom Bankai's outfit, summoned creature and field as model pieces on the body.
+	outfits = true
+	#Draw the flourish's particles on a released custom blade.
+	particles = true
+	#Draw the burst of a custom Zanpakuto's Shikai release.
+	release = true
+
+[bleachEvil]
+	#The traitor captain's haori, hair tail, sleeves, sheath cord and lantern swing on springs (render side). Also follows
+	#physics.springs. Off: they sway on his animation's keys instead.
+	traitorSprings = true
+
+[partslayer]
+	#Hanging form pieces (capes, tails, manes, chains) swing on render-side springs: they trail your motion, settle after a stop
+	#and keep clear of the body and legs. Off: they sway as before.
+	springs = true
+	#Pieces that belong to you rather than a form (dark veins, the Majin mark, outfits and masks, Morph limbs) are drawn.
+	extraPieces = true
+	#Form pieces fitted to your body: the entry for your body type, a female or slim body and the model drawn.
+	#Off: every body gets the plain entry (pieces may sit off a slim arm).
+	bodyVariants = true
+	#Read the piece sets listed in form_parts/sets.json in their listed order (a set not listed is still read, after them).
+	setList = true
+
+[glowskin]
+	#The glowing skin layer: Seiun-jin star freckles, Makaijin ember veins, the Sun-Eater's molten skin and fire eyes,
+	#Lawless Light's lit body and the dark veins of an evil fighter. Off: nothing of it is drawn (the skins keep their painted marks).
+	layer = true
+	#The marks glow (full light at night, in caves and in space). Off, the safe fallback: the race marks show as painted
+	#on the skin and the dark veins are drawn like skin.
+	glow = true
+	#Ember veins brighten as the fight heats up (aura, charging, blows given or taken); more of them light. Off: always at full.
+	heat = true
+	#Dark veins on your body in an evil form at alignment 10 or lower, in your race's evil colour.
+	evilVeins = true
+	#Under a shader pack (Oculus / Iris): glow = drawn as the glowing parts every pack lights (spider-eye style);
+	#painted = drawn lit like skin, for a pack that misdraws glowing parts; none = not drawn.
+	shaderPacks = "glow"
+
+#The race chooser's look (W1-CHOOSER).
+[race_chooser]
+	#The race chooser's plinth takes each race's colours and its props (sun rays, stars, embers, rings, shards, its mark)
+	#from assets/dmzultra/race/emblems.json. Off: the plain plinth in the race's colour.
+	stage = true
+	#The race chooser lists a race's racial parts one by one (name and text), DragonMineZ' and ours alike.
+	parts = true
+	#A race without a DragonMineZ panorama shows the background emblems.json names for it (else DragonMineZ' default).
+	panoramas = true
+
+#The Sekhari race.
+[sekhari]
+	#Draw the Riddle Seal's glyphs round a sealed foe.
+	sealGlyphs = true
+	#Show the Verdicts and the Riddle Seal beside the player frame.
+	hud = true
+
+[makaijin]
+	#A stone crust is drawn over a mob turned to stone by Petrifying Spit. Off: only the stone dust shows.
+	stoneCrust = true
+
+[evilMasters]
+	#Towa's cape, long hair, face locks and robe panels swing on springs (render side). Also follows
+	#physics.springs. Off: they sway on her animation's keys instead.
+	towaSprings = true
+
+[evilgate]
+	#Dark veins on your face in an evil form at alignment 10 or lower, in your race's evil colour (the skin veins are glowskin.evilVeins).
+	veins = true
+	#A small mark beside your frame while your dark forms are asleep (alignment above the keep limit).
+	lockMark = true
+
+#Evil rewards (W2-EVIL-REWARDS): how the rewards look.
+[evil_rewards]
+	#Draw the Villain's Regalia on players who wear it.
+	drawRegalia = true
+	#Show a player's chosen title after their name.
+	nameTitles = true
+
+[timeskip]
+	#The screen edge pulses violet while a Time Skip winds up near you (its warning). Off: only the ring on the ground.
+	edgePulse = true
+	#While you are stopped by a Time Skip, a line under the crosshair says how to break out and what it costs.
+	breakHint = true
+
+[timeskipcounter]
+	#The colour drains from the world while time is stopped around you. Off: the cracked sky stays, the colours
+	#do not change.
+	desaturate = true
+
+[racehooks2]
+	#The purple glow, beam and shockwave of Telekinetic Hold and the colour burst of Genome Burst. Off: the effects still happen,
+	#they are only not drawn.
+	fx = true
+
+#Race actives and passives: Saiyan, Human, Namekian.
+[racehooksa]
+	#Draw Keen Hearing's direction arrow round the crosshair.
+	keenHearingArrow = true
+	#Show the Kiai Burst, Stretch Grasp and Second Wind read-out beside the player frame.
+	hud = true
+
+[racehooks3]
+	#The pink goo of Body Split and the dawn/dusk ring of Twilight Verdict. Off: the effects still happen, they are
+	#only not drawn.
+	fx = true
+	#Show the Body Split / Twilight Verdict read-out beside the player frame.
+	hud = true
+	#Draw a Majin's Body Split piece as a full double of its Majin (their own model, form and outfit). Off: a
+	#pink goo silhouette.
+	doubleLook = true
+
+[destroyer_ultra]
+	#The Destroyer Path's own screen (opened by the gods' dialogue, Beerus or Whis with sneak, or /dmzultra destroyerpath).
+	#Off: the path is told as three lines of chat.
+	screen = true
+	#Draw the Destroyer uniform on players who wear it (including yourself).
+	drawUniform = true
+	#Wear the uniform in the colours of the wearer's universe instead of Beerus's canon colours.
+	universeTints = false
+	#Play the Zeno audience (an appointment, a hearing) as a staged scene with the camera taken over. Off: you see it in the
+	#world and on the plates, and keep your own eyes.
+	stagedAudience = false
+
+[sense]
+	#Ki Sense markers: in SEARCH mode, distant signatures the server sensed are marked on the screen (on its edge when they
+	#are behind you), coloured by their power against yours; a tracked signature keeps its arrow and plate in every mode.
+	hud = true
+	#Look at a marker in SEARCH mode for a moment to track it (look at the tracked one again to let it go).
+	gazeTrack = true
+	#How long (ticks) the look must rest on a marker to track it.
+	#Range: 6 ~ 60
+	gazeTicks = 16
+
+[paths]
+	#The path keys (0 for the Path of the Kai, ; for the Angel Path) open the guided path screen: the next-step card, the ladder, Track.
+	#false: they open the older pages straight away.
+	screen = true
+	#A tracked path step takes the quest tracker's plate (with the way to its place). false: the quest tracker stays as it is.
+	trackerShowsStep = true
+	#While the quest tracker is switched off, a tracked path step is pinned into DragonMineZ' notification stack instead.
+	pinWhenTrackerOff = true
+	#After you swear a path's oath its next step is tracked for you (once).
+	autoTrackOnOath = true
+	#The Divine Paths hub shows each path's next step under its name.
+	cardOnHub = true
+	#The Path of the Kai's screen has its own Powers, People and Log tabs (duties, creations, worlds, Kai Kai, the Sacred World, the coat, the link, disciples, consent, the log), and the older Kai pages' tab strip leads into it. false: those tabs only open the older full pages.
+	kaiTabs = true
+
+[angelTabs]
+	#The Angel path screen has its own Powers, People and Log tabs (staff, arts, lessons, attire, teacher and table, teaching, guard post, ledger, stages).
+	#false: those three tabs show the older pages' panel with "Open the full page".
+	on = true
+	#Whis's dialogue row, the Angel Staff's Angel Path button, the arts key and the Ascension tree open the Angel path screen on the right tab
+	#instead of the older six-page screen (which stays one press away: "Open the full page").
+	redirect = true
+
+[livingVfx]
+	#Shield sparks, hull debris, tear shards, Demon Realm flames, souls, hazard ash and the rest of the living-universe particles.
+	#Off: none of them is spawned.
+	particles = true
+	#The textured world effects of the living universe: shield domes, bolts, the tear and its seal, crisis sky bands.
+	#Off: the particles stand in for them. They also stand down by themselves under a shader pack.
+	worldEffects = true
+	#The hazard and crisis edges of the screen: heat shimmer, frost, dark vignette, spores, static, gravity.
+	#Off: no edge is drawn. Reduced motion holds a still edge; motion off dims it.
+	screenEdges = true
+
+[performance]
+	#Form pieces: each player's look is kept for the tick (not only the last player drawn), and the drawing plan of a look
+	#is reused while the look is the same. Off: looked up again for every player drawn, every frame.
+	lookCache = true
+	#HUD: the quest tracker's target search and the saga boss bar's boss search run once a tick, not every frame.
+	#Off: searched every frame (and twice when the tracker measures itself).
+	hudTickCache = true
+

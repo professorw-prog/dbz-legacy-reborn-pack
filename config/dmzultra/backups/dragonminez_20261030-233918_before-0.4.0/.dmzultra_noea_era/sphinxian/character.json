@@ -1,0 +1,108 @@
+{
+  "configVersion": "2.2.0",
+  "hasGender": true,
+  "useVanillaSkin": false,
+  "customModel": "sphinxian",
+  "isLayered": true,
+  "headBones": [
+    "hair"
+  ],
+  "racialSkill": "sphinxian",
+  "hasSaiyanTail": false,
+  "auraType": "god",
+  "auraType3D": "userPreference",
+  "aura3DStyle": {
+    "size": [
+      1.1,
+      1.17,
+      1.02
+    ],
+    "flamePeaks": 12,
+    "waveFrequency": 2.0,
+    "waveSpeed": 5.0,
+    "waveAmplitude": 0.75,
+    "noiseDetail": 0.1,
+    "upwardBias": 0.54,
+    "coreAlpha": 0.05,
+    "rimAlpha": 1.0,
+    "rimPower": 4.0,
+    "rimThreshold": 0.05,
+    "coreColor": "",
+    "rimColor": "",
+    "noiseColor": "",
+    "bloomIntensity": 1.0,
+    "spikeDensity": 32,
+    "spikeBurstRate": 3.0,
+    "spikeRarity": 3.0,
+    "bandStart": 0.5,
+    "secondBorderColor": ""
+  },
+  "defaultModelScaling": [
+    0.9375,
+    0.9375,
+    0.9375
+  ],
+  "defaultBodyType": 0,
+  "slimBodyTypes": [],
+  "defaultHairType": 5,
+  "defaultEyesType": 7,
+  "defaultNoseType": 0,
+  "defaultMouthType": 8,
+  "defaultTattooType": 0,
+  "defaultBodyColor": "#8154B8",
+  "defaultBodyColor2": "#633596",
+  "defaultBodyColor3": "#B78CE4",
+  "defaultHairColor": "#17131D",
+  "defaultEye1Color": "#43E681",
+  "defaultEye2Color": "#43E681",
+  "defaultAuraColor": "#E030FF",
+  "formSkillsCosts": {
+    "legendaryforms": {
+      "buyFromMaster": false,
+      "prices": []
+    },
+    "godforms": {
+      "buyFromMaster": false,
+      "prices": []
+    },
+    "superforms": {
+      "buyFromMaster": false,
+      "prices": [
+        175000,
+        525000,
+        1350000
+      ]
+    },
+    "sphinxianforms": {
+      "buyFromMaster": false,
+      "prices": [
+        175000,
+        525000,
+        1350000
+      ]
+    },
+    "createdforms": {
+      "buyFromMaster": true,
+      "prices": [
+        -1
+      ]
+    },
+    "predatorforms": {
+      "buyFromMaster": false,
+      "prices": [
+        700000,
+        1800000
+      ]
+    },
+    "crownforms": {
+      "buyFromMaster": false,
+      "prices": [
+        3000000,
+        5500000,
+        8000000,
+        11000000,
+        14000000
+      ]
+    }
+  }
+}

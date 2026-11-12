@@ -1,0 +1,21 @@
+{
+  "id": "retired",
+  "name": "Retired",
+  "description": "Done working: lives comfortably at home, entertains, and spends its savings on making its home luxurious.",
+  "actions": [
+    {
+      "action": "stay",
+      "params": {
+        "label": "enjoying retirement"
+      },
+      "utility": 25
+    },
+    {
+      "action": "wander",
+      "params": {
+        "radius": 12
+      },
+      "utility": 12
+    }
+  ]
+}

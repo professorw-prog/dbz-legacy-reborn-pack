@@ -1,0 +1,16 @@
+
+#Cyberware+ Visual Settings (client-side only)
+[visuals]
+	#If false, overrides all other settings and hides ALL cyberware visuals.
+	enableAllModifications = true
+	#Show cyber eye overlay
+	showCyberEye = true
+	#Show cyber heart overlay
+	showCyberHeart = true
+	#Show cyber arms
+	showCyberArms = true
+	#Show cyber legs
+	showCyberLegs = true
+	#Enable glowing cyberware parts
+	enableGlow = true
+

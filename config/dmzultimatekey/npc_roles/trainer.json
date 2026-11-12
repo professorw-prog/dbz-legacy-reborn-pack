@@ -1,0 +1,31 @@
+{
+  "id": "trainer",
+  "name": "Trainer",
+  "description": "Waits at home for students and encourages players who pass by.",
+  "actions": [
+    {
+      "action": "stay",
+      "utility": 30
+    },
+    {
+      "action": "say",
+      "params": {
+        "lines": [
+          "Keep training, {player}!",
+          "Power comes from discipline.",
+          "Want to spar? Talk to me."
+        ]
+      },
+      "utility": {
+        "base": 55,
+        "when": [
+          {
+            "var": "players_near",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "saiyan_raider",
+  "name": "Saiyan Raider",
+  "inspired_by": "Vegeta, Nappa and Broly",
+  "description": "A proud warrior from a race of conquerors. Lives for battle: trains, hunts the strongest it can sense, purges towns, and breaks into a rage when pushed to the edge.",
+  "focus": [
+    "martial"
+  ],
+  "power": 1.5,
+  "army": "%npc%'s Raiders",
+  "redeemable": true,
+  "redeem_after": 2,
+  "looks": {
+    "race": "saiyan",
+    "auraColor": "#FFFFFF"
+  },
+  "lair": {
+    "style": "extravagant",
+    "templates": [
+      "lair_fortress"
+    ],
+    "materials": "free",
+    "radius": 160
+  },
+  "abilities": [
+    "rage",
+    "zenkai",
+    "shockwave",
+    "scouter"
+  ],
+  "scheme": [
+    {
+      "goal": "power",
+      "at": 3.0,
+      "say_start": "I'll grow stronger than anyone. Then they'll all bow."
+    },
+    {
+      "goal": "lair"
+    },
+    {
+      "goal": "conquer",
+      "count": 1,
+      "say_start": "Purge them all."
+    },
+    {
+      "goal": "doom",
+      "minutes": 10,
+      "travel": true,
+      "broadcast": "%npc% is going to blow this planet to pieces in %minutes% minutes!"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "great_ape",
+      "name": "Great Ape",
+      "trigger": {
+        "type": "enraged",
+        "hp_below": 25
+      },
+      "repeat": true,
+      "cooldown": 900,
+      "say": "RAAAAAGH!",
+      "boons": [
+        {
+          "type": "form",
+          "form": "saiyan:oozaru.oozaru"
+        },
+        {
+          "type": "heal"
+        }
+      ]
+    },
+    {
+      "id": "zenkai",
+      "name": "Zenkai",
+      "trigger": {
+        "type": "count",
+        "counter": "defeated",
+        "at": 1
+      },
+      "repeat": true,
+      "cooldown": 3600,
+      "say": "Every time I'm beaten, I come back stronger!",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.1
+        }
+      ]
+    },
+    {
+      "id": "legendary",
+      "name": "Legendary",
+      "trigger": {
+        "type": "battle_power",
+        "at": 1000000
+      },
+      "broadcast": "A legendary power has awakened in %npc%...",
+      "boons": [
+        {
+          "type": "stats",
+          "value": 1.5
+        },
+        {
+          "type": "title",
+          "value": "Legendary"
+        }
+      ],
+      "model": {
+        "hairColor": "#B6FF5A",
+        "auraColor": "#7CFF4D"
+      }
+    }
+  ],
+  "lines": {
+    "taunt": [
+      "Is that all you've got?",
+      "I am the prince of all Saiyans!",
+      "Your power level is laughable."
+    ],
+    "victory": [
+      "Weakling."
+    ],
+    "defeated": [
+      "I'll... be back..."
+    ]
+  },
+  "demands": [
+    {
+      "type": "duel",
+      "line": "You. You've got some power in you. Fight me - right here, right now. Don't you dare hold back."
+    },
+    {
+      "type": "deliver",
+      "item": "minecraft:cooked_beef",
+      "count": 32,
+      "reward_tp": 300,
+      "line": "A warrior needs fuel. %count% %item%. And be quick - I get cranky when I'm hungry."
+    },
+    {
+      "type": "kill",
+      "mob": "minecraft:ravager",
+      "count": 2,
+      "reward_tp": 550,
+      "goal": "power",
+      "line": "I need a real challenge. Hunt down %count% %mob% and bring me something worth fighting."
+    }
+  ],
+  "redeemed_hero": "prince"
+}

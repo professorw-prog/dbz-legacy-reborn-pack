@@ -1,0 +1,30 @@
+{
+  "id": "wanderer",
+  "name": "Wanderer",
+  "description": "Travels around, greets people and picks up interesting things.",
+  "actions": [
+    {
+      "action": "wander",
+      "params": {
+        "radius": 40
+      },
+      "utility": 25
+    },
+    {
+      "action": "collect_loot",
+      "params": {
+        "radius": 12
+      },
+      "utility": {
+        "base": 35,
+        "when": [
+          {
+            "var": "loot_near",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

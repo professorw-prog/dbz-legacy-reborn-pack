@@ -1,0 +1,18 @@
+{
+  "name": "Example Warrior",
+  "model": "sdu:example_warrior",
+  "behavior": "DMZ_FIGHTER",
+  "ki_attack": "DMZ_KI_BLAST",
+  "idle_animation": "",
+  "abilities": [
+    "REGEN"
+  ],
+  "stats": {
+    "max_health": 120.0,
+    "move_speed": 0.3,
+    "attack_damage": 8.0,
+    "ki_power": 60.0,
+    "defense": 15.0,
+    "scale": 1.1
+  }
+}

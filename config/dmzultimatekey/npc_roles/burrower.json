@@ -1,0 +1,65 @@
+{
+  "id": "burrower",
+  "name": "Burrower",
+  "description": "Lives underground: digs itself a furnished burrow (the stone it digs is what it builds and sells with), keeps to its tunnels, and trades what the earth gives up.",
+  "services": {
+    "shop": {
+      "currency": "auto",
+      "base_price": 2,
+      "price_per_quality": 1.5,
+      "markup": 1.5,
+      "other_rate": 0.3,
+      "target_stock": 4,
+      "greeting": "Mind your head - ceilings are low down here.",
+      "thanks": "Come back down anytime."
+    }
+  },
+  "actions": [
+    {
+      "action": "establish",
+      "params": {
+        "template": "burrow",
+        "radius": 64,
+        "claim": true,
+        "as_base": true
+      },
+      "utility": {
+        "base": 80,
+        "when": [
+          {
+            "var": "has_base",
+            "op": "==",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "tend_shop",
+      "utility": {
+        "base": 40,
+        "when": [
+          {
+            "var": "has_base",
+            "op": ">",
+            "value": 0
+          },
+          {
+            "var": "hour",
+            "op": ">=",
+            "value": 8
+          },
+          {
+            "var": "hour",
+            "op": "<",
+            "value": 18
+          }
+        ]
+      }
+    },
+    {
+      "action": "stay",
+      "utility": 20
+    }
+  ]
+}

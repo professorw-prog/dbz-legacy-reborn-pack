@@ -1,0 +1,124 @@
+
+[boss]
+	#Default entity used as the raid boss (any registered entity id).
+	entityType = "minecraft:warden"
+	#Default display name shown above the raid boss and on its boss bar.
+	name = "Raid Boss"
+
+[scaling]
+	#Base max health of the boss for a single participant.
+	#Range: 1.0 ~ 1000000.0
+	baseHealth = 500.0
+	#Extra max health added per additional participant (linear health scaling).
+	#Range: 0.0 ~ 1000000.0
+	healthPerPlayer = 250.0
+	#Hard cap on the scaled max health (0 = no cap).
+	#Range: 0.0 ~ 1000000.0
+	maxHealthCap = 0.0
+	#Also scale the boss's attack damage with the number of participants.
+	scaleAttackDamage = false
+	#Extra attack damage added per additional participant (only if scaleAttackDamage is on).
+	#Range: 0.0 ~ 10000.0
+	attackDamagePerPlayer = 2.0
+
+[rules]
+	#Allow players to damage each other inside the raid arena. Normally false so nobody hits allies.
+	allowPvpInArena = false
+	#Fully heal all participants (health, energy, stamina) when the fight begins.
+	healOnStart = true
+	#Countdown after participants are teleported in, before the boss spawns.
+	#Range: 0 ~ 60
+	countdownSeconds = 5
+	#Fight time limit in seconds (0 = unlimited). On timeout the boss despawns and nobody is rewarded.
+	#Range: 0 ~ 7200
+	fightTimeLimitSeconds = 600
+	#If enabled by default, players who are not active participants of a running raid are bounced out of that raid's arena, preventing re-entry. Toggleable per-arena in the raid editor.
+	preventReentry = false
+
+[signup]
+	#Maximum participants per raid. 0 = unlimited.
+	#Range: 0 ~ 256
+	maxParticipants = 10
+	#Minimum participants required or the raid is cancelled.
+	#Range: 1 ~ 256
+	minParticipants = 1
+	#How long sign-ups stay open before an auto-scheduled raid begins.
+	#Range: 1 ~ 1440
+	durationMinutes = 5
+	#Require the player to have created a DragonMineZ character to sign up.
+	requireDmzCharacter = true
+	#Repeat the sign-up announcement (chat + clickable Join button + on-screen title + sound)
+	#every N seconds while sign-ups are open. 0 = announce only once when sign-ups open.
+	#Range: 0 ~ 3600
+	reminderSeconds = 30
+
+[npc]
+	#Display name of the sign-up NPC.
+	name = "Raid Master"
+	#How far (in blocks) a sign-up NPC will turn to face the nearest player. 0 disables look-at.
+	#Range: 0.0 ~ 64.0
+	lookRadius = 8.0
+
+[schedule]
+	#Hour (server local time, 0-23) sign-ups auto-open on a scheduled day.
+	#Range: 0 ~ 23
+	hour = 20
+	#Range: 0 ~ 59
+	minute = 0
+	#Day of week for weekly scheduling (0=ignore/daily, 1=Monday .. 7=Sunday).
+	#Range: 0 ~ 7
+	dayOfWeek = 0
+	#Day of month for monthly scheduling (0=ignore, 1-28).
+	#Range: 0 ~ 28
+	dayOfMonth = 0
+
+[announce]
+	#Show announcements as on-screen titles in addition to chat.
+	useOnScreenTitles = true
+	#Sound played to everyone on major announcements (resource location, empty to disable).
+	sound = "minecraft:ui.toast.challenge_complete"
+	signupOpen = "&c[Raid] &fSign-ups are OPEN for {name}! Talk to {npc} or use /srb join {name}."
+	starting = "&6[Raid] &f{name} begins with {count} fighters!"
+	bossSpawn = "&4[Raid] &f{boss} has appeared with &c{health} &fHP!"
+	victory = "&6[Raid] &f{boss} has been defeated! Top damage: &e{top} &f({top_percent}%)"
+	timeout = "&c[Raid] &fTime is up — {boss} escaped. Better luck next time!"
+
+[rewards]
+	#Rewards for every player who dealt damage. Tokens: 'command:<cmd>', 'item:<id>:<count>',
+	#'skill:<dmzSkillId>:<levels>', 'tp:<x> <y> <z>', 'message:<text>'.
+	#Placeholders in command/message: %player% %damage% %damage_percent% %rank% %boss% %total_damage%.
+	participant = ["command:give %player% minecraft:diamond 2", "message:&aYou dealt %damage_percent%% of the damage (rank #%rank%)!"]
+	#Extra rewards for the #1 damage dealer (MVP). Same token/placeholder format as participant rewards.
+	topDamage = ["command:give %player% minecraft:netherite_ingot 1", "message:&6You dealt the most damage — %damage_percent%%!"]
+	#Extra rewards for the runner-up damage dealers (ranks 2-4). Same token/placeholder format as participant rewards.
+	runnerUp = ["command:give %player% minecraft:gold_ingot 3", "message:&eRunner-up! You placed #%rank% with %damage_percent%%."]
+
+[zsoul]
+	#Master switch for the Z-Soul stat-cap system (worn in the z_souls Curios slot).
+	enable = true
+	#How many Z-Souls a player can wear at once (size of the z_souls Curios slot).
+	#Range: 1 ~ 6
+	slotCount = 6
+	#Bronze Z-Soul: how far a stat may be pushed past the global cap, as a % of the cap.
+	#Range: 0.0 ~ 1000.0
+	bronzePercent = 25.0
+	#Silver Z-Soul: extra cap headroom as a % of the global cap.
+	#Range: 0.0 ~ 1000.0
+	silverPercent = 50.0
+	#Gold Z-Soul: extra cap headroom as a % of the global cap.
+	#Range: 0.0 ~ 1000.0
+	goldPercent = 76.0
+	#Prismatic Z-Soul (top tier): extra cap headroom as a % of the global cap (100% = double the cap).
+	#Range: 0.0 ~ 1000.0
+	prismaticPercent = 100.0
+	#If true, training points are automatically converted into beyond-cap growth while a
+	#soul is worn and its base stat is already at the global cap. If false, players must use
+	#'/srb zsoul invest <stat> <points>' to spend training points on beyond-cap growth.
+	autoConvertTrainingPoints = true
+	#Training points spent per 1 point of beyond-cap stat growth.
+	#Range: 0.01 ~ 100000.0
+	trainingPointsPerPoint = 1.0
+	#Maximum beyond-cap points auto-converted per second, per stat (when autoConvert is on).
+	#Range: 1 ~ 1000000
+	autoGrowthPerSecond = 25
+

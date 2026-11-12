@@ -1,0 +1,47 @@
+{
+  "id": "collect_armor",
+  "name": "Collect armor",
+  "description": "Wants armor; a shopkeeper with this goal becomes an armorer.",
+  "interest": {
+    "armor": true
+  },
+  "shop": {
+    "buy_bonus": 0.5,
+    "keep_best": 3
+  },
+  "actions": [
+    {
+      "action": "post_quest",
+      "params": {
+        "min_quality": "above_best",
+        "reward_base": 4,
+        "reward_per_quality": 2,
+        "name": "Armor Wanted",
+        "text": "I want armor better than what I have."
+      },
+      "utility": {
+        "base": 55,
+        "when": [
+          {
+            "var": "offer_ready",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "deposit",
+      "utility": {
+        "base": 60,
+        "when": [
+          {
+            "var": "spare_interest",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

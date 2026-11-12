@@ -1,0 +1,13 @@
+name = "Custom FoV"
+filename = "customfov-forge-6.2.1+1.20.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "5863cef0a132f4337ccbeb9acdf88ce3a942d5da"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4600447
+project-id = 303938

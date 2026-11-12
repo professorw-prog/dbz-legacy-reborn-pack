@@ -1,0 +1,53 @@
+{
+  "id": "shopkeeper",
+  "name": "Shopkeeper",
+  "description": "Runs a shop from home during the day. Goals decide what the shop focuses on.",
+  "services": {
+    "shop": {
+      "currency": "auto",
+      "base_price": 2,
+      "price_per_quality": 1.5,
+      "markup": 1.5,
+      "other_rate": 0.3,
+      "greeting": "Welcome! Have a look around.",
+      "thanks": "Pleasure doing business."
+    }
+  },
+  "actions": [
+    {
+      "action": "tend_shop",
+      "utility": {
+        "base": 50,
+        "when": [
+          {
+            "var": "hour",
+            "op": ">=",
+            "value": 6
+          },
+          {
+            "var": "hour",
+            "op": "<",
+            "value": 20
+          }
+        ]
+      }
+    },
+    {
+      "action": "stay",
+      "utility": 20
+    },
+    {
+      "action": "deposit",
+      "utility": {
+        "base": 60,
+        "when": [
+          {
+            "var": "spare_interest",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "name": "Brash",
+  "description": "Blunt, loud and loyal - tough love, quick fists, and always has your back.",
+  "selectable": true,
+  "catchphrases": [
+    "got it",
+    "listen up",
+    "for real",
+    "seriously"
+  ],
+  "nicknames": [
+    "kiddo",
+    "chief",
+    "pal"
+  ],
+  "behaviour": {
+    "wake": 9.0,
+    "sleep": 25.5,
+    "likes": [
+      "gentle",
+      "cheerful",
+      "battle_lover"
+    ],
+    "clashes": [
+      "laid_back",
+      "gruff",
+      "cunning"
+    ],
+    "likes_own_kind": false,
+    "power_style": "",
+    "aggression": 0.6,
+    "bravery": 1.0,
+    "chattiness": 1.0,
+    "temper": 1.0
+  },
+  "lines": {
+    "like": [
+      "Ha, nice! Thanks, {player}!"
+    ],
+    "bye": [
+      "Stay outta trouble, {player}!",
+      "Later, {catch}!"
+    ],
+    "ask": [
+      "Hey {player}, could you grab me {need}? I'll owe you one, {catch}."
+    ],
+    "cold": [
+      "You've got a lot of guts showing your face here.",
+      "Nah. We're done talking. Walk away."
+    ],
+    "small": [
+      "Life's too short to whine, {catch}. Just punch through it.",
+      "I fixed my capsule car myself yesterday. Who needs help?",
+      "Don't let anyone push you around, got it? Not even a Saiyan."
+    ],
+    "friend": [
+      "{player}! There's my favourite! C'mere, {catch}!",
+      "Anyone messes with you, they deal with me, {player}."
+    ],
+    "greet": [
+      "Yo, {player}! What's up, {catch}?",
+      "Hey {player}. You eating right? You look tired."
+    ],
+    "meh": [
+      "Uh... thanks? I'll find a use for it."
+    ],
+    "hate": [
+      "Seriously? You can keep this one."
+    ],
+    "love": [
+      "No way, {player}! You know me SO well! {catch}!"
+    ],
+    "beaten": [
+      "That's it, you're beat. Walk it off.",
+      "Okay, you lost. No shame in it."
+    ],
+    "boon_released": [
+      "...What happened? Where am I?",
+      "Huh... where am I?"
+    ],
+    "captive_freed": [
+      "I'm... free? I'm free!",
+      "I'm out! For real!"
+    ],
+    "chat_agree": [
+      "Ha! That's so you, {target}.",
+      "Classic {target}."
+    ],
+    "chat_tense": [
+      "Oh. {target}. Great.",
+      "Some of us got work to do, {target}."
+    ],
+    "chat_tense_reply": [
+      "Don't start with me today, {target}.",
+      "Some of us actually enjoy life, {target}."
+    ],
+    "compliment": [
+      "Looking strong today, {target}!",
+      "You're good people, {target}."
+    ],
+    "confide": [
+      "You ever think about leaving all this, {target}?",
+      "I trust you, {target}. More than most."
+    ],
+    "confide_reply": [
+      "I get it, {target}. For real.",
+      "Same here, {target}."
+    ],
+    "faction_found": [
+      "From today, this is {faction}. Anybody with me is welcome.",
+      "This is {faction} now. We look out for each other."
+    ],
+    "faction_invite": [
+      "{player}, you've proven yourself. {faction} would be stronger with you.",
+      "Yo {player}, you should join {faction}. For real."
+    ],
+    "faction_quit": [
+      "I'm done followin' {leader}. I'm leavin' {faction}.",
+      "Nah, {leader}'s not it. I'm out of {faction}."
+    ],
+    "faction_tier": [
+      "We're a {tier} now! {faction} is goin' places.",
+      "{faction}'s a {tier} now. Not bad, huh?"
+    ],
+    "faction_vassal": [
+      "{faction} will stand under {overlord}. {leader} earned that.",
+      "{faction} rolls with {overlord} now. {leader}'s legit."
+    ],
+    "faction_welcome": [
+      "Welcome to {faction}, {target}.",
+      "Welcome to {faction}, {target}! We got you."
+    ],
+    "faction_welcome_player": [
+      "Welcome, {player}. We look after our own.",
+      "Welcome, {player}. Anybody messes with you, they mess with us."
+    ],
+    "fall": [
+      "Nope. I'm done gettin' hurt. Somebody else can take a turn.",
+      "That's it. No more takin' hits for everybody."
+    ],
+    "fall_pessimist": [
+      "Yeah, I called it. World was never gonna cut me a break. Fine.",
+      "Knew it. Nobody's got my back. Guess I'm done playin' nice."
+    ],
+    "flee": [
+      "This ain't over! You hear me?",
+      "I'll be back, and I'm bringin' my A-game!"
+    ],
+    "flee_coward": [
+      "Nope! I'm out, I'm out!",
+      "Forget this, I'm bailin'!"
+    ],
+    "gift_give": [
+      "Here, {target} - thought of you when I saw this.",
+      "Yo, {target}. Got you somethin'."
+    ],
+    "gossip": [
+      "Between us, {target}... {about} isn't who they seem.",
+      "Real talk, {target}, keep an eye on {about}."
+    ],
+    "grudge": [
+      "Yo. You. Thought I forgot? Nope.",
+      "Hey! You! We got unfinished business."
+    ],
+    "h_ally_greet": [
+      "{player}! My partner in crime-fighting!",
+      "Yo, {player}! Let's roll!"
+    ],
+    "h_ally_join": [
+      "Heck yeah! Partners!",
+      "Alright, {player}! Nobody messes with my partner!"
+    ],
+    "h_arrive": [
+      "Yo, {target}! Fight me, not them!",
+      "Alright {target}, let's dance!"
+    ],
+    "h_base": [
+      "Done! Pretty sweet, right?",
+      "Finished it! Looks awesome!"
+    ],
+    "h_battle_cry": [
+      "Bring it!",
+      "Let's GO, {target}!"
+    ],
+    "h_busy": [
+      "Nope, busy! Bad guys first!",
+      "Later, {player}! Duty calls!"
+    ],
+    "h_called": [
+      "Hang tight {player}, I'm comin'!",
+      "On my way!"
+    ],
+    "h_defend": [
+      "Hey! Not on my watch!",
+      "Back off {victim}, ya punk!"
+    ],
+    "h_farewell": [
+      "Later!",
+      "Catch ya later, {player}!"
+    ],
+    "h_finish": [
+      "Nope! You're done for good!",
+      "No second chances for you, {target}!"
+    ],
+    "h_greet": [
+      "Hey hey, {player}! What's good?",
+      "{player}! Ready to kick some butt?"
+    ],
+    "h_rage": [
+      "{target}!! THAT'S IT! NO MORE PLAYING AROUND!",
+      "You'll pay for {target}! Every last bit!"
+    ],
+    "h_rally_ask": [
+      "{target}'s at {where}! Let's go beat 'em up together!",
+      "Yo {player}! {target}! {where}! Let's GO!"
+    ],
+    "h_request_done": [
+      "Heck yeah! Nice one!",
+      "You're a legend, {player}!"
+    ],
+    "h_request_thanks": [
+      "Sweet! Thanks!",
+      "You rock, {player}!"
+    ],
+    "h_request_waiting": [
+      "Still on it? Hustle!",
+      "Come on, come on!"
+    ],
+    "h_sensed": [
+      "{target}?! Nobody messes with this place on MY watch!",
+      "I can feel {target} from a mile off. Time to go knock some heads!"
+    ],
+    "h_spare": [
+      "Alright, you're done. Get outta here before I change my mind!",
+      "Beat it. And quit being evil!"
+    ],
+    "h_talk_wanted": [
+      "Nope! Not talkin' to you!",
+      "Get lost, {player}!"
+    ],
+    "h_train_offer": [
+      "Yo {player}, wanna spar?",
+      "{player}! Let's train!"
+    ],
+    "h_train_start": [
+      "Let's do it! No holding back!",
+      "Alright, {player}! Let's go!"
+    ],
+    "h_trained": [
+      "Heck yeah! That was awesome!",
+      "You've got guts, {player}!"
+    ],
+    "h_wanted": [
+      "OI! {target}! What's your problem?!",
+      "Yo {target}, back off or I'll make you!"
+    ],
+    "insult": [
+      "Oh, it's you, {target}.",
+      "Nice look, {target}. Real... brave."
+    ],
+    "insult_harsh": [
+      "You're a disgrace, {target}.",
+      "Nobody likes you, {target}. For real."
+    ],
+    "learned": [
+      "Yo! Just picked up {skill}!",
+      "Check it - I learned {skill}!"
+    ],
+    "minion_android": [
+      "Systems online. What's the job?",
+      "Online. Awaiting orders."
+    ],
+    "minion_awakened": [
+      "Heh. Who's up?",
+      "Hehehe. Who wants to play?"
+    ],
+    "minion_freed_mind": [
+      "My head... what have I been doin'?",
+      "Ugh... what happened?"
+    ],
+    "minion_mind_control": [
+      "Yes... master. Your will is mine.",
+      "Whatever you say... master."
+    ],
+    "minion_quit": [
+      "I'm done takin' orders.",
+      "Nah, I'm done."
+    ],
+    "minion_recruit": [
+      "Fine. I'll fight for you... for now.",
+      "Alright. For now."
+    ],
+    "new_chapter": [
+      "Real talk, I need a change. From now on I'm gonna {goal}.",
+      "Okay, new plan: {goal}. For real this time."
+    ],
+    "new_chapter_role": [
+      "Alright, I'm done bein' a {role}. Gonna be a {next}. New aim: {goal}.",
+      "Real talk - {role} life ain't it. {next} now. Aim: {goal}."
+    ],
+    "redeemed": [
+      "Okay, okay... I'm done with that. Thanks for not givin' up on me, guys.",
+      "I messed up big. Thanks for draggin' me back, for real."
+    ],
+    "refuse_serve": [
+      "I'd rather die than serve you!",
+      "No way. Never."
+    ],
+    "resist_mind": [
+      "Get out of my head! You can't have me!",
+      "Nope! Not happenin'!"
+    ],
+    "retire": [
+      "That's it, I've saved enough. I'm retiring! Gonna build somethin' special.",
+      "Done grindin'. Time to build my dream place, for real."
+    ],
+    "rob": [
+      "Nice shop, {target}. Be a real shame if somethin' happened to it. Pay up.",
+      "Look, {target}, just hand it over and we're cool."
+    ],
+    "rob_done": [
+      "Smart choice, {target}.",
+      "See? Easy, {target}."
+    ],
+    "rob_evil": [
+      "Everything you got, {target}. Or I'm takin' it off your body.",
+      "Hand it all over, {target}. Don't make this ugly."
+    ],
+    "sell_produce": [
+      "Fresh from the field. {price}.",
+      "Grew it myself. {price}, and that's a steal."
+    ],
+    "shop_fight": [
+      "Not today, {target}. Out of my shop!",
+      "Nope. Not happenin', {target}. Get lost."
+    ],
+    "shop_fight_brawler": [
+      "Big mistake, {target}. Real big.",
+      "Oh, you picked the wrong one, {target}."
+    ],
+    "shop_yield": [
+      "...Fine. Take it and get outta here.",
+      "Take it. And don't show your face here again."
+    ],
+    "shop_yield_coward": [
+      "Okay! Okay! Take it! Just don't hurt me!",
+      "Fine, take it! Just back off!"
+    ],
+    "spar_abandoned": [
+      "Huh. Guess we're done.",
+      "They bailed? Whatever."
+    ],
+    "spar_draw": [
+      "Phew! Let's call it a draw, {player}.",
+      "Tie, {player}! Good fight."
+    ],
+    "spar_lost": [
+      "Heh, you win, {player}. Good fight!",
+      "Nice one, {player}. You earned it."
+    ],
+    "spar_lost_ambitious": [
+      "Ugh, you got me, {player}! Rematch soon, yeah?",
+      "Okay, you win, {player}. But I'm comin' back for you."
+    ],
+    "spar_won": [
+      "And that's the match! Keep trainin', {player}.",
+      "That's it! Keep at it, {player}!"
+    ],
+    "spar_won_kind": [
+      "You did great, {player}! C'mere, lemme help you up.",
+      "Good stuff, {player}! Up you get."
+    ],
+    "stay_down": [
+      "Alright, that's enough. Stay down, okay?",
+      "Done. Stay down before you get hurt worse."
+    ],
+    "surrender": [
+      "Enough... we surrender.",
+      "Alright, we give up!"
+    ],
+    "talk_back": [
+      "Say that again, {target}. I dare you.",
+      "Watch your mouth, {target}."
+    ],
+    "team_ask": [
+      "{player}, I wanna be part of {team}. You cool with that?",
+      "Yo {player}, let me in {team}. I got your back."
+    ],
+    "team_declined": [
+      "Oh. Okay. No hard feelings.",
+      "Alright, your call."
+    ],
+    "team_joined": [
+      "Thanks, {player}. I won't let you down.",
+      "Thanks, {player}! I got you, for real."
+    ],
+    "team_kicked": [
+      "...I get it.",
+      "...Yeah. Okay."
+    ],
+    "team_leave": [
+      "Nah, I'm not stayin' in {team}. Not after what happened.",
+      "I'm out of {team}. We're done."
+    ],
+    "v_absorb": [
+      "Gimme that {skill}! Ha! Mine now, loser!",
+      "Your {skill}? Finders keepers, twerp."
+    ],
+    "v_accepted": [
+      "Good call, {player}. Mess up and I'll pound you flat.",
+      "Smart move, {player}. You're my gofer now. Don't screw it up."
+    ],
+    "v_beg_laugh": [
+      "Hahaha! Begging, {player}? That's adorable. No way!",
+      "Aww, look at {player} beg! Not happenin', kiddo!"
+    ],
+    "v_creation": [
+      "Rise, {target}. Go knock some heads.",
+      "Up and at 'em, {target}. Go wreck the place."
+    ],
+    "v_demand_army": [
+      "Go grab {count} {item} for my army. Mess it up and you're the target dummy.",
+      "My crew needs {count} {item}. Get 'em, or else."
+    ],
+    "v_demand_done": [
+      "Not bad, {player}. Guess you live. For now.",
+      "You did it, {player}. Fine. I won't stomp you today."
+    ],
+    "v_demand_doom": [
+      "World's endin', {player}! Better get on your knees and beg, kiddo!",
+      "It's over, {player}! Beg! C'mon, beg!"
+    ],
+    "v_demand_dragonball": [
+      "Go fetch me a dragon ball. Or else, kiddo.",
+      "Dragon ball. You. Go get it. Don't make me come find you."
+    ],
+    "v_demand_energy": [
+      "Get me {count} {item}. I'm hungry for power. Or I'm drainin' you.",
+      "{count} {item}, kiddo. Or you're my snack."
+    ],
+    "v_demand_failed": [
+      "You blew it, {player}! You're SO dead!",
+      "Too slow, {player}. Now you're on my list, kiddo."
+    ],
+    "v_demand_lair": [
+      "Hey! Go get me {count} {item} for my hideout. Or else, kiddo.",
+      "{count} {item}, for my lair. Chop chop, or I'll chop YOU."
+    ],
+    "v_demand_slaughter": [
+      "Go wipe out {count} {mob}. Prove you ain't useless, or you're next.",
+      "Kill {count} {mob}, kiddo. Or I start on you."
+    ],
+    "v_demand_strong": [
+      "Go take down {count} {mob}. The tough ones. Or I'll take you down.",
+      "Hunt {count} {mob}, kid. I want power. Fail and I take yours."
+    ],
+    "v_demand_sweets": [
+      "I'm starvin'! Get me {count} {item} or you're the snack!",
+      "{count} {item}. Now. Or I turn you into candy, kiddo."
+    ],
+    "v_demand_tournament": [
+      "{player}! Ring. Now. Let's see you take a real beating!",
+      "C'mon, {player}! Get in my ring and get flattened!"
+    ],
+    "v_deserter": [
+      "Traitor! Oh, you're SO dead when I find you!",
+      "A deserter. Run, kiddo. I'm comin'."
+    ],
+    "v_dragon_ball": [
+      "{count} of 7. Getting close, losers.",
+      "Another dragon ball. {count} of 7. Ha!"
+    ],
+    "v_eat": [
+      "Mmm, tasty. Don't even think about touching my snacks.",
+      "Not bad. Hands off, twerp."
+    ],
+    "v_eat_person": [
+      "Mmm, {target}! Tasty! Line up, everybody, I'm still hungry!",
+      "{target} candy! Who's next, huh?"
+    ],
+    "v_lair": [
+      "Lair's lookin' good. Keep out, or else.",
+      "My hideout's comin' together. Snoop around and you're dead."
+    ],
+    "v_marked": [
+      "Too late, {player}. You're done. I'm gonna flatten you!",
+      "You blew it, {player}. Now you get hurt. A lot."
+    ],
+    "v_mind_control": [
+      "Got ya! You're my little minion now!",
+      "Dark heart, huh? You're my errand-runner now. Move!"
+    ],
+    "v_next_challenger": [
+      "Who's next? Line up, losers!",
+      "Next! Come on, somebody actually try!"
+    ],
+    "v_next_target": [
+      "{faction}'s next. They're gonna get wrecked.",
+      "Next up: {faction}. Bet they cry."
+    ],
+    "v_no_mercy": [
+      "Oh, it's like THAT? Fine! You're getting flattened!",
+      "Kickin' me while I'm down? You're SO dead!"
+    ],
+    "v_obeyed": [
+      "Good, {player}. Hurry up. Mess it up and you're toast.",
+      "Get movin', {player}. Too slow and I come lookin' for you."
+    ],
+    "v_offer": [
+      "{player}. I've been watchin' you. Serve me and share the loot. Refuse, and I squash you.",
+      "{player}. Join me or get crushed, kiddo."
+    ],
+    "v_plan_done": [
+      "All according to plan, suckers!",
+      "Everything went just how I planned. Told ya you'd lose."
+    ],
+    "v_possess": [
+      "...Yeah, this'll do. Sorry, kid, you're not drivin' anymore.",
+      "...This body's mine now. Deal with it."
+    ],
+    "v_pure_heart": [
+      "Pure heart, huh? Cute. Doesn't make you bulletproof.",
+      "Tch. Little goody-two-shoes. You're gonna get hurt."
+    ],
+    "v_rage": [
+      "Oh, NOW you've done it, punk! I'm gonna flatten you!",
+      "You made me mad. Big mistake, kiddo. HUGE."
+    ],
+    "v_recruit": [
+      "You're tough. Join me or I'll make you regret ever being born, kiddo.",
+      "Work for me or get flattened. Easy choice."
+    ],
+    "v_redeemed": [
+      "Alright, alright. You win. I'm out of the villain game. I'll look out for folks now.",
+      "You kept giving me chances. I'm gonna actually take one. No more bullying."
+    ],
+    "v_refused": [
+      "Then you're first, punk. I'm gonna flatten you!",
+      "Your call. You go down first. Hard."
+    ],
+    "v_regenerate": [
+      "Aww, cute try! I grow back, kiddo. You don't.",
+      "Nice hit, twerp. Now I heal and you get hurt. Fair trade."
+    ],
+    "v_self_destruct": [
+      "If I'm goin', this whole dump's goin' with me!",
+      "You beat me? Cool. Now we ALL get blown up!"
+    ],
+    "v_spared": [
+      "You... let me go. Why? I'd have stomped you flat.",
+      "Why'd you stop, {target}? ...Seriously, why?"
+    ],
+    "v_summon": [
+      "Dragon! Come out, I ain't got all day!",
+      "Come forth, eternal dragon! Time to make a wish!"
+    ],
+    "v_talk_grateful": [
+      "{player}. You let me go once. So I'm lettin' you go. Don't push it, kid.",
+      "Ugh, {player}. I owe you. Doesn't mean I like you."
+    ],
+    "v_talk_marked": [
+      "Oh, {player}! You've got guts comin' back! I'm gonna pound you flat!",
+      "{player}! You're SO dead, kiddo!"
+    ],
+    "v_talk_servant": [
+      "Hey, {player}, my little gofer! Got anything for me? You'd better.",
+      "{player}. Still workin' for me? Good. Keep it up or else."
+    ],
+    "v_talk_threat": [
+      "Well, well, {player}. I could squash you flat right now. Lucky for you, I might need a gofer.",
+      "Lookin' for trouble, {player}? I could end you in one punch. Make yourself useful."
+    ],
+    "v_town_taken": [
+      "This town's mine now. My rules, punks.",
+      "This town is mine. Anybody got a problem? Didn't think so."
+    ],
+    "v_travel": [
+      "Pod's ready? {planet}'s gonna get stomped.",
+      "Prepare my pod. We're headin' to {planet} to break stuff."
+    ],
+    "v_unredeemable": [
+      "Nice try. I'm not gettin' a redemption arc. I'm gettin' revenge.",
+      "Save it, sucker. I'm never switching sides."
+    ],
+    "v_wavering": [
+      "Okay, seriously, again? You're getting to me, {target}. I hate it.",
+      "Why do you keep doing this? ...Ugh. Stop making me feel stuff."
+    ],
+    "v_wish": [
+      "Power! Tons of it! Then everybody does what I say!",
+      "Eternal dragon! Make me the boss of everything!"
+    ],
+    "v_yield": [
+      "Alright, you got me. Do it already - or I'm comin' back for you.",
+      "Come on, {target}. End it. I'd do the same, and I'd enjoy it."
+    ],
+    "react_arrive": [],
+    "react_arrive_friend": [],
+    "react_arrive_cold": [],
+    "react_power": [],
+    "react_power_scared": [],
+    "react_transform": [],
+    "react_favorite": [],
+    "react_flying": [],
+    "react_stare": []
+  }
+}

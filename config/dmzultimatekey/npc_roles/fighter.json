@@ -1,0 +1,57 @@
+{
+  "id": "fighter",
+  "name": "Fighter",
+  "description": "Lives to fight: hunts monsters (earning money per kill) and always uses the best weapon it owns.",
+  "earn_per_kill": 1,
+  "actions": [
+    {
+      "action": "hunt",
+      "params": {
+        "radius": 24
+      },
+      "utility": {
+        "base": 30,
+        "when": [
+          {
+            "var": "hp_pct",
+            "op": ">",
+            "value": 40
+          }
+        ]
+      }
+    },
+    {
+      "action": "equip_best",
+      "utility": {
+        "base": 100,
+        "when": [
+          {
+            "var": "better_in_inventory",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "stay",
+      "utility": {
+        "base": 45,
+        "when": [
+          {
+            "var": "hp_pct",
+            "op": "<=",
+            "value": 40
+          }
+        ]
+      }
+    },
+    {
+      "action": "wander",
+      "params": {
+        "radius": 16
+      },
+      "utility": 10
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+#Require permission level 2 (op) or creative mode to open the dungeon/spawner admin GUIs and run /sdu dungeon.
+requireOpToEdit = true
+#Maximum radius (blocks) allowed for /sdu dungeon highlight.
+#Range: 1 ~ 512
+maxHighlightRadius = 128
+#How long a non-bypass player may stay in the dungeon dimension, in seconds. 0 disables the time limit.
+#Range: 0 ~ 86400
+dungeonTimeLimitSeconds = 1800
+#Cooldown (seconds) after a player is timed out of the dungeon before they may re-enter. 0 disables the cooldown.
+#Range: 0 ~ 86400
+dungeonCooldownSeconds = 600
+

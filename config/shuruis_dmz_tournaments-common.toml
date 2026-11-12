@@ -1,0 +1,88 @@
+
+[rules]
+	#Whether contestants may use items (consumables, senzu, etc.) during a match.
+	itemsAllowedInArena = false
+	#Fully heal both contestants (health, energy, stamina) after every match.
+	healAfterFight = true
+	#Force DragonMineZ friendly-fist (non-lethal) ON for contestants inside the arena.
+	forceFriendlyFist = true
+	#Allow PvP in the fighter waiting area. Normally false.
+	allowPvpInWaitingArea = false
+	#Allow PvP in the spectator stands. Normally false.
+	allowPvpInStands = false
+	#Countdown length before a match begins.
+	#Range: 0 ~ 60
+	countdownSeconds = 5
+	#Match time limit in seconds (0 = unlimited). On timeout the higher-health fighter wins.
+	#Range: 0 ~ 3600
+	matchTimeLimitSeconds = 300
+
+[signup]
+	#Maximum contestants per tournament (bracket is padded with byes). 0 = unlimited.
+	#Range: 0 ~ 256
+	maxParticipants = 16
+	#How long sign-ups stay open before an auto-scheduled tournament begins.
+	#Range: 1 ~ 1440
+	durationMinutes = 10
+	#Minimum contestants required or the tournament is cancelled.
+	#Range: 2 ~ 256
+	minParticipants = 2
+	#Require the player to have created a DragonMineZ character to sign up.
+	requireDmzCharacter = true
+	#While sign-ups are open, repeat the on-screen 'Sign-ups Open' title + clickable join prompt
+	#every this-many seconds (e.g. 30 = twice a minute, 60 = once a minute). 0 = announce only once.
+	#Range: 0 ~ 3600
+	reminderSeconds = 30
+
+[npc]
+	#Display name of the sign-up NPC.
+	name = "Hercule"
+	#Which DragonMineZ tournament character skin the NPC uses: hercule, announcer, etc.
+	character = "hercule"
+	#How far (in blocks) a sign-up NPC will turn to face the nearest player. 0 disables look-at.
+	#Range: 0.0 ~ 64.0
+	lookRadius = 8.0
+
+[schedule]
+	#Automatic scheduling: MANUAL, DAILY, WEEKLY, or MONTHLY.
+	mode = "MANUAL"
+	#Hour (server local time, 0-23) sign-ups auto-open on a scheduled day.
+	#Range: 0 ~ 23
+	hour = 18
+	#Range: 0 ~ 59
+	minute = 0
+	#Day of week for WEEKLY mode (1=Monday .. 7=Sunday).
+	#Range: 1 ~ 7
+	dayOfWeek = 6
+	#Day of month for MONTHLY mode (1-28).
+	#Range: 1 ~ 28
+	dayOfMonth = 1
+
+[announce]
+	#Show announcements as on-screen titles in addition to chat.
+	useOnScreenTitles = true
+	#Sound played to everyone on major announcements (resource location, empty to disable).
+	sound = "minecraft:ui.toast.challenge_complete"
+	signupOpen = "&e[Tournament] &fSign-ups are now OPEN! Talk to {npc} or use /tournament join."
+	starting = "&6[Tournament] &fThe tournament is starting with {count} fighters!"
+	match = "&6[Tournament] &fNext match: &e{p1} &fvs &e{p2}&f!"
+	matchWin = "&6[Tournament] &e{winner} &fdefeats &e{loser}&f!"
+	champion = "&6[Tournament] &e{champion} &fis the new CHAMPION!"
+
+[rewards]
+	#Rewards for the champion. Tokens: 'command:<cmd with {player}>', 'item:<id>:<count>',
+	#'tp:<x> <y> <z>', 'skill:<dmzSkillId>:<levels>', 'title:<titleId>', 'message:<text>'.
+	winner = ["title:champion", "item:minecraft:diamond:10", "message:&6You are the champion!"]
+	runnerUp = ["item:minecraft:diamond:3"]
+	participation = ["item:minecraft:gold_ingot:1"]
+
+[titles]
+	#Configurable titles, format 'id|Display Text|Prefix'. Granted via 'title:<id>' rewards.
+	#Prefix (with & colour codes) is shown before the holder's chat name and above their head.
+	#Only one player holds a given title at a time; it transfers to the new winner.
+	definitions = ["champion|&6World Martial Arts Champion|&6[Champion] "]
+	#Show a title holder's prefix before their name in chat.
+	chatPrefix = true
+	#Show a title holder's prefix above their head (via a scoreboard team; also decorates chat).
+	nametagPrefix = true
+

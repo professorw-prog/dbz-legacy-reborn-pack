@@ -1,0 +1,10 @@
+{
+  "_comment": "Quest-gated form purchases. Key each entry by the lower-cased DMZ form-skill name (as in getFormSkills, e.g. 'superform'). questId: saga quests are '<sagaId>:<questNumericId>', side quests use their string id. gateUpgrades=false gates only the first buy (level 0->1); true also gates every upgrade while the quest is incomplete. The form keeps its normal TP price - the quest only unlocks the ability to buy. Delete the '_example' entry (it is ignored) and add real ones under 'gates'.",
+  "configVersion": 1,
+  "gates": {
+    "_example": {
+      "questId": "saga_frieza:3",
+      "gateUpgrades": false
+    }
+  }
+}

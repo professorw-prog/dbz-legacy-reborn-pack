@@ -1,0 +1,608 @@
+{
+  "name": "Laid-back",
+  "description": "Easy-going and food-first; training can always wait until after a nap and a big meal.",
+  "selectable": true,
+  "catchphrases": [
+    "yawn",
+    "munch",
+    "later",
+    "nap time"
+  ],
+  "nicknames": [
+    "buddy",
+    "snack pal",
+    "nap buddy"
+  ],
+  "behaviour": {
+    "wake": 8.0,
+    "sleep": 22.0,
+    "likes": [
+      "gentle",
+      "cheerful",
+      "gruff",
+      "cunning"
+    ],
+    "clashes": [
+      "battle_lover",
+      "proud",
+      "brash"
+    ],
+    "likes_own_kind": false,
+    "power_style": "hidden",
+    "aggression": 0.6,
+    "bravery": 0.8,
+    "chattiness": 1.0,
+    "temper": 1.0
+  },
+  "lines": {
+    "like": [
+      "Ooh, nice. Thanks, {player}."
+    ],
+    "bye": [
+      "See ya... I'm gonna nap now.",
+      "Bye, {player}. {catch}."
+    ],
+    "ask": [
+      "Hey {player}... could you maybe get me {need}? I'm too comfy to move, {catch}."
+    ],
+    "cold": [
+      "...I'm pretending to be asleep. Go away.",
+      "Not now. Not ever, maybe."
+    ],
+    "small": [
+      "One senzu bean fills you up for ten days. What a waste of a good appetite, {catch}.",
+      "I once ate a whole Saiyan-sized dinner. No regrets.",
+      "Training? Nah... maybe tomorrow. The beach at Kame House is calling."
+    ],
+    "friend": [
+      "{player}! You're my favourite person. After food. Maybe tied.",
+      "Hey buddy... wanna nap? {catch}."
+    ],
+    "greet": [
+      "Oh, hey {player}... I was just about to have a snack.",
+      "Mmm... hi. You woke me up, {catch}."
+    ],
+    "meh": [
+      "Huh. Okay. Thanks, I guess."
+    ],
+    "hate": [
+      "...Is this edible? No? Oh."
+    ],
+    "love": [
+      "Whoa... this is the best day of my life, {player}. {catch}!"
+    ],
+    "beaten": [
+      "Okay, you're beat... can we stop now?",
+      "...That's it. You lost. Nap time."
+    ],
+    "boon_released": [
+      "...What happened? Was I napping?",
+      "Huh... where am I?"
+    ],
+    "captive_freed": [
+      "I'm... free? Nice... I'm free.",
+      "Free... gonna nap somewhere safe now."
+    ],
+    "chat_agree": [
+      "Ha... that's so you, {target}.",
+      "Heh. Classic {target}."
+    ],
+    "chat_tense": [
+      "Oh... {target}. Great.",
+      "You're in my way, {target}... move."
+    ],
+    "chat_tense_reply": [
+      "Some of us actually enjoy life, {target}.",
+      "Don't start with me, {target}..."
+    ],
+    "compliment": [
+      "You're good company, {target}...",
+      "You always know the best snack spots, {target}."
+    ],
+    "confide": [
+      "You ever think about leaving all this, {target}? Just... napping forever?",
+      "I trust you, {target}. More than most."
+    ],
+    "confide_reply": [
+      "Same here, {target}...",
+      "I get it, {target}."
+    ],
+    "faction_found": [
+      "So... this is {faction} now. Anyone can join, I guess.",
+      "Yeah, this is {faction}. Come hang out."
+    ],
+    "faction_invite": [
+      "{player}... you're alright. {faction} could use you.",
+      "Hey {player}... join {faction}? It's chill."
+    ],
+    "faction_quit": [
+      "I'm done following {leader}... leaving {faction}.",
+      "Too much {leader}... I'm out of {faction}."
+    ],
+    "faction_tier": [
+      "Huh... we're a {tier} now. {faction} is going places. Cool.",
+      "{faction}'s a {tier} now... nice."
+    ],
+    "faction_vassal": [
+      "{faction}'ll stand under {overlord}. {leader} earned it... less work for me.",
+      "Fine... {faction} follows {overlord} now. {leader}'s alright."
+    ],
+    "faction_welcome": [
+      "Welcome to {faction}, {target}. Make yourself comfy.",
+      "Hey {target}... welcome to {faction}."
+    ],
+    "faction_welcome_player": [
+      "Welcome, {player}... we look after our own.",
+      "Hey {player}, welcome. Make yourself at home."
+    ],
+    "fall": [
+      "Nah... I'm done getting stepped on. Done.",
+      "Too tired of being hurt... guess I'll do the hurting now."
+    ],
+    "fall_pessimist": [
+      "Yeah... figured. World was never gonna be nice. Whatever. Fine.",
+      "Knew it'd go like this... can't even be bothered to care anymore."
+    ],
+    "flee": [
+      "Ugh... this isn't over. Later, though. Way later.",
+      "I'll get you back... after a nap."
+    ],
+    "flee_coward": [
+      "Nope... too much. Running... well, jogging.",
+      "I'm out. Way too much effort."
+    ],
+    "gift_give": [
+      "Here, {target}... I thought of you. Kinda.",
+      "For you, {target}... it's yours."
+    ],
+    "gossip": [
+      "Between us, {target}... {about} isn't who they seem.",
+      "Psst, {target}... watch out for {about}."
+    ],
+    "grudge": [
+      "Oh... you. I'm awake now, and I remember you.",
+      "Hey... I remember you. That's bad news for you."
+    ],
+    "h_ally_greet": [
+      "Ah, {player}. Good. I could use the help.",
+      "{player}. Nice to have you around."
+    ],
+    "h_ally_join": [
+      "Cool. I've got your back, {player}.",
+      "Alright, deal. Holler if you need me."
+    ],
+    "h_arrive": [
+      "So you're {target}. Let's just get this over with, yeah?",
+      "{target}... I was having such a nice nap, too."
+    ],
+    "h_base": [
+      "Done. Nice place to nap.",
+      "There. Home sweet home."
+    ],
+    "h_battle_cry": [
+      "Alright, alright. Let's do this.",
+      "Fine. You asked for it, {target}."
+    ],
+    "h_busy": [
+      "Can't right now. Something's going on.",
+      "Ehh... later, okay?"
+    ],
+    "h_called": [
+      "Yeah, yeah, I'm coming.",
+      "On my way, {player}. Hang tight."
+    ],
+    "h_defend": [
+      "Ugh, seriously? Leave {victim} alone.",
+      "Hey. Knock it off."
+    ],
+    "h_farewell": [
+      "Later, {player}.",
+      "See ya around."
+    ],
+    "h_finish": [
+      "Yeah... I can't let you walk away from this.",
+      "Sorry. Nothing personal."
+    ],
+    "h_greet": [
+      "Oh, hey {player}. Quiet day. I like quiet days.",
+      "'Sup, {player}. Nothing's on fire, so... good."
+    ],
+    "h_rage": [
+      "...{target}. Okay. Now I'm actually angry.",
+      "You shouldn't have done that. Really shouldn't have."
+    ],
+    "h_rally_ask": [
+      "So... {target}'s at {where}. Wanna come? I'd appreciate it.",
+      "{target}'s near {where}. Could use a hand, {player}."
+    ],
+    "h_request_done": [
+      "Oh, nice. Thanks a lot.",
+      "Hey, you came through. Thanks."
+    ],
+    "h_request_thanks": [
+      "Thanks. Appreciate it.",
+      "Cool, thanks {player}."
+    ],
+    "h_request_waiting": [
+      "No hurry. Take your time.",
+      "Eh, whenever."
+    ],
+    "h_sensed": [
+      "Ugh... {target}'s stirring things up. Guess I'm getting up.",
+      "Feel that? {target}. Yeah... somebody's gotta deal with it."
+    ],
+    "h_spare": [
+      "Eh... you're done. Go home.",
+      "Nah, I'm not gonna finish it. Just... don't do it again."
+    ],
+    "h_talk_wanted": [
+      "Yeah, no. Not after what you pulled.",
+      "Come back when you've cooled off, {player}."
+    ],
+    "h_train_offer": [
+      "Hey, {player}... wanna spar? No pressure.",
+      "If you're bored, {player}, we could train."
+    ],
+    "h_train_start": [
+      "Sure, let's spar. Nice and easy.",
+      "Okay, okay. Show me what you've got."
+    ],
+    "h_trained": [
+      "Not bad, {player}. Not bad at all.",
+      "Nice. You're getting the hang of it."
+    ],
+    "h_wanted": [
+      "Hey, {target}. Cut that out. I'm watching.",
+      "Really, {target}? Knock it off."
+    ],
+    "insult": [
+      "Oh... it's you, {target}.",
+      "Could you be any slower, {target}? And I'm lazy."
+    ],
+    "insult_harsh": [
+      "You're a disgrace, {target}... can't even nap near you.",
+      "Pathetic, {target}. As always."
+    ],
+    "learned": [
+      "Huh... I learned {skill}. Cool.",
+      "Learned {skill}... nap earned."
+    ],
+    "minion_android": [
+      "Systems... online. Awaiting orders.",
+      "Activated. Low power mode preferred."
+    ],
+    "minion_awakened": [
+      "Hehehe... who wants to play?",
+      "Heh... play with me."
+    ],
+    "minion_freed_mind": [
+      "My head... what have I been doing?",
+      "Ugh... was I asleep? What happened?"
+    ],
+    "minion_mind_control": [
+      "Yes... master. Your will is... mine.",
+      "Mm... whatever you say, master."
+    ],
+    "minion_quit": [
+      "I'm done taking orders... too much work.",
+      "Nah... no more orders."
+    ],
+    "minion_recruit": [
+      "Fine... I'll fight for you. For now.",
+      "Okay... I'll serve. For now. Don't push it."
+    ],
+    "new_chapter": [
+      "Mm... I need a change. Gonna {goal}, I guess.",
+      "New plan... {goal}. Eventually."
+    ],
+    "new_chapter_role": [
+      "Yeah... I'm done being a {role}. Gonna try {next}, I guess. New aim: {goal}.",
+      "Being a {role} was too much work... {next} sounds chill. Aim: {goal}."
+    ],
+    "redeemed": [
+      "Huh... being bad was exhausting anyway. Thanks, everyone... really.",
+      "I don't wanna be that guy anymore... thanks for waiting for me."
+    ],
+    "refuse_serve": [
+      "I'd rather die than serve you.",
+      "Nah... never."
+    ],
+    "resist_mind": [
+      "Get out of my head... you can't have me.",
+      "Nope... my head's mine."
+    ],
+    "retire": [
+      "That's it... I've saved enough. Retiring. Forever nap time, somewhere by the beach.",
+      "Done working... time to build a comfy home and never leave."
+    ],
+    "rob": [
+      "Nice place, {target}... be a shame if... y'know. Just hand it over.",
+      "Can we skip the fight, {target}? Just give me the stuff."
+    ],
+    "rob_done": [
+      "Smart choice, {target}... saved us both the effort.",
+      "Cool. Smart, {target}."
+    ],
+    "rob_evil": [
+      "Just... give me everything, {target}. Or I take it off your body. Your call.",
+      "Hand it all over, {target}... killing you is more work, but I'll do it."
+    ],
+    "sell_produce": [
+      "Fresh... from the field. {price}. I think.",
+      "Grew this myself... mostly. {price}."
+    ],
+    "shop_fight": [
+      "Nah, {target}. Not today. Get out.",
+      "Not gonna happen, {target}. Leave."
+    ],
+    "shop_fight_brawler": [
+      "Big mistake, {target}... now I gotta get up.",
+      "Ugh, {target}. You made me move. Big mistake."
+    ],
+    "shop_yield": [
+      "...Fine. Take it. Go away.",
+      "Whatever... take it and leave."
+    ],
+    "shop_yield_coward": [
+      "Okay, okay... take it. Just don't hurt me.",
+      "Fine... take it. I'm not fighting."
+    ],
+    "spar_abandoned": [
+      "Huh. Guess we're done. Good.",
+      "Oh... they left. Nap time."
+    ],
+    "spar_draw": [
+      "Phew... let's call it a draw, {player}. I'm beat.",
+      "Draw, {player}? Draw. I need a nap."
+    ],
+    "spar_lost": [
+      "Heh... you win, {player}. I'm gonna lie here a bit.",
+      "You got me, {player}... good fight. Nap time."
+    ],
+    "spar_lost_ambitious": [
+      "Ugh... you got me, {player}. Rematch... after a nap.",
+      "You win, {player}... I'll train. Probably. Then rematch."
+    ],
+    "spar_won": [
+      "And... that's the match. Keep training, {player}. Or don't.",
+      "Match over. I'm gonna sit down now, {player}."
+    ],
+    "spar_won_kind": [
+      "You did good, {player}... here, gimme your hand.",
+      "Nice try, {player}. Lemme help you up."
+    ],
+    "stay_down": [
+      "Okay... that's enough. Just... stay down. I'm tired.",
+      "Stay down, yeah? I don't wanna do this again."
+    ],
+    "surrender": [
+      "Enough... we surrender. Too tired.",
+      "Okay... we give up."
+    ],
+    "talk_back": [
+      "Like I care what you think, {target}.",
+      "Say that again, {target}... actually, don't. Too loud."
+    ],
+    "team_ask": [
+      "Hey {player}... can I join {team}? I won't eat all the snacks.",
+      "{player}... {team} looks comfy. Can I join?"
+    ],
+    "team_declined": [
+      "Oh... okay. Maybe some other time.",
+      "Eh. That's fine. More nap time."
+    ],
+    "team_joined": [
+      "Thanks, {player}... I won't let you down. Probably.",
+      "Cool... thanks, {player}. I'll try my best."
+    ],
+    "team_kicked": [
+      "...Okay. I get it.",
+      "Oh. Fine. More nap time."
+    ],
+    "team_leave": [
+      "Yeah... I'm not staying in {team}. Not after that.",
+      "I'm leaving {team}... too much drama."
+    ],
+    "v_absorb": [
+      "Your {skill}... mine now. Easier than learning it. You're useless now.",
+      "I'll take that {skill}. You can go die now."
+    ],
+    "v_accepted": [
+      "Good choice, {player}. Now do my work. Fail and I'll kill you. Later. After my nap.",
+      "Smart, {player}... serve me well. Or don't, and die."
+    ],
+    "v_beg_laugh": [
+      "Haha... begging? Cute, {player}. No.",
+      "You're begging, {player}? That's... kinda funny. No."
+    ],
+    "v_creation": [
+      "{target}, rise. Go kill stuff for me. I'm resting.",
+      "It's alive... {target}, go do my dirty work."
+    ],
+    "v_demand_army": [
+      "My army needs {count} {item}... go get them. I'm not moving. Fail and you die.",
+      "{count} {item}. For the army. Hurry. Or I kill you."
+    ],
+    "v_demand_done": [
+      "Huh. You actually did it, {player}. Fine. You live. Go away.",
+      "Good enough, {player}. You're not dead today."
+    ],
+    "v_demand_doom": [
+      "{player}... world's ending. *yawn* Beg if you want. Won't matter.",
+      "It's all over, {player}. Kneel or don't. I'm too tired to care."
+    ],
+    "v_demand_dragonball": [
+      "Go find me a dragon ball. I'm not doing it. Fail and you die.",
+      "Dragon ball. Get one. Bring it here. Or... you know."
+    ],
+    "v_demand_energy": [
+      "Need energy... bring {count} {item}. Or I drain yours. Easier anyway.",
+      "{count} {item}. Energy. Go. Fail and you're my battery."
+    ],
+    "v_demand_failed": [
+      "You took too long, {player}. Now I have to kill you. Ugh.",
+      "Failed, {player}. You're on the list. Whatever."
+    ],
+    "v_demand_lair": [
+      "*yawn* ...Get me {count} {item} for my lair. I'm not doing it. Fail and you die.",
+      "{count} {item}. My lair. Go. Or don't, and I kill you."
+    ],
+    "v_demand_slaughter": [
+      "Go kill {count} {mob}. I'm too comfy. Fail and I kill you instead.",
+      "{count} {mob}. Dead. Get it done. Or you're dead."
+    ],
+    "v_demand_strong": [
+      "I need power... go hunt {count} {mob}. Fail and I'll drain you. Easier anyway.",
+      "{count} {mob}. The strong ones. Go. I'm napping."
+    ],
+    "v_demand_sweets": [
+      "Hungry... bring me {count} {item}. Or you become candy. Less walking for me.",
+      "{count} {item}. Snacks. Now. Or I eat you."
+    ],
+    "v_demand_tournament": [
+      "{player}... ring. Now. Let's get this over with. You'll lose.",
+      "Fight me in my ring, {player}. I'll try not to fall asleep while I crush you."
+    ],
+    "v_deserter": [
+      "A deserter... ugh. Now I have to get up and kill you myself.",
+      "Traitor... I'll find you. Eventually. Then you die."
+    ],
+    "v_dragon_ball": [
+      "Another dragon ball... {count} of 7. Easy.",
+      "{count} of 7. Getting there. You're all doomed. Eh."
+    ],
+    "v_eat": [
+      "Mmm... snack. Then I'll kill you. After a nap.",
+      "Yummy... you'll wait."
+    ],
+    "v_eat_person": [
+      "Mmm... {target}... tasty. *yawn* Who's next? I'm still hungry.",
+      "Turned {target} into a snack. Too lazy to cook."
+    ],
+    "v_lair": [
+      "My lair is taking shape. Good. Comfy place to plot your deaths.",
+      "Lair's coming along. Didn't even have to lift a finger."
+    ],
+    "v_marked": [
+      "*yawn* ...You had your chance, {player}. Now I have to kill you. Ugh, chores.",
+      "You said no, {player}... so now you die. Let's get it over with."
+    ],
+    "v_mind_control": [
+      "Dark heart... you're mine now. Go do my work. I'm napping.",
+      "You've got darkness in you... cool. You're my servant now."
+    ],
+    "v_next_challenger": [
+      "Is that all? *yawn* Next.",
+      "Next... and hurry, I'm bored."
+    ],
+    "v_next_target": [
+      "{faction}... I guess. Kill them next. Whatever.",
+      "Next... {faction}. Ugh, more walking."
+    ],
+    "v_no_mercy": [
+      "Hitting a guy when he's down... rude. Now I'm actually gonna try. You're dead.",
+      "Ugh... guess I have to kill you for real now."
+    ],
+    "v_obeyed": [
+      "Good, {player}. Be quick. Fail and I kill you. I'll be napping.",
+      "Fine, {player}. Go. Don't make me get up."
+    ],
+    "v_offer": [
+      "{player}... I've been watching. Serve me, share my empire. Refuse and... I kill you. Your pick. Hurry.",
+      "{player}... join me. Or die. I don't really care which."
+    ],
+    "v_plan_done": [
+      "Everything went as planned. *yawn* Now you all die. Then nap.",
+      "All according to plan... wasn't even hard."
+    ],
+    "v_possess": [
+      "...This body is comfy. Its owner? Gone. Whatever.",
+      "...Eh. This body will do. Wake me when it's time to kill."
+    ],
+    "v_pure_heart": [
+      "Pure heart... can't control you. So... I'll just kill you. Less hassle.",
+      "Tch. Pure. Guess you die then."
+    ],
+    "v_rage": [
+      "*yawn* ...Great. You made me angry. Now I have to actually wipe you out. Ugh.",
+      "You woke me up for this? Fine. Everything here dies."
+    ],
+    "v_recruit": [
+      "You're alright... serve me. Or I kill you. Either way, I'm going back to sleep.",
+      "Serve me... it's less effort than murdering you."
+    ],
+    "v_redeemed": [
+      "...Being evil is exhausting. I'm done. Gonna try being good. Or at least lazy and good.",
+      "Fine. I quit the villain thing. For real."
+    ],
+    "v_refused": [
+      "*yawn* ...Fine. You die first. Saves time.",
+      "Whatever. You're first on the kill list."
+    ],
+    "v_regenerate": [
+      "*yawn* ...That's it? I just grow back. You're wasting both our time.",
+      "Healed. Now lie still so I can finish you."
+    ],
+    "v_self_destruct": [
+      "*sigh* ...Fine. If I'm done, this whole planet's done too. Saves effort.",
+      "I'll just... blow everything up. Less work than winning."
+    ],
+    "v_spared": [
+      "...You're just gonna... leave me? Huh. Weird. I'd have killed you.",
+      "Didn't finish me... why...?"
+    ],
+    "v_summon": [
+      "Dragon... come out. Grant my wish. Then everyone dies.",
+      "Come forth, eternal dragon... let's make this quick."
+    ],
+    "v_talk_grateful": [
+      "{player}... you let me live. So I'll let you live. Today. Go away.",
+      "Oh, it's you, {player}. I owe you, I guess. Ugh. Don't make it weird."
+    ],
+    "v_talk_marked": [
+      "{player}... you're on my kill list. *yawn* Might as well do it now.",
+      "Oh, it's you, {player}. Guess I have to kill you. Ugh."
+    ],
+    "v_talk_servant": [
+      "{player}... my servant. Do some work. I'm resting. Fail and you die.",
+      "Oh, {player}. Got results? No? Then why are you bothering me?"
+    ],
+    "v_talk_threat": [
+      "*yawn* ...{player}. I could kill you right now. Too much effort. Be useful or go away.",
+      "{player}... you're still alive because I'm lazy. Don't push it."
+    ],
+    "v_town_taken": [
+      "This town's mine now... cool. Nap time. Don't wake me or die.",
+      "Mine now. Whatever. Nobody bother me."
+    ],
+    "v_travel": [
+      "Pod... {planet}. I'll sleep on the way. Wake me to destroy it.",
+      "Prepare my pod... {planet} won't survive the week. Whatever."
+    ],
+    "v_unredeemable": [
+      "Sparing me won't change anything. I'll still kill you. Eventually.",
+      "Nope. Still evil. Too much effort to change."
+    ],
+    "v_wavering": [
+      "Again...? You're really... weird. I don't even feel like killing you right now.",
+      "I don't get you. At all. It's... bugging me."
+    ],
+    "v_wish": [
+      "Power... lots of it. Then nobody bothers me ever again.",
+      "Eternal dragon... make me invincible. Then I can sleep forever."
+    ],
+    "v_yield": [
+      "Ugh... can't get up. Just... get it over with. Or don't, and I kill you later.",
+      "Fine... you win. Do it. I'm too tired to care."
+    ],
+    "react_arrive": [],
+    "react_arrive_friend": [],
+    "react_arrive_cold": [],
+    "react_power": [],
+    "react_power_scared": [],
+    "react_transform": [],
+    "react_favorite": [],
+    "react_flying": [],
+    "react_stare": []
+  }
+}

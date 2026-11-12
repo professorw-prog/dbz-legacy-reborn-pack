@@ -1,0 +1,13 @@
+name = "DragonMine Z: Apothic Stats"
+filename = "apothicdmz-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0c79eab9e80d4e33caa60cc94374d0d5d54e3e20"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8757824
+project-id = 1624779

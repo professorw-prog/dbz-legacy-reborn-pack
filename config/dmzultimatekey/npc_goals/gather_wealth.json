@@ -1,0 +1,63 @@
+{
+  "id": "gather_wealth",
+  "name": "Gather wealth",
+  "description": "Wants money and valuables: picks up anything worth something and hunts for coin.",
+  "interest": {
+    "items": [
+      "minecraft:diamond",
+      "minecraft:emerald",
+      "minecraft:gold_ingot",
+      "minecraft:netherite_ingot"
+    ]
+  },
+  "shop": {
+    "buy_bonus": 0.2
+  },
+  "actions": [
+    {
+      "action": "collect_loot",
+      "params": {
+        "radius": 16
+      },
+      "utility": {
+        "base": 45,
+        "when": [
+          {
+            "var": "loot_near",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "deposit",
+      "utility": {
+        "base": 60,
+        "when": [
+          {
+            "var": "spare_interest",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      }
+    },
+    {
+      "action": "hunt",
+      "params": {
+        "radius": 20
+      },
+      "utility": {
+        "base": 15,
+        "when": [
+          {
+            "var": "hp_pct",
+            "op": ">",
+            "value": 50
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "improve_gear",
+  "name": "Improve gear",
+  "description": "Turns what it grinds into power: enchants at a table (lapis + XP), adds Tinkers modifiers and repairs at a tinker station, sockets Apotheosis gems, adds sockets and reforges to higher rarities - using only what it owns, at stations near home.",
+  "actions": [
+    {
+      "action": "improve_gear",
+      "utility": {
+        "base": 58,
+        "when": [
+          {
+            "var": "can_improve",
+            "op": ">",
+            "value": 0
+          },
+          {
+            "var": "hostile_near",
+            "op": "==",
+            "value": 0
+          }
+        ]
+      }
+    }
+  ]
+}

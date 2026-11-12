@@ -1,0 +1,108 @@
+{
+  "id": "vessel",
+  "name": "Cursed Vessel",
+  "inspired_by": "Janemba and Dabura",
+  "description": "A fighter carrying something ancient inside. When it falls asleep, the being within can take over - and it does not want to give the body back.",
+  "focus": [
+    "magic",
+    "martial"
+  ],
+  "power": 1.4,
+  "army": "%npc%'s Demons",
+  "redeemable": true,
+  "redeem_after": 2,
+  "looks": {
+    "race": "human",
+    "auraColor": "#AA0000"
+  },
+  "lair": {
+    "style": "hidden",
+    "templates": [
+      "lair_sanctum"
+    ],
+    "materials": "free",
+    "radius": 120
+  },
+  "abilities": [
+    "curse",
+    "barrier",
+    "teleport",
+    "rage",
+    "shockwave"
+  ],
+  "scheme": [
+    {
+      "goal": "lair"
+    },
+    {
+      "goal": "minions",
+      "count": 2
+    },
+    {
+      "goal": "conquer",
+      "count": 1
+    }
+  ],
+  "milestones": [
+    {
+      "id": "possessed",
+      "name": "Possessed in its sleep",
+      "trigger": {
+        "type": "sleep",
+        "chance": 0.35
+      },
+      "repeat": true,
+      "cooldown": 2400,
+      "broadcast": "Something has taken over %npc% in its sleep...",
+      "boons": [
+        {
+          "type": "possess",
+          "by": "Janemba",
+          "title": "Janemba",
+          "seconds": 900,
+          "personality": {
+            "type": "gruff",
+            "power_style": "show-off"
+          },
+          "line": "Janemba... JANEMBA!",
+          "looks": {
+            "race": "majin",
+            "bodyColor": "#D61C1C",
+            "headBones": "horns5"
+          }
+        },
+        {
+          "type": "stats",
+          "value": 1.8,
+          "seconds": 900
+        }
+      ]
+    }
+  ],
+  "lines": {
+    "taunt": [
+      "Get out of my head...",
+      "It wants out.",
+      "You shouldn't have come here."
+    ],
+    "defeated": [
+      "Finally... quiet."
+    ]
+  },
+  "demands": [
+    {
+      "type": "deliver",
+      "item": "minecraft:ender_eye",
+      "count": 4,
+      "reward_tp": 450,
+      "line": "It whispers to me, %player%... it wants %count% %item%. Bring them. Before it stops asking me and starts asking you."
+    },
+    {
+      "type": "deliver",
+      "item": "minecraft:crying_obsidian",
+      "count": 8,
+      "reward_tp": 400,
+      "line": "The seal needs mending... or breaking. I can't tell anymore. %count% %item%. Please. Or else."
+    }
+  ]
+}

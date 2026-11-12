@@ -1,0 +1,8 @@
+name = "legacytextures-0.2.5"
+filename = "legacytextures-0.2.5.jar"
+side = "both"
+
+[download]
+url = "https://github.com/professorw-prog/dbz-legacy-reborn-pack/releases/download/files-v1/legacytextures-0.2.5.jar"
+hash-format = "sha256"
+hash = "860ead4a19b3dc770039fd90d832dcb8d0c72bc1444f7e0ab325dd12cf502d87"
