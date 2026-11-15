@@ -5760,8 +5760,8 @@ hash = "1869af199a8c3161de14b5e05e455a5949261190c9bcad7d2e6d13dc7999eb5e"
 metafile = true
 
 [[files]]
-file = "mods/dmzultimatekey-2.9.9.jar"
-hash = "866e6757fcc6dbb49eabe09301bc88acfa33198802cd89766f8105d14e5855ec"
+file = "mods/dmzultimatekey-3.3.3.jar"
+hash = "396a79e3c93a2d14154a5ff8a8d09cada6bdf0617e68aa9594301374e9c243ca"
 
 [[files]]
 file = "mods/dmzultra-0.4.0-noscale.pw.toml"
