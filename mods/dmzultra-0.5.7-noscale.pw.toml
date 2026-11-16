@@ -1,0 +1,8 @@
+name = "dmzultra-0.5.7-noscale"
+filename = "dmzultra-0.5.7-noscale.jar"
+side = "both"
+
+[download]
+url = "https://github.com/professorw-prog/dbz-legacy-reborn-pack/releases/download/files-v1/dmzultra-0.5.7-noscale.jar"
+hash-format = "sha256"
+hash = "dfca13fa1ab027e107a8816b8c80b246c456f67047dfe647e11cb2a0e9564c64"
