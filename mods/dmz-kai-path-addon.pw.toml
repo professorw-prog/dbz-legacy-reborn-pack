@@ -1,13 +1,13 @@
 name = "DMZ: Kai Path Addon"
-filename = "kaipath-1.5.3.jar"
+filename = "kaipath-1.5.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c606322a7546bae7e733e2141a94869fa04181a9"
+hash = "4719d87e82b9809d4c8a2dbcb4227c631f563d38"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 9459190
+file-id = 9673332
 project-id = 1724428
