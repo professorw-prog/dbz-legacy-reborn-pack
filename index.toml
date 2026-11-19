@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "WarMap.java"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "config/CustomNpcs.cfg"
 hash = "21bd693ed04e4152b992f0b9200c65801c0504c80892e5ab7da1010046b4a575"
 
@@ -5760,8 +5764,8 @@ hash = "1869af199a8c3161de14b5e05e455a5949261190c9bcad7d2e6d13dc7999eb5e"
 metafile = true
 
 [[files]]
-file = "mods/dmzultimatekey-4.4.1.jar"
-hash = "99c6b29abb3130ada2d10d546e588a76cdc033c8e08f141903d56c972ccaa073"
+file = "mods/dmzultimatekey-4.9.9.jar"
+hash = "2b292628637ca8a7f2f3e66abc16163e558f16eee63508dca61bc55ed2e2a028"
 
 [[files]]
 file = "mods/dmzultra-0.5.7-noscale.pw.toml"
