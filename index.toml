@@ -5868,7 +5868,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftbxaerocompat.pw.toml"
-hash = "7ae51caa38c24a208d45b1eddd83af1d32d5c1c8727f2990e6e2a7b4ef405d78"
+hash = "0313e69f8f13ddd9fbbc3f6b8ccdef53c0e986475be511bc39bd30842b316457"
 metafile = true
 
 [[files]]
@@ -6126,8 +6126,9 @@ hash = "db9e7a7c65184d213299b2a221b83162f8566069f7cdf543ce14fd2da5cd456b"
 metafile = true
 
 [[files]]
-file = "mods/shinobirace-1.0.1.jar"
-hash = "722d3816e252a3176abcaadfe2cc1e52c48e7e57388f4cd91caadde2e0e39f88"
+file = "mods/shinobirace.pw.toml"
+hash = "7d809514dc911392435526258eaa862d5fb83f97ac08824a023d77871e7275a7"
+metafile = true
 
 [[files]]
 file = "mods/silent-lib.pw.toml"
