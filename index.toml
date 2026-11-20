@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "PlanetStores.java"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "WarMap.java"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -5764,8 +5768,8 @@ hash = "1869af199a8c3161de14b5e05e455a5949261190c9bcad7d2e6d13dc7999eb5e"
 metafile = true
 
 [[files]]
-file = "mods/dmzultimatekey-5.0.7.jar"
-hash = "742eeb03cab998c4c6e2f73fb83fb300c3177303937fbb440f016fb66d1f8774"
+file = "mods/dmzultimatekey-5.2.4.jar"
+hash = "f56362dcd2718e5f7bf8806a24a1aa3340ab144895f88d2fc73f879bde466d90"
 
 [[files]]
 file = "mods/dmzultra-0.5.7-noscale.pw.toml"
