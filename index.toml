@@ -6256,7 +6256,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "a0c973c9e8ed97ace006ab150eeeff9aebd6521f39082a8a729f61275135233e"
+hash = "c563550a28e59b2d4220704cd7eedf4a0ac8fd54deeb9bb427a75efa7d1dd246"
 preserve = true
 
 [[files]]
@@ -6266,6 +6266,10 @@ hash = "4a5938e4627d145ea3403d6adc2faf2b10182eb4a7d24867b86eecbb3eafe5af"
 [[files]]
 file = "resourcepacks/DMZ HD Plus.zip"
 hash = "b9937af171004cc97578d632443e67a79234a95f866d3fa4eaf293b6995140d9"
+
+[[files]]
+file = "resourcepacks/DMZ-Legacy-Reborn-Resource-Pack.zip"
+hash = "a1feb8efff4f7c47069120a18ca01e5e4995a279aa00aea16ca715a8048efe7f"
 
 [[files]]
 file = "resourcepacks/DMZ_Legacy_Apotheosis_Affix_Gem_Resources_v1.zip"
