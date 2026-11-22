@@ -1,0 +1,8 @@
+name = "LegacyMechanics-4.7.63"
+filename = "LegacyMechanics-4.7.63.jar"
+side = "both"
+
+[download]
+url = "https://github.com/professorw-prog/dbz-legacy-reborn-pack/releases/download/files-v1/LegacyMechanics-4.7.63.jar"
+hash-format = "sha256"
+hash = "d10c3de737ab73fed121acfacf14a8aba37a34d481cd961d2ab4fbf3bfcdf105"

@@ -5946,6 +5946,11 @@ hash = "ed086cdfde6ba4bb175468a76f3df3b9517aea3fe95b09bed0f1fa70f7caeb6a"
 metafile = true
 
 [[files]]
+file = "mods/LegacyMechanics-4.7.63.pw.toml"
+hash = "6065a9134a0ba8261fd2f3e37a225ca41dfe2e6d3aff00a492b17ed35a056a1a"
+metafile = true
+
+[[files]]
 file = "mods/legacytextures-0.2.8.pw.toml"
 hash = "6cea69b968474dd12e9532273320e197c2301541cb98574a04c19646a8708e9a"
 metafile = true
