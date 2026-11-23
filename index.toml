@@ -5609,6 +5609,11 @@ file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "mods/LegacyMechanics-4.7.63.pw.toml"
+hash = "6065a9134a0ba8261fd2f3e37a225ca41dfe2e6d3aff00a492b17ed35a056a1a"
+metafile = true
+
+[[files]]
 file = "mods/absent-by-design.pw.toml"
 hash = "e02bd19825959a050361567842d8d253d7d4e2d8e128942a41ce381fc0bd8e95"
 metafile = true
@@ -5768,8 +5773,8 @@ hash = "1869af199a8c3161de14b5e05e455a5949261190c9bcad7d2e6d13dc7999eb5e"
 metafile = true
 
 [[files]]
-file = "mods/dmzultimatekey-6.1.1.jar"
-hash = "42890d6747a80bd3b2f179b387d8967bf027c0634c8ebaecca591a561c645fc0"
+file = "mods/dmzultimatekey-6.2.2.jar"
+hash = "d66ce29f19ac6bb4d984225f3e007ed518c933984dc07737eda230abfba0ce56"
 
 [[files]]
 file = "mods/dmzultra-0.5.7-noscale.pw.toml"
@@ -5943,11 +5948,6 @@ metafile = true
 [[files]]
 file = "mods/kubejs.pw.toml"
 hash = "ed086cdfde6ba4bb175468a76f3df3b9517aea3fe95b09bed0f1fa70f7caeb6a"
-metafile = true
-
-[[files]]
-file = "mods/LegacyMechanics-4.7.63.pw.toml"
-hash = "6065a9134a0ba8261fd2f3e37a225ca41dfe2e6d3aff00a492b17ed35a056a1a"
 metafile = true
 
 [[files]]
