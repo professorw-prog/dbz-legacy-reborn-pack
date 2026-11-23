@@ -5609,8 +5609,8 @@ file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
-file = "mods/LegacyMechanics-4.7.64.pw.toml"
-hash = "42adc8633182a6f938d8d352c0cfb42f8d67db33645740ca0d159a7b44a789d1"
+file = "mods/LegacyMechanics-4.7.65.pw.toml"
+hash = "a1e9cd2fad6b8c9977bfa3143088f840e310216496867c281637611a6b9a72f8"
 metafile = true
 
 [[files]]
