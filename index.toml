@@ -102,7 +102,7 @@ hash = "8dea2945143e4e9e5bb0c6460296ad42a45ad95518d75a9ae36e2645c1f1e2be"
 
 [[files]]
 file = "config/apotheosis/names.cfg"
-hash = "23c31b232c33bdfcce8ce50bf8582ea790dc8a3674438c5fbc8de61cce259b8b"
+hash = "acafad93c7575fd65bf0af345a36d821eeed55e432da6d883793d993925d174c"
 
 [[files]]
 file = "config/apotheosis/potion.cfg"
@@ -5038,7 +5038,7 @@ hash = "2e5119684366f75bc8a6df871381c6094a812cadd0d5ed0547405b5f1353f9e1"
 
 [[files]]
 file = "config/jei/client/ingredient-list-mod-sort-order.ini"
-hash = "4dac52a03c7f6ef32b76fdb50e52ccacb782e65c2c65fc5edf3a1a36be417168"
+hash = "1c5d45ec04270b5569b02a512b156d2238fba27bf5a97100cd04e68ca49e35dc"
 
 [[files]]
 file = "config/jei/client/ingredient-list-type-sort-order.ini"
@@ -5062,7 +5062,7 @@ hash = "d0b43e6683d4bd06ddf7caff6f1c177b78d8a0cd338b6cb0da8d3863db55e7fc"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini.bak.1"
-hash = "5a89193e145710af9540dd335d41e99f0ba17ebbbf5dc18ddfb740817fb5109c"
+hash = "76f883c5ad71923dc50f0183cde6fa85c94f7ad059350a2c2a3d25872d468837"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -5295,42 +5295,6 @@ hash = "56291af4bc3506692c79f5c0155c47cce8577d0aae6ed5930c9074d5cb9bc5c8"
 [[files]]
 file = "config/questsadditions-client.toml"
 hash = "f4893862ac7ec3b94fe59e74b736200f9079235bdc9885743cc0872946be1edc"
-
-[[files]]
-file = "config/sdu-common.toml"
-hash = "c14ee228806a906b88606f3020b2d40d576b1339deab02bb0c7829ab86ba6687"
-
-[[files]]
-file = "config/sdu/form_quest_gates.json"
-hash = "125481abdfd26f47ce8707660ec5e3a314990f3d2760daa80d36be83bc563bb0"
-
-[[files]]
-file = "config/sdu/generated_lang.json"
-hash = "d91b4d3c64278a02fdfd7037f4651ca94c43bbece5eb843e3dd5689d9f6af5a1"
-
-[[files]]
-file = "config/sdu/npcs/example_warrior.json"
-hash = "d49ddc83133266b645ad798fbfe0f719d1321d201515f210c6d9667a2cc2395b"
-
-[[files]]
-file = "config/sdu/saga_npc_map.json"
-hash = "3d4284e58f8cfb887a762cf0ef66fdb98dce4737b6a07364594ba3f9f5498d7a"
-
-[[files]]
-file = "config/sdu/shenron_shrines.json"
-hash = "a7878c7a7506f9594de0adce239140ceab204ea567c6dc656137c1f55b65a111"
-
-[[files]]
-file = "config/shuruis_dmz_dungeons-common.toml"
-hash = "1435b103b7bd643743b178946f7b02a099d4372b872c6d84a74322edf7c8be9c"
-
-[[files]]
-file = "config/shuruis_dmz_tournaments-common.toml"
-hash = "f0fc239eeb4eaaf76944b1643e6ee0501024d4fefa97af763752351e56787cc6"
-
-[[files]]
-file = "config/shuruis_raid_bosses-common.toml"
-hash = "dc0d8608c49062fe736554f23db2ebc4d4f7b56766fb568557b72a71ca10fcd2"
 
 [[files]]
 file = "config/sidebar_buttons.json"
@@ -6289,10 +6253,6 @@ metafile = true
 file = "resourcepacks/java-purpurite.pw.toml"
 hash = "43a97a11039559135218e1359cac21f0d12600f5640f25e4fe1ddb29112ab2e8"
 metafile = true
-
-[[files]]
-file = "resourcepacks/shuruis_dmz_resources.zip"
-hash = "1db9849e8d5da0851b71f05c88a5ce7de3291435f3c79fdc889bb38be11a8083"
 
 [[files]]
 file = "servers.dat"
