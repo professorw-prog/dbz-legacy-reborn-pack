@@ -1,0 +1,8 @@
+name = "DMZ Sphinxian Addon"
+filename = "DMZ_Sphinxian_Addon-1.9.11.jar"
+side = "both"
+
+[download]
+url = "https://github.com/professorw-prog/dbz-legacy-reborn-pack/releases/download/files-v1/DMZ_Sphinxian_Addon-1.9.11.jar"
+hash-format = "sha256"
+hash = "e83218d7a995515e091f1afea9f86990a03f005db01c36ff9f63ac2e5a829fb6"

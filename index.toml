@@ -5573,6 +5573,11 @@ file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "mods/DMZ_Sphinxian_Addon.pw.toml"
+hash = "69dea6ac6df628b84201b794c280acab0998f3de2eabfba954e0e61be8d46ab9"
+metafile = true
+
+[[files]]
 file = "mods/LegacyMechanics-4.8.0.pw.toml"
 hash = "ce6611456b320aefaa9965a913f87af4265f4d75967b19ef2d2835e3856ae0da"
 metafile = true
@@ -6096,7 +6101,7 @@ metafile = true
 
 [[files]]
 file = "mods/shinobirace.pw.toml"
-hash = "7d809514dc911392435526258eaa862d5fb83f97ac08824a023d77871e7275a7"
+hash = "17910ee4c5c44cad0b45da18640ee537b92800b139796333e512dff91c1b5a03"
 metafile = true
 
 [[files]]
