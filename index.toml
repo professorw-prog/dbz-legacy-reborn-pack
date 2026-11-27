@@ -1,18 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "PlanetStores.java"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "ResearchData.java"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "WarMap.java"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
 file = "config/CustomNpcs.cfg"
 hash = "21bd693ed04e4152b992f0b9200c65801c0504c80892e5ab7da1010046b4a575"
 
@@ -5575,10 +5563,6 @@ hash = "1fb0be88f2dd8a6de6657c147c5528f9c84c89b5a1252b9519c1540d4279b070"
 [[files]]
 file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "gen-tree.ps1"
-hash = "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
 
 [[files]]
 file = "mods/DMZ_Sphinxian_Addon.pw.toml"
