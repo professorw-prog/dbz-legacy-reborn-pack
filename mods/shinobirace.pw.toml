@@ -1,8 +1,8 @@
 name = "Shinobi Race"
-filename = "shinobirace-2.0.9.jar"
+filename = "shinobirace-2.0.10.jar"
 side = "both"
 
 [download]
-url = "https://github.com/professorw-prog/dbz-legacy-reborn-pack/releases/download/files-v1/shinobirace-2.0.9.jar"
+url = "https://github.com/professorw-prog/dbz-legacy-reborn-pack/releases/download/files-v1/shinobirace-2.0.10.jar"
 hash-format = "sha256"
-hash = "05deec8b9e3bac9dea8028c1a9f1aeec6c8eb8003f4c276ca3e51083f2838963"
+hash = "9f3b5dd4ea1e48d9ecc8806db1f73fd6ea04a29dd45fd1fe0277e2a8356166a3"

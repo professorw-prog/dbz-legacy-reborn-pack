@@ -5,6 +5,10 @@ file = "PlanetStores.java"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "ResearchData.java"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "WarMap.java"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -5573,6 +5577,10 @@ file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "gen-tree.ps1"
+hash = "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+
+[[files]]
 file = "mods/DMZ_Sphinxian_Addon.pw.toml"
 hash = "69dea6ac6df628b84201b794c280acab0998f3de2eabfba954e0e61be8d46ab9"
 metafile = true
@@ -6101,7 +6109,7 @@ metafile = true
 
 [[files]]
 file = "mods/shinobirace.pw.toml"
-hash = "17910ee4c5c44cad0b45da18640ee537b92800b139796333e512dff91c1b5a03"
+hash = "945f5beb006a21b3eacf486d37fb392e52656581b7c9f7e70db5fb7fe84ed15b"
 metafile = true
 
 [[files]]
