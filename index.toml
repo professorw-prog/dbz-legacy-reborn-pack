@@ -5570,8 +5570,8 @@ hash = "69dea6ac6df628b84201b794c280acab0998f3de2eabfba954e0e61be8d46ab9"
 metafile = true
 
 [[files]]
-file = "mods/LegacyMechanics-4.8.2.pw.toml"
-hash = "86f13a79b3b4be0293bfb802b8dd1e046f2af8663420a2d292715be07d6fd6c1"
+file = "mods/LegacyMechanics-4.8.3.pw.toml"
+hash = "a56ab497e35af60e9bbf7de8cf5acdebaca82ebe8ee4be4b1edc7732bb120253"
 metafile = true
 
 [[files]]
